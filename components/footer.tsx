@@ -15,13 +15,12 @@ export default function Footer() {
           {/* Logo and Description */}
           <div className="space-y-4">
             <Link href="/" className="inline-block">
-              <Image
-                src="/images/solbien_logotyp-bila.png"
+              <img
+                src="/solbien-website/images/solbien_logotyp-bila.png"
                 alt="Solbien Logo"
                 width={150}
                 height={40}
                 className="h-10 w-auto"
-                unoptimized={true}
               />
             </Link>
             <p className="text-white/80 max-w-xs">{t("footer.description")}</p>

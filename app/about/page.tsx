@@ -70,7 +70,7 @@ export default function AboutPage() {
                 <div className="rounded-lg border bg-white overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
                   <div className="relative h-64 w-full">
                     <Image
-                      src="/images/vaclav-holusa.png"
+                      src="/solbien-website/images/vaclav-holusa.png"
                       alt="Jaroslav Král"
                       fill
                       className="object-contain bg-white"
@@ -89,7 +89,7 @@ export default function AboutPage() {
                 <div className="rounded-lg border bg-white overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
                   <div className="relative h-64 w-full">
                     <Image
-                      src="/images/katerina-elisova.png"
+                      src="/solbien-website/images/katerina-elisova.png"
                       alt="Kateřina Elisová"
                       fill
                       className="object-contain bg-white"
@@ -108,7 +108,7 @@ export default function AboutPage() {
                 <div className="rounded-lg border bg-white overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
                   <div className="relative h-64 w-full">
                     <Image
-                      src="/images/jaroslav-kral.png"
+                      src="/solbien-website/images/jaroslav-kral.png"
                       alt="Petr Vaníček"
                       fill
                       className="object-contain bg-white"
@@ -127,7 +127,7 @@ export default function AboutPage() {
                 <div className="rounded-lg border bg-white overflow-hidden shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
                   <div className="relative h-64 w-full">
                     <Image
-                      src="/images/petr-vanicek.png"
+                      src="/solbien-website/images/petr-vanicek.png"
                       alt="Václav Holuša"
                       fill
                       className="object-contain bg-white"

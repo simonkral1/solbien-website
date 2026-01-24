@@ -30,13 +30,12 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Image
-              src="/images/solbien-logo.png"
+            <img
+              src="/solbien-website/images/solbien-logo.png"
               alt="Solbien Logo"
               width={150}
               height={40}
               className="h-8 w-auto"
-              unoptimized={true}
             />
           </Link>
 
