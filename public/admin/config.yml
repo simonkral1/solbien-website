@@ -1,9 +1,7 @@
 backend:
   name: github
-  repo: solbien/solbien-website
+  repo: simonkral1/solbien-website
   branch: main
-  base_url: https://solbien.com
-  auth_endpoint: /api/auth
 
 # For local development, use test-repo backend
 # backend:
