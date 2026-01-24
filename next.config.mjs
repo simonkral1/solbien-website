@@ -2,6 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath: '/solbien-website',
+  assetPrefix: '/solbien-website/',
   typescript: {
     ignoreBuildErrors: true,
   },
