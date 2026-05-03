@@ -383,7 +383,7 @@ export default function Home() {
               <FadeIn delay={0.3} className="order-2 lg:order-1">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.30.37-QFy7WVhcPvyhO2hPSSz0RBOHYbUhA7.png"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
                     alt="EWA - Ecological Waste Apparatus"
                     fill
                     className="object-cover scale-110 bg-white"
