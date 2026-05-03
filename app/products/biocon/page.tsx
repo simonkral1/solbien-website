@@ -258,6 +258,14 @@ export default function BioconPage() {
                 <SlideUp delay={0.2}>
                   <p className="mb-8 text-muted-foreground">{t("solutions.cta.subtitle")}</p>
                 </SlideUp>
+                <SlideUp delay={0.3}>
+                  <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700">
+                    <a href="https://blobs.vusercontent.net/blob/BIOCON-A4-L2L1FZSCz8wQI55Ha8vX65XIadPitU.pdf" target="_blank" rel="noopener noreferrer">
+                      <Download className="mr-2 h-5 w-5" />
+                      {t("product.download.brochure")}
+                    </a>
+                  </Button>
+                </SlideUp>
               </div>
             </FadeIn>
           </div>

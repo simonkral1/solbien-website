@@ -29,6 +29,7 @@ import FadeIn from "@/components/animations/fade-in"
 import SlideUp from "@/components/animations/slide-up"
 import StaggeredChildren from "@/components/animations/staggered-children"
 import FeatureCard from "@/components/feature-card"
+import ImageModal from "@/components/image-modal"
 import { useLanguage } from "@/contexts/language-context"
 
 export default function Home() {
@@ -93,6 +94,48 @@ export default function Home() {
                     </Link>
                   </div>
                 </SlideUp>
+              </div>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* IFAT Munich Banner */}
+        <section className="py-12 md:py-16 bg-gradient-to-r from-green-600 to-green-700">
+          <div className="container mx-auto px-4 md:px-6">
+            <FadeIn>
+              <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+                <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+                  <div className="bg-white rounded-xl p-4 shadow-lg">
+                    <Image
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ifat-692046222c798-mW38TqyiMAISXAgbmAbiS94Fw6wDg6.png"
+                      alt="IFAT Munich Logo"
+                      width={180}
+                      height={100}
+                      className="object-contain"
+                      unoptimized={true}
+                    />
+                  </div>
+                  <div className="text-center md:text-left">
+                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
+                      {t("ifat.title")}
+                    </h2>
+                    <p className="text-xl md:text-2xl text-white/90 font-semibold mb-1">
+                      {t("ifat.date")}
+                    </p>
+                    <p className="text-lg text-white/80">
+                      {t("ifat.stand")} <span className="font-bold text-yellow-300">FM.811/7</span> - {t("ifat.outside")}
+                    </p>
+                  </div>
+                </div>
+                <div className="rounded-xl overflow-hidden shadow-xl border-4 border-white/20 hover:border-white/40 transition-all duration-300">
+                  <ImageModal
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/viber_image_2026-05-03_20-11-15-149-m4wpKy0gcN4EbciZcOixSM3QPtrngC.png"
+                    alt="IFAT Munich venue map showing stand FM.811/7"
+                    width={350}
+                    height={200}
+                    className="w-full"
+                  />
+                </div>
               </div>
             </FadeIn>
           </div>
@@ -383,7 +426,7 @@ export default function Home() {
               <FadeIn delay={0.3} className="order-2 lg:order-1">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.30.37-QFy7WVhcPvyhO2hPSSz0RBOHYbUhA7.png"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
                     alt="EWA - Ecological Waste Apparatus"
                     fill
                     className="object-cover scale-110 bg-white"

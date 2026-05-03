@@ -56,7 +56,7 @@ export default function EwaPage() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.30.37-QFy7WVhcPvyhO2hPSSz0RBOHYbUhA7.png"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
                     alt="EWA - Ecological Waste Apparatus"
                     width={800}
                     height={600}
@@ -201,6 +201,14 @@ export default function EwaPage() {
                 </SlideUp>
                 <SlideUp delay={0.2}>
                   <p className="mb-8 text-white/80">{t("solutions.cta.subtitle")}</p>
+                </SlideUp>
+                <SlideUp delay={0.3}>
+                  <Button asChild size="lg" className="bg-white text-green-900 hover:bg-green-50">
+                    <a href="https://blobs.vusercontent.net/blob/EWA-A4b-opt-zQY0iw7fcYDb0uS9Ng4DKtsZoUhPtB.pdf" target="_blank" rel="noopener noreferrer">
+                      <Download className="mr-2 h-5 w-5" />
+                      {t("product.download.brochure")}
+                    </a>
+                  </Button>
                 </SlideUp>
               </div>
             </FadeIn>
