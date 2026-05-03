@@ -212,6 +212,14 @@ export default function BiosPage() {
                 <SlideUp delay={0.2}>
                   <p className="mb-8 text-white/80">{t("solutions.cta.subtitle")}</p>
                 </SlideUp>
+                <SlideUp delay={0.3}>
+                  <Button asChild size="lg" className="bg-white text-green-900 hover:bg-green-50">
+                    <a href="https://blobs.vusercontent.net/blob/BIOS-A4-d2jxLAhs9LHKPu4wz7Les0GtIMnlcU.pdf" target="_blank" rel="noopener noreferrer">
+                      <Download className="mr-2 h-5 w-5" />
+                      {t("product.download.brochure")}
+                    </a>
+                  </Button>
+                </SlideUp>
               </div>
             </FadeIn>
           </div>
