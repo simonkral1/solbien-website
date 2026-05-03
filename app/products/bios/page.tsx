@@ -1,7 +1,8 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
+import { ArrowLeft, Check, Download } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FadeIn from "@/components/animations/fade-in"
@@ -36,6 +37,14 @@ export default function BiosPage() {
                   </SlideUp>
                   <SlideUp delay={0.1}>
                     <p className="mb-6 text-xl text-muted-foreground">{t("bios.subtitle")}</p>
+                  </SlideUp>
+                  <SlideUp delay={0.2}>
+                    <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
+                      <a href="https://blobs.vusercontent.net/blob/BIOS-A4-d2jxLAhs9LHKPu4wz7Les0GtIMnlcU.pdf" target="_blank" rel="noopener noreferrer">
+                        <Download className="mr-2 h-5 w-5" />
+                        {t("product.download.brochure")}
+                      </a>
+                    </Button>
                   </SlideUp>
                 </div>
               </FadeIn>

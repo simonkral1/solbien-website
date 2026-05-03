@@ -155,6 +155,44 @@ export default function ProductsPage() {
                   </Link>
                 </div>
               </div>
+
+              {/* BEWABOX */}
+              <div className="grid items-center gap-8 md:grid-cols-2 bg-green-50 py-8 px-4 md:px-8 rounded-xl">
+                <div className="order-1 md:order-2">
+                  <h2 className="mb-4 text-3xl font-bold">{t("bewabox.title")}</h2>
+                  <p className="mb-6 text-muted-foreground">{t("bewabox.subtitle")}</p>
+                  <p className="mb-6">{t("bewabox.description")}</p>
+                  <ul className="mb-6 space-y-2">
+                    <li className="flex items-start">
+                      <ChevronRight className="mr-2 h-5 w-5 text-green-600" />
+                      <span>{t("bewabox.feature1.title")}</span>
+                    </li>
+                    <li className="flex items-start">
+                      <ChevronRight className="mr-2 h-5 w-5 text-green-600" />
+                      <span>{t("bewabox.feature2.title")}</span>
+                    </li>
+                    <li className="flex items-start">
+                      <ChevronRight className="mr-2 h-5 w-5 text-green-600" />
+                      <span>{t("bewabox.feature3.title")}</span>
+                    </li>
+                  </ul>
+                  <Link href="/products/bewabox">
+                    <Button className="transition-all duration-300 hover:translate-y-[-2px]">
+                      {t("bewabox.cta")}
+                      <ChevronRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
+                </div>
+                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl order-2 md:order-1 bg-green-100">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg"
+                    alt="BEWABOX tunnel fermenter"
+                    fill
+                    className="object-cover scale-110"
+                    unoptimized={true}
+                  />
+                </div>
+              </div>
             </StaggeredChildren>
           </div>
         </section>

@@ -11,7 +11,7 @@ import SlideUp from "@/components/animations/slide-up"
 import StaggeredChildren from "@/components/animations/staggered-children"
 import { useLanguage } from "@/contexts/language-context"
 
-export default function BiokonPage() {
+export default function BewaboxPage() {
   const { t } = useLanguage()
 
   return (
@@ -33,14 +33,14 @@ export default function BiokonPage() {
               <FadeIn>
                 <div>
                   <SlideUp>
-                    <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl">{t("biokon.title")}</h1>
+                    <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl">{t("bewabox.title")}</h1>
                   </SlideUp>
                   <SlideUp delay={0.1}>
-                    <p className="mb-6 text-xl text-muted-foreground">{t("biokon.subtitle")}</p>
+                    <p className="mb-6 text-xl text-muted-foreground">{t("bewabox.subtitle")}</p>
                   </SlideUp>
                   <SlideUp delay={0.2}>
                     <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-                      <a href="https://blobs.vusercontent.net/blob/BIOCON-A4-L2L1FZSCz8wQI55Ha8vX65XIadPitU.pdf" target="_blank" rel="noopener noreferrer">
+                      <a href="https://blobs.vusercontent.net/blob/BEWABOX-A4-Ou1sW6hAbZY1i1R4UpMQsSSoAJVxMh.pdf" target="_blank" rel="noopener noreferrer">
                         <Download className="mr-2 h-5 w-5" />
                         {t("product.download.brochure")}
                       </a>
@@ -49,10 +49,10 @@ export default function BiokonPage() {
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
+                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl bg-green-100">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web1.jpg-nrdNDRob1rXE6M1wTfuYaYV1nFgVVe.jpeg"
-                    alt="BIOKON fermenter with open lid"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg"
+                    alt="BEWABOX tunnel fermenter"
                     width={800}
                     height={600}
                     className="object-cover scale-110 w-full h-full"
@@ -64,13 +64,13 @@ export default function BiokonPage() {
           </div>
         </section>
 
-        {/* Key Features */}
+        {/* Key Benefits */}
         <section className="py-16 md:py-24 bg-green-50">
           <div className="container mx-auto px-4 md:px-6">
             <FadeIn>
               <div className="mb-12 text-center">
                 <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("product.advantages")}</h2>
-                <p className="mx-auto max-w-2xl text-muted-foreground">{t("biokon.subtitle")}</p>
+                <p className="mx-auto max-w-2xl text-muted-foreground">{t("bewabox.subtitle")}</p>
               </div>
             </FadeIn>
 
@@ -79,85 +79,82 @@ export default function BiokonPage() {
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">{t("biokon.feature1")}</h3>
-                <p className="text-muted-foreground">{t("biokon.feature1")}</p>
+                <h3 className="mb-2 text-xl font-semibold">{t("bewabox.feature1.title")}</h3>
+                <p className="text-muted-foreground">{t("bewabox.feature1.desc")}</p>
               </div>
 
               <div className="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">{t("biokon.feature2")}</h3>
-                <p className="text-muted-foreground">{t("biokon.feature2")}</p>
+                <h3 className="mb-2 text-xl font-semibold">{t("bewabox.feature2.title")}</h3>
+                <p className="text-muted-foreground">{t("bewabox.feature2.desc")}</p>
               </div>
 
               <div className="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">{t("biokon.feature3")}</h3>
-                <p className="text-muted-foreground">{t("biokon.feature3")}</p>
-              </div>
-
-              <div className="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
-                  <Check className="h-6 w-6 text-green-600" />
-                </div>
-                <h3 className="mb-2 text-xl font-semibold">{t("biokon.feature4")}</h3>
-                <p className="text-muted-foreground">{t("biokon.feature4")}</p>
+                <h3 className="mb-2 text-xl font-semibold">{t("bewabox.feature3.title")}</h3>
+                <p className="text-muted-foreground">{t("bewabox.feature3.desc")}</p>
               </div>
             </StaggeredChildren>
           </div>
         </section>
 
-        {/* Optional Features */}
+        {/* Technology Description */}
+        <section className="py-16 md:py-24">
+          <div className="container mx-auto px-4 md:px-6">
+            <FadeIn>
+              <div className="mb-12 text-center">
+                <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("bewabox.technology.title")}</h2>
+              </div>
+            </FadeIn>
+
+            <FadeIn delay={0.2}>
+              <div className="rounded-lg border bg-white p-8 shadow-md max-w-4xl mx-auto">
+                <p className="text-lg text-muted-foreground mb-6">{t("bewabox.technology.desc1")}</p>
+                <p className="text-lg text-muted-foreground">{t("bewabox.technology.desc2")}</p>
+              </div>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* Typical Applications */}
         <section className="py-16 md:py-24 bg-green-50">
           <div className="container mx-auto px-4 md:px-6">
             <FadeIn>
               <div className="mb-12 text-center">
-                <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("product.optional")}</h2>
-                <p className="mx-auto max-w-2xl text-muted-foreground">{t("biokon.subtitle")}</p>
+                <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("bewabox.applications.title")}</h2>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.2}>
               <div className="rounded-lg border bg-white p-8 shadow-md">
-                <ul className="space-y-6">
+                <ul className="space-y-4">
                   <li className="flex items-start">
                     <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
-                    <div>
-                      <span className="font-semibold text-lg text-green-800">
-                        {t("biokon.optional.title.photovoltaic")}
-                      </span>
-                      <p className="mt-1">{t("biokon.optional.photovoltaic")}</p>
-                    </div>
+                    <span>{t("bewabox.app1")}</span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
-                    <div>
-                      <span className="font-semibold text-lg text-green-800">
-                        {t("biokon.optional.title.preheating")}
-                      </span>
-                      <p className="mt-1">{t("biokon.optional.preheating")}</p>
-                    </div>
+                    <span>{t("bewabox.app2")}</span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
-                    <div>
-                      <span className="font-semibold text-lg text-green-800">
-                        {t("biokon.optional.title.biofilter")}
-                      </span>
-                      <p className="mt-1">{t("biokon.optional.biofilter")}</p>
-                    </div>
+                    <span>{t("bewabox.app3")}</span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
-                    <div>
-                      <span className="font-semibold text-lg text-green-800">
-                        {t("biokon.optional.title.customizable")}
-                      </span>
-                      <p className="mt-1">{t("biokon.optional.customizable")}</p>
-                    </div>
+                    <span>{t("bewabox.app4")}</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
+                    <span>{t("bewabox.app5")}</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
+                    <span>{t("bewabox.app6")}</span>
                   </li>
                 </ul>
               </div>
@@ -171,7 +168,6 @@ export default function BiokonPage() {
             <FadeIn>
               <div className="mb-12 text-center">
                 <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("product.technical")}</h2>
-                <p className="mx-auto max-w-2xl text-muted-foreground">{t("biokon.subtitle")}</p>
               </div>
             </FadeIn>
 
@@ -180,28 +176,16 @@ export default function BiokonPage() {
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.capacity")}</span>
-                      <span>30 m³</span>
+                      <span className="font-medium">{t("bewabox.specs.capacity")}</span>
+                      <span>~4,400 t/year</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.weight")}</span>
-                      <span>3.5 t</span>
+                      <span className="font-medium">{t("bewabox.specs.process")}</span>
+                      <span>{t("bewabox.specs.process_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.max_batch_weight")}</span>
-                      <span>17 t</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.length")}</span>
-                      <span>6500 mm</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.width")}</span>
-                      <span>2480 mm</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.height")}</span>
-                      <span>2650 mm</span>
+                      <span className="font-medium">{t("bewabox.specs.best_fit")}</span>
+                      <span>{t("bewabox.specs.best_fit_value")}</span>
                     </li>
                   </ul>
                 </div>
@@ -211,28 +195,16 @@ export default function BiokonPage() {
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.power_supply")}</span>
-                      <span>230 / 400 V</span>
+                      <span className="font-medium">{t("bewabox.specs.construction")}</span>
+                      <span>{t("bewabox.specs.construction_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.power_consumption_standby")}</span>
-                      <span>30 W</span>
+                      <span className="font-medium">{t("bewabox.specs.aeration")}</span>
+                      <span>{t("bewabox.specs.aeration_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.power_consumption_aeration")}</span>
-                      <span>80 W</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.power_consumption_preheating")}</span>
-                      <span>2 to 6 kW</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.frame_hook_lift")}</span>
-                      <span>{t("biokon.specs.frame_hook_lift_value")}</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">{t("biokon.specs.processing_capacity")}</span>
-                      <span>1000 t/year</span>
+                      <span className="font-medium">{t("bewabox.specs.scalability")}</span>
+                      <span>{t("bewabox.specs.scalability_value")}</span>
                     </li>
                   </ul>
                 </div>
@@ -242,7 +214,7 @@ export default function BiokonPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-green-50 py-16 md:py-24">
+        <section className="bg-green-900 py-16 md:py-24 text-white">
           <div className="container mx-auto px-4 md:px-6">
             <FadeIn>
               <div className="mx-auto max-w-3xl text-center">
@@ -250,25 +222,8 @@ export default function BiokonPage() {
                   <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("solutions.cta.title")}</h2>
                 </SlideUp>
                 <SlideUp delay={0.2}>
-                  <p className="mb-8 text-muted-foreground">{t("solutions.cta.subtitle")}</p>
+                  <p className="mb-8 text-white/80">{t("solutions.cta.subtitle")}</p>
                 </SlideUp>
-              </div>
-            </FadeIn>
-          </div>
-        </section>
-
-        {/* EU Funding Acknowledgment */}
-        <section className="py-12 bg-white border-t">
-          <div className="container mx-auto px-4 md:px-6">
-            <FadeIn>
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/images/eu-funding-banner.png"
-                  alt="Financováno Evropskou unií - Projekt inovace kontejnerového fermentoru BIOKON"
-                  width={800}
-                  height={200}
-                  className="max-w-full h-auto"
-                />
               </div>
             </FadeIn>
           </div>
