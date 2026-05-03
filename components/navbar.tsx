@@ -48,9 +48,6 @@ export default function Navbar() {
             <Link href="/solutions" className="text-sm font-medium hover:text-green-600 transition-colors">
               {t("solutions")}
             </Link>
-            <Link href="/implementations" className="text-sm font-medium hover:text-green-600 transition-colors">
-              {t("implementations")}
-            </Link>
             <Link href="/about" className="text-sm font-medium hover:text-green-600 transition-colors">
               {t("about")}
             </Link>
@@ -88,13 +85,6 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
             >
               {t("solutions")}
-            </Link>
-            <Link
-              href="/implementations"
-              className="block text-sm font-medium hover:text-green-600 transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {t("implementations")}
             </Link>
             <Link
               href="/about"
