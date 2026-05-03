@@ -490,6 +490,59 @@ export default function Home() {
           </div>
         </section>
 
+        {/* BEWABOX Section */}
+        <section className="py-16 md:py-24">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="grid items-center gap-12 lg:grid-cols-2">
+              <FadeIn delay={0.3} className="order-2 lg:order-1">
+                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+                    alt="BEWABOX tunnel fermenter"
+                    fill
+                    className="object-cover scale-110 bg-white"
+                    unoptimized={true}
+                  />
+                </div>
+              </FadeIn>
+              <FadeIn className="order-1 lg:order-2">
+                <div>
+                  <SlideUp>
+                    <h2 className="mb-6 text-3xl font-bold tracking-tight md:text-4xl">{t("bewabox.title")}</h2>
+                  </SlideUp>
+                  <SlideUp delay={0.1}>
+                    <p className="mb-6 text-muted-foreground">{t("bewabox.subtitle")}</p>
+                  </SlideUp>
+                  <SlideUp delay={0.2}>
+                    <ul className="mb-8 space-y-3">
+                      <li className="flex items-start">
+                        <ChevronRight className="mr-2 h-5 w-5 text-green-600" />
+                        <span>{t("bewabox.feature1.title")}</span>
+                      </li>
+                      <li className="flex items-start">
+                        <ChevronRight className="mr-2 h-5 w-5 text-green-600" />
+                        <span>{t("bewabox.feature2.title")}</span>
+                      </li>
+                      <li className="flex items-start">
+                        <ChevronRight className="mr-2 h-5 w-5 text-green-600" />
+                        <span>{t("bewabox.feature3.title")}</span>
+                      </li>
+                    </ul>
+                  </SlideUp>
+                  <SlideUp delay={0.3}>
+                    <Link href="/products/bewabox">
+                      <Button className="transition-all duration-300 hover:translate-y-[-2px]">
+                        {t("bewabox.cta")}
+                        <ChevronRight className="ml-2 h-4 w-4" />
+                      </Button>
+                    </Link>
+                  </SlideUp>
+                </div>
+              </FadeIn>
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="bg-white py-16 md:py-24">
           <div className="container mx-auto px-4 md:px-6">
