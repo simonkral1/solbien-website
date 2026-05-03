@@ -10,9 +10,14 @@ import SlideUp from "@/components/animations/slide-up"
 import StaggeredChildren from "@/components/animations/staggered-children"
 import Image from "next/image"
 import { useLanguage } from "@/contexts/language-context"
+import { useEffect } from "react"
 
 export default function BiosPage() {
   const { t } = useLanguage()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="flex min-h-screen flex-col">

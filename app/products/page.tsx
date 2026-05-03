@@ -72,7 +72,7 @@ export default function ProductsPage() {
                       <span>{t("biokon.feature3")}</span>
                     </li>
                   </ul>
-                  <Link href="/products/biocon">
+                  <Link href="/products/biocon" scroll={true}>
                     <Button className="transition-all duration-300 hover:translate-y-[-2px]">
                       {t("biokon.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
@@ -101,7 +101,7 @@ export default function ProductsPage() {
                       <span>{t("ewa.feature3")}</span>
                     </li>
                   </ul>
-                  <Link href="/products/ewa">
+                  <Link href="/products/ewa" scroll={true}>
                     <Button className="transition-all duration-300 hover:translate-y-[-2px]">
                       {t("ewa.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
@@ -148,7 +148,7 @@ export default function ProductsPage() {
                       <span>{t("bios.feature3")}</span>
                     </li>
                   </ul>
-                  <Link href="/products/bios#top">
+                  <Link href="/products/bios" scroll={true}>
                     <Button className="transition-all duration-300 hover:translate-y-[-2px]">
                       {t("bios.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
@@ -177,7 +177,7 @@ export default function ProductsPage() {
                       <span>{t("bewabox.feature3.title")}</span>
                     </li>
                   </ul>
-                  <Link href="/products/bewabox">
+                  <Link href="/products/bewabox" scroll={true}>
                     <Button className="transition-all duration-300 hover:translate-y-[-2px]">
                       {t("bewabox.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
