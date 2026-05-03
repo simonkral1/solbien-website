@@ -29,6 +29,7 @@ import FadeIn from "@/components/animations/fade-in"
 import SlideUp from "@/components/animations/slide-up"
 import StaggeredChildren from "@/components/animations/staggered-children"
 import FeatureCard from "@/components/feature-card"
+import ImageModal from "@/components/image-modal"
 import { useLanguage } from "@/contexts/language-context"
 
 export default function Home() {
@@ -126,16 +127,14 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="relative rounded-xl overflow-hidden shadow-xl border-4 border-white/20 hover:border-white/40 transition-all duration-300 cursor-pointer group">
-                  <Image
+                <div className="rounded-xl overflow-hidden shadow-xl border-4 border-white/20 hover:border-white/40 transition-all duration-300">
+                  <ImageModal
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/viber_image_2026-05-03_20-11-15-149-m4wpKy0gcN4EbciZcOixSM3QPtrngC.png"
                     alt="IFAT Munich venue map showing stand FM.811/7"
                     width={350}
                     height={200}
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    unoptimized={true}
+                    className="w-full"
                   />
-                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-300"></div>
                 </div>
               </div>
             </FadeIn>

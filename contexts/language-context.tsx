@@ -61,7 +61,7 @@ EN: {
 
     // IFAT Banner
     "ifat.title": "Come See Us at IFAT Munich!",
-    "ifat.date": "May 4-8, 2026",
+    "ifat.date": "May 4-7, 2026",
     "ifat.stand": "Stand",
     "ifat.outside": "Outside Area",
   
@@ -392,7 +392,7 @@ CS: {
 
     // IFAT Banner
     "ifat.title": "Navstivte nas na IFAT Mnichov!",
-    "ifat.date": "4-8. kvetna 2026",
+    "ifat.date": "4-7. kvetna 2026",
     "ifat.stand": "Stanek",
     "ifat.outside": "Venkovni plocha",
   
