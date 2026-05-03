@@ -254,12 +254,11 @@ export default function BiokonPage() {
             <FadeIn>
               <div className="flex flex-col items-center">
                 <Image
-                  src="/solbien-website/images/eu-funding-banner.png"
+                  src="/images/eu-funding-banner.png"
                   alt="Financováno Evropskou unií - Projekt inovace kontejnerového fermentoru BIOKON"
                   width={800}
                   height={200}
                   className="max-w-full h-auto"
-                  unoptimized={true}
                 />
               </div>
             </FadeIn>

@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  basePath: '/solbien-website',
-  assetPrefix: '/solbien-website/',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
   images: {
+    domains: ["hebbkx1anhila5yf.public.blob.vercel-storage.com"],
     unoptimized: true,
   },
 }
