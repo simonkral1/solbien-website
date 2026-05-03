@@ -54,11 +54,17 @@ export const useLanguage = (): LanguageContextType => {
 
 // Translations object
 const translations: Record<Language, Record<string, string>> = {
-  EN: {
+EN: {
     // Header
     phone: "+420 605 902 903",
     email: "info@solbien.com",
 
+    // IFAT Banner
+    "ifat.title": "Come See Us at IFAT Munich!",
+    "ifat.date": "May 4-8, 2026",
+    "ifat.stand": "Stand",
+    "ifat.outside": "Outside Area",
+  
     // Navigation
     products: "Products",
     solutions: "Solutions",
@@ -379,11 +385,17 @@ const translations: Record<Language, Record<string, string>> = {
     "bewabox.cta": "Learn More About BEWABOX",
     "bewabox.description": "BEWABOX is an enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams.",
   },
-  CS: {
+CS: {
     // Header
     phone: "+420 605 902 903",
     email: "info@solbien.com",
 
+    // IFAT Banner
+    "ifat.title": "Navstivte nas na IFAT Mnichov!",
+    "ifat.date": "4-8. kvetna 2026",
+    "ifat.stand": "Stanek",
+    "ifat.outside": "Venkovni plocha",
+  
     // Navigation
     products: "Produkty",
     solutions: "Řešení",

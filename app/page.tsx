@@ -98,6 +98,50 @@ export default function Home() {
           </div>
         </section>
 
+        {/* IFAT Munich Banner */}
+        <section className="py-12 md:py-16 bg-gradient-to-r from-green-600 to-green-700">
+          <div className="container mx-auto px-4 md:px-6">
+            <FadeIn>
+              <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+                <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+                  <div className="bg-white rounded-xl p-4 shadow-lg">
+                    <Image
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ifat-692046222c798-mW38TqyiMAISXAgbmAbiS94Fw6wDg6.png"
+                      alt="IFAT Munich Logo"
+                      width={180}
+                      height={100}
+                      className="object-contain"
+                      unoptimized={true}
+                    />
+                  </div>
+                  <div className="text-center md:text-left">
+                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
+                      {t("ifat.title")}
+                    </h2>
+                    <p className="text-xl md:text-2xl text-white/90 font-semibold mb-1">
+                      {t("ifat.date")}
+                    </p>
+                    <p className="text-lg text-white/80">
+                      {t("ifat.stand")} <span className="font-bold text-yellow-300">FM.811/7</span> - {t("ifat.outside")}
+                    </p>
+                  </div>
+                </div>
+                <div className="relative rounded-xl overflow-hidden shadow-xl border-4 border-white/20 hover:border-white/40 transition-all duration-300 cursor-pointer group">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/viber_image_2026-05-03_20-11-15-149-m4wpKy0gcN4EbciZcOixSM3QPtrngC.png"
+                    alt="IFAT Munich venue map showing stand FM.811/7"
+                    width={350}
+                    height={200}
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    unoptimized={true}
+                  />
+                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-300"></div>
+                </div>
+              </div>
+            </FadeIn>
+          </div>
+        </section>
+
         {/* Core Technology Section */}
         <section className="py-16 md:py-24 bg-white">
           <div className="container mx-auto px-4 md:px-6">
