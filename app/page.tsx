@@ -363,7 +363,7 @@ export default function Home() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.33.18-KpcRtHZoNmLb4qpTDYpREAe4qGud3s.png"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.33.18-jet3U6YJC8csj5YXVqhC1zZjReHbRg.png"
                     alt="BIOCON container fermenter"
                     style={{ objectPosition: "left center" }}
                     fill
@@ -383,8 +383,8 @@ export default function Home() {
               <FadeIn delay={0.3} className="order-2 lg:order-1">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/obr1.jpg-SRchVEp4VqYWAbIQQdaxs2mrgCTfZz.jpeg"
-                    alt="Ecological Waste Apparatus"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.30.37-QFy7WVhcPvyhO2hPSSz0RBOHYbUhA7.png"
+                    alt="EWA - Ecological Waste Apparatus"
                     fill
                     className="object-cover scale-110 bg-white"
                     unoptimized={true}
