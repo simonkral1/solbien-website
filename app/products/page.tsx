@@ -42,12 +42,13 @@ export default function ProductsPage() {
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-4 md:px-6">
             <StaggeredChildren className="grid gap-12" itemDelay={0.2}>
-              {/* BIOKON */}
+              {/* BIOCON */}
               <div className="grid items-center gap-8 md:grid-cols-2">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web1.jpg-nrdNDRob1rXE6M1wTfuYaYV1nFgVVe.jpeg"
-                    alt="BIOKON fermenter with open lid"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.33.18-jet3U6YJC8csj5YXVqhC1zZjReHbRg.png"
+                    alt="BIOCON container fermenter"
+                    style={{ objectPosition: "left center" }}
                     fill
                     className="object-cover scale-110"
                     unoptimized={true}
@@ -71,7 +72,7 @@ export default function ProductsPage() {
                       <span>{t("biokon.feature3")}</span>
                     </li>
                   </ul>
-                  <Link href="/products/biokon">
+                  <Link href="/products/biocon" scroll={true}>
                     <Button className="transition-all duration-300 hover:translate-y-[-2px]">
                       {t("biokon.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
@@ -100,7 +101,7 @@ export default function ProductsPage() {
                       <span>{t("ewa.feature3")}</span>
                     </li>
                   </ul>
-                  <Link href="/products/ewa">
+                  <Link href="/products/ewa" scroll={true}>
                     <Button className="transition-all duration-300 hover:translate-y-[-2px]">
                       {t("ewa.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
@@ -109,8 +110,8 @@ export default function ProductsPage() {
                 </div>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl order-2 md:order-1">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/obr1.jpg-SRchVEp4VqYWAbIQQdaxs2mrgCTfZz.jpeg"
-                    alt="Ecological Waste Apparatus"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.30.37-QFy7WVhcPvyhO2hPSSz0RBOHYbUhA7.png"
+                    alt="EWA - Ecological Waste Apparatus"
                     fill
                     className="object-cover scale-110"
                     unoptimized={true}
@@ -147,12 +148,50 @@ export default function ProductsPage() {
                       <span>{t("bios.feature3")}</span>
                     </li>
                   </ul>
-                  <Link href="/products/bios#top">
+                  <Link href="/products/bios" scroll={true}>
                     <Button className="transition-all duration-300 hover:translate-y-[-2px]">
                       {t("bios.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
                     </Button>
                   </Link>
+                </div>
+              </div>
+
+              {/* BEWABOX */}
+              <div className="grid items-center gap-8 md:grid-cols-2 bg-green-50 py-8 px-4 md:px-8 rounded-xl">
+                <div className="order-1 md:order-2">
+                  <h2 className="mb-4 text-3xl font-bold">{t("bewabox.title")}</h2>
+                  <p className="mb-6 text-muted-foreground">{t("bewabox.subtitle")}</p>
+                  <p className="mb-6">{t("bewabox.description")}</p>
+                  <ul className="mb-6 space-y-2">
+                    <li className="flex items-start">
+                      <ChevronRight className="mr-2 h-5 w-5 text-green-600" />
+                      <span>{t("bewabox.feature1.title")}</span>
+                    </li>
+                    <li className="flex items-start">
+                      <ChevronRight className="mr-2 h-5 w-5 text-green-600" />
+                      <span>{t("bewabox.feature2.title")}</span>
+                    </li>
+                    <li className="flex items-start">
+                      <ChevronRight className="mr-2 h-5 w-5 text-green-600" />
+                      <span>{t("bewabox.feature3.title")}</span>
+                    </li>
+                  </ul>
+                  <Link href="/products/bewabox" scroll={true}>
+                    <Button className="transition-all duration-300 hover:translate-y-[-2px]">
+                      {t("bewabox.cta")}
+                      <ChevronRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
+                </div>
+                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl order-2 md:order-1 bg-green-100">
+                  <Image
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+                    alt="BEWABOX tunnel fermenter"
+                    fill
+                    className="object-cover scale-110"
+                    unoptimized={true}
+                  />
                 </div>
               </div>
             </StaggeredChildren>

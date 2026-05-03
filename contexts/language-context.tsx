@@ -124,16 +124,16 @@ const translations: Record<Language, Record<string, string>> = {
 
     "products.title": "Our Products",
 
-    "biokon.title": "Aerobic Fermenter BIOKON",
+    "biokon.title": "Aerobic Fermenter BIOCON",
     "biokon.subtitle":
       "Processing capacity 1000 t/year (functional internal volume 30 m³) for all biowaste including food waste. Easy transport and operational handling thanks to ABROLL solution.",
     "biokon.feature1": "Possibility of off-grid operation without connection to the power grid",
     "biokon.feature2": "The simplest, most accessible and cheapest technology for municipal and other biowaste",
     "biokon.feature3": "Simple plug and play installation",
     "biokon.feature4": "Fully automatic management of the aerobic fermentation process",
-    "biokon.cta": "Learn More About BIOKON",
+    "biokon.cta": "Learn More About BIOCON",
     "biokon.description":
-      "BIOKON is our simplest fermentation technology offering an excellent price-performance ratio. It is specifically designed for ease of transportation and unloading using AB-roll trucks. Additionally, BIOKON can be equipped with photovoltaic panels, making it suitable for operation in off-grid locations.",
+      "BIOCON is our simplest fermentation technology offering an excellent price-performance ratio. It is specifically designed for ease of transportation and unloading using AB-roll trucks. Additionally, BIOCON can be equipped with photovoltaic panels, making it suitable for operation in off-grid locations.",
     "ewa.title": "Aerobic Fermenter EWA",
     "ewa.subtitle":
       "Processing capacity 1500 t/year (functional internal volume 36 m³) for all biowaste including food waste and wastewater treatment plant sludge requiring ETV.",
@@ -342,6 +342,42 @@ const translations: Record<Language, Record<string, string>> = {
     "ewa.specs.hours": "hours",
     "ewa.specs.certifications": "Certifications",
     "ewa.specs.certifications_value": "EU Regulation No. 1069/2009",
+
+    // Download brochure
+    "product.download.brochure": "Download Brochure",
+
+    // BEWABOX
+    "bewabox.title": "BEWABOX Tunnel Fermenter",
+    "bewabox.subtitle": "Enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams.",
+    "bewabox.feature1.title": "No In-Reactor Turning",
+    "bewabox.feature1.desc": "Biological stabilization without mechanical turning inside the reactor, reducing operational complexity and internal material handling.",
+    "bewabox.feature2.title": "Protected Floor Aeration",
+    "bewabox.feature2.desc": "Proprietary floor-channel system designed to keep air outlets open, distribute air evenly and allow easy inspection and cleaning.",
+    "bewabox.feature3.title": "Scalable Configuration",
+    "bewabox.feature3.desc": "Multiple tunnel boxes can be installed side by side to match the required site capacity.",
+    "bewabox.technology.title": "Technology Description",
+    "bewabox.technology.desc1": "BEWABOX is an enclosure intended for biowaste pretreatment and composting. By means of a proprietary aeration system, the material is aerated homogeneously from below. The material can also be dried very effectively with the system.",
+    "bewabox.technology.desc2": "The tunnel fermenter can be equipped with various technical systems such as a loading system, process monitoring and control system, exhaust air purification system, etc. With BEWABOX you can achieve the optimum results with minimum input.",
+    "bewabox.applications.title": "Typical Applications",
+    "bewabox.app1": "Stabilization of MSW fines / municipal waste undersize fraction",
+    "bewabox.app2": "Biological stabilization before landfilling or further handling",
+    "bewabox.app3": "Treatment of biodegradable municipal waste",
+    "bewabox.app4": "Sewage sludge and sludge-based mixtures",
+    "bewabox.app5": "Drying or preparation of material for RDF / SRF production",
+    "bewabox.app6": "Large municipal and regional waste treatment facilities",
+    "bewabox.specs.capacity": "Capacity per box",
+    "bewabox.specs.process": "Process type",
+    "bewabox.specs.process_value": "Batch tunnel process",
+    "bewabox.specs.best_fit": "Best fit",
+    "bewabox.specs.best_fit_value": "MSW fines & large-scale sites",
+    "bewabox.specs.construction": "Construction",
+    "bewabox.specs.construction_value": "Reinforced concrete",
+    "bewabox.specs.aeration": "Aeration system",
+    "bewabox.specs.aeration_value": "Proprietary floor channels",
+    "bewabox.specs.scalability": "Scalability",
+    "bewabox.specs.scalability_value": "Multiple boxes side by side",
+    "bewabox.cta": "Learn More About BEWABOX",
+    "bewabox.description": "BEWABOX is an enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams.",
   },
   CS: {
     // Header
@@ -413,16 +449,16 @@ const translations: Record<Language, Record<string, string>> = {
 
     "products.title": "Naše produkty",
 
-    "biokon.title": "Aerobní fermentor BIOKON",
+    "biokon.title": "Aerobní fermentor BIOCON",
     "biokon.subtitle":
       "Zpracovatelská kapacita 1000 t/rok (funkční vnitřní objem 30 m³) pro veškerý bioodpad včetně potravinového odpadu. Snadná přeprava a provozní manipulace díky řešení ABROLL.",
     "biokon.feature1": "Možnost provozu off-grid bez připojení k elektrické síti",
     "biokon.feature2": "Nejjednodušší, nejdostupnější a nejlevnější technologie pro komunální a jiný bioodpad",
     "biokon.feature3": "Jednoduchá instalace plug and play",
     "biokon.feature4": "Plně automatické řízení procesu aerobní fermentace",
-    "biokon.cta": "Více o BIOKONu",
+    "biokon.cta": "Více o BIOCONu",
     "biokon.description":
-      "BIOKON je naše nejjednodušší fermentační technologie nabízející vynikající poměr ceny a výkonu. Je speciálně navržen pro snadnou přepravu a vykládku pomocí vozidel AB-roll. Navíc může být BIOKON vybaven fotovoltaickými panely, což jej činí vhodným pro provoz v místech bez připojení k elektrické síti.",
+      "BIOCON je naše nejjednodušší fermentační technologie nabízející vynikající poměr ceny a výkonu. Je speciálně navržen pro snadnou přepravu a vykládku pomocí vozidel AB-roll. Navíc může být BIOCON vybaven fotovoltaickými panely, což jej činí vhodným pro provoz v místech bez připojení k elektrické síti.",
     "ewa.title": "Aerobní fermentor EWA",
     "ewa.subtitle":
       "Zpracovatelská kapacita 1500 t/rok (funkční vnitřní objem 36 m³) pro veškerý bioodpad včetně potravinového odpadu a kalů z čistíren odpadních vod vyžadujících ETV.",
@@ -632,5 +668,41 @@ const translations: Record<Language, Record<string, string>> = {
     "ewa.specs.hours": "hodin",
     "ewa.specs.certifications": "Certifikace",
     "ewa.specs.certifications_value": "Nařízení EU č. 1069/2009",
+
+    // Download brochure
+    "product.download.brochure": "Stáhnout brožuru",
+
+    // BEWABOX
+    "bewabox.title": "Tunelový fermentor BEWABOX",
+    "bewabox.subtitle": "Uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů.",
+    "bewabox.feature1.title": "Bez obracení v reaktoru",
+    "bewabox.feature1.desc": "Biologická stabilizace bez mechanického obracení uvnitř reaktoru, snižující provozní složitost a interní manipulaci s materiálem.",
+    "bewabox.feature2.title": "Chráněná podlahová aerace",
+    "bewabox.feature2.desc": "Vlastní systém podlahových kanálů navržený tak, aby udržoval vzduchové výstupy otevřené, rovnoměrně distribuoval vzduch a umožňoval snadnou inspekci a čištění.",
+    "bewabox.feature3.title": "Škálovatelná konfigurace",
+    "bewabox.feature3.desc": "Více tunelových boxů lze instalovat vedle sebe pro dosažení požadované kapacity místa.",
+    "bewabox.technology.title": "Popis technologie",
+    "bewabox.technology.desc1": "BEWABOX je uzavřený prostor určený pro předúpravu a kompostování bioodpadu. Pomocí vlastního aeračního systému je materiál rovnoměrně provzdušňován zdola. S tímto systémem lze materiál také velmi efektivně sušit.",
+    "bewabox.technology.desc2": "Tunelový fermentor může být vybaven různými technickými systémy, jako je nakládací systém, systém monitorování a řízení procesu, systém čištění odtahového vzduchu atd. S BEWABOX můžete dosáhnout optimálních výsledků s minimálními vstupy.",
+    "bewabox.applications.title": "Typické aplikace",
+    "bewabox.app1": "Stabilizace podsítné frakce komunálního odpadu",
+    "bewabox.app2": "Biologická stabilizace před skládkováním nebo dalším zpracováním",
+    "bewabox.app3": "Zpracování biologicky rozložitelného komunálního odpadu",
+    "bewabox.app4": "Čistírenské kaly a směsi na bázi kalů",
+    "bewabox.app5": "Sušení nebo příprava materiálu pro výrobu RDF / SRF",
+    "bewabox.app6": "Velká obecní a regionální zařízení pro zpracování odpadu",
+    "bewabox.specs.capacity": "Kapacita na box",
+    "bewabox.specs.process": "Typ procesu",
+    "bewabox.specs.process_value": "Tunelový vsázkový proces",
+    "bewabox.specs.best_fit": "Nejvhodnější pro",
+    "bewabox.specs.best_fit_value": "Podsítná frakce & velká zařízení",
+    "bewabox.specs.construction": "Konstrukce",
+    "bewabox.specs.construction_value": "Železobeton",
+    "bewabox.specs.aeration": "Aerační systém",
+    "bewabox.specs.aeration_value": "Vlastní podlahové kanály",
+    "bewabox.specs.scalability": "Škálovatelnost",
+    "bewabox.specs.scalability_value": "Více boxů vedle sebe",
+    "bewabox.cta": "Více o BEWABOX",
+    "bewabox.description": "BEWABOX je uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů.",
   },
 }

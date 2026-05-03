@@ -2,16 +2,22 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { ChevronRight, ArrowLeft, Check } from "lucide-react"
+import { ChevronRight, ArrowLeft, Check, Download } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FadeIn from "@/components/animations/fade-in"
 import SlideUp from "@/components/animations/slide-up"
 import StaggeredChildren from "@/components/animations/staggered-children"
 import { useLanguage } from "@/contexts/language-context"
+import { useEffect } from "react"
 
-export default function BiokonPage() {
+export default function BioconPage() {
   const { t } = useLanguage()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -37,13 +43,22 @@ export default function BiokonPage() {
                   <SlideUp delay={0.1}>
                     <p className="mb-6 text-xl text-muted-foreground">{t("biokon.subtitle")}</p>
                   </SlideUp>
+                  <SlideUp delay={0.2}>
+                    <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
+                      <a href="https://blobs.vusercontent.net/blob/BIOCON-A4-L2L1FZSCz8wQI55Ha8vX65XIadPitU.pdf" target="_blank" rel="noopener noreferrer">
+                        <Download className="mr-2 h-5 w-5" />
+                        {t("product.download.brochure")}
+                      </a>
+                    </Button>
+                  </SlideUp>
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web1.jpg-nrdNDRob1rXE6M1wTfuYaYV1nFgVVe.jpeg"
-                    alt="BIOKON fermenter with open lid"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.33.18-jet3U6YJC8csj5YXVqhC1zZjReHbRg.png"
+                    alt="BIOCON container fermenter"
+                    style={{ objectPosition: "left center" }}
                     width={800}
                     height={600}
                     className="object-cover scale-110 w-full h-full"
@@ -254,12 +269,11 @@ export default function BiokonPage() {
             <FadeIn>
               <div className="flex flex-col items-center">
                 <Image
-                  src="/solbien-website/images/eu-funding-banner.png"
+                  src="/images/eu-funding-banner.png"
                   alt="Financováno Evropskou unií - Projekt inovace kontejnerového fermentoru BIOKON"
                   width={800}
                   height={200}
                   className="max-w-full h-auto"
-                  unoptimized={true}
                 />
               </div>
             </FadeIn>

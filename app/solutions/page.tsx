@@ -100,7 +100,7 @@ export default function SolutionsPage() {
                       <span>Integration with existing collection systems</span>
                     </li>
                   </ul>
-                  <Link href="/products/biokon">
+                  <Link href="/products/biocon">
                     <Button className="w-full">
                       {t("biokon.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />

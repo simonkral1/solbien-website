@@ -2,16 +2,22 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowLeft, Check } from "lucide-react"
+import { ArrowLeft, Check, Download } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FadeIn from "@/components/animations/fade-in"
 import SlideUp from "@/components/animations/slide-up"
 import StaggeredChildren from "@/components/animations/staggered-children"
 import { useLanguage } from "@/contexts/language-context"
+import { useEffect } from "react"
 
 export default function EwaPage() {
   const { t } = useLanguage()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -37,13 +43,21 @@ export default function EwaPage() {
                   <SlideUp delay={0.1}>
                     <p className="mb-6 text-xl text-muted-foreground">{t("ewa.subtitle")}</p>
                   </SlideUp>
+                  <SlideUp delay={0.2}>
+                    <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
+                      <a href="https://blobs.vusercontent.net/blob/EWA-A4b-opt-zQY0iw7fcYDb0uS9Ng4DKtsZoUhPtB.pdf" target="_blank" rel="noopener noreferrer">
+                        <Download className="mr-2 h-5 w-5" />
+                        {t("product.download.brochure")}
+                      </a>
+                    </Button>
+                  </SlideUp>
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/obr1.jpg-SRchVEp4VqYWAbIQQdaxs2mrgCTfZz.jpeg"
-                    alt="Ecological Waste Apparatus"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.30.37-QFy7WVhcPvyhO2hPSSz0RBOHYbUhA7.png"
+                    alt="EWA - Ecological Waste Apparatus"
                     width={800}
                     height={600}
                     className="object-cover scale-110 w-full h-full"

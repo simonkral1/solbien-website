@@ -1,18 +1,18 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
-import { ArrowLeft, Check, Download } from "lucide-react"
+import { ChevronRight, ArrowLeft, Check, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FadeIn from "@/components/animations/fade-in"
 import SlideUp from "@/components/animations/slide-up"
 import StaggeredChildren from "@/components/animations/staggered-children"
-import Image from "next/image"
 import { useLanguage } from "@/contexts/language-context"
 import { useEffect } from "react"
 
-export default function BiosPage() {
+export default function BewaboxPage() {
   const { t } = useLanguage()
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function BiosPage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section id="top" className="bg-green-50 py-16 md:py-24">
+        <section className="bg-white py-16 md:py-24">
           <div className="container mx-auto px-4 md:px-6">
             <div className="mb-6">
               <Link href="/" className="inline-flex items-center text-green-600 hover:text-green-700">
@@ -38,14 +38,14 @@ export default function BiosPage() {
               <FadeIn>
                 <div>
                   <SlideUp>
-                    <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl">{t("bios.title")}</h1>
+                    <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl">{t("bewabox.title")}</h1>
                   </SlideUp>
                   <SlideUp delay={0.1}>
-                    <p className="mb-6 text-xl text-muted-foreground">{t("bios.subtitle")}</p>
+                    <p className="mb-6 text-xl text-muted-foreground">{t("bewabox.subtitle")}</p>
                   </SlideUp>
                   <SlideUp delay={0.2}>
                     <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-                      <a href="https://blobs.vusercontent.net/blob/BIOS-A4-d2jxLAhs9LHKPu4wz7Les0GtIMnlcU.pdf" target="_blank" rel="noopener noreferrer">
+                      <a href="https://blobs.vusercontent.net/blob/BEWABOX-A4-Ou1sW6hAbZY1i1R4UpMQsSSoAJVxMh.pdf" target="_blank" rel="noopener noreferrer">
                         <Download className="mr-2 h-5 w-5" />
                         {t("product.download.brochure")}
                       </a>
@@ -54,10 +54,10 @@ export default function BiosPage() {
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
+                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl bg-green-100">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg"
-                    alt="BIOS fermenter unit installed on concrete foundation with agricultural field in background"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+                    alt="BEWABOX tunnel fermenter"
                     width={800}
                     height={600}
                     className="object-cover scale-110 w-full h-full"
@@ -69,13 +69,13 @@ export default function BiosPage() {
           </div>
         </section>
 
-        {/* Key Features */}
-        <section className="py-16 md:py-24">
+        {/* Key Benefits */}
+        <section className="py-16 md:py-24 bg-green-50">
           <div className="container mx-auto px-4 md:px-6">
             <FadeIn>
               <div className="mb-12 text-center">
                 <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("product.advantages")}</h2>
-                <p className="mx-auto max-w-2xl text-muted-foreground">{t("bios.subtitle")}</p>
+                <p className="mx-auto max-w-2xl text-muted-foreground">{t("bewabox.subtitle")}</p>
               </div>
             </FadeIn>
 
@@ -84,67 +84,113 @@ export default function BiosPage() {
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">{t("bios.feature1")}</h3>
-                <p className="text-muted-foreground">{t("bios.feature1")}</p>
+                <h3 className="mb-2 text-xl font-semibold">{t("bewabox.feature1.title")}</h3>
+                <p className="text-muted-foreground">{t("bewabox.feature1.desc")}</p>
               </div>
 
               <div className="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">{t("bios.feature2")}</h3>
-                <p className="text-muted-foreground">{t("bios.feature2")}</p>
+                <h3 className="mb-2 text-xl font-semibold">{t("bewabox.feature2.title")}</h3>
+                <p className="text-muted-foreground">{t("bewabox.feature2.desc")}</p>
               </div>
 
               <div className="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
-                <h3 className="mb-2 text-xl font-semibold">{t("bios.feature3")}</h3>
-                <p className="text-muted-foreground">{t("bios.feature3")}</p>
-              </div>
-
-              <div className="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
-                  <Check className="h-6 w-6 text-green-600" />
-                </div>
-                <h3 className="mb-2 text-xl font-semibold">{t("bios.feature4")}</h3>
-                <p className="text-muted-foreground">{t("bios.feature4")}</p>
+                <h3 className="mb-2 text-xl font-semibold">{t("bewabox.feature3.title")}</h3>
+                <p className="text-muted-foreground">{t("bewabox.feature3.desc")}</p>
               </div>
             </StaggeredChildren>
           </div>
         </section>
 
-        {/* Technical Specifications */}
+        {/* Technology Description */}
+        <section className="py-16 md:py-24">
+          <div className="container mx-auto px-4 md:px-6">
+            <FadeIn>
+              <div className="mb-12 text-center">
+                <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("bewabox.technology.title")}</h2>
+              </div>
+            </FadeIn>
+
+            <FadeIn delay={0.2}>
+              <div className="rounded-lg border bg-white p-8 shadow-md max-w-4xl mx-auto">
+                <p className="text-lg text-muted-foreground mb-6">{t("bewabox.technology.desc1")}</p>
+                <p className="text-lg text-muted-foreground">{t("bewabox.technology.desc2")}</p>
+              </div>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* Typical Applications */}
         <section className="py-16 md:py-24 bg-green-50">
           <div className="container mx-auto px-4 md:px-6">
             <FadeIn>
               <div className="mb-12 text-center">
-                <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("product.technical")}</h2>
-                <p className="mx-auto max-w-2xl text-muted-foreground">{t("bios.subtitle")}</p>
+                <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("bewabox.applications.title")}</h2>
               </div>
             </FadeIn>
 
-            <div className="grid gap-8 md:grid-cols-3">
+            <FadeIn delay={0.2}>
+              <div className="rounded-lg border bg-white p-8 shadow-md">
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
+                    <span>{t("bewabox.app1")}</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
+                    <span>{t("bewabox.app2")}</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
+                    <span>{t("bewabox.app3")}</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
+                    <span>{t("bewabox.app4")}</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
+                    <span>{t("bewabox.app5")}</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight className="mr-3 h-6 w-6 text-green-600 shrink-0 mt-0.5" />
+                    <span>{t("bewabox.app6")}</span>
+                  </li>
+                </ul>
+              </div>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* Technical Specifications */}
+        <section className="py-16 md:py-24">
+          <div className="container mx-auto px-4 md:px-6">
+            <FadeIn>
+              <div className="mb-12 text-center">
+                <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{t("product.technical")}</h2>
+              </div>
+            </FadeIn>
+
+            <div className="grid gap-8 md:grid-cols-2">
               <FadeIn delay={0.1}>
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
-                  <h3 className="mb-4 text-xl font-semibold text-center">BIOS 50m³</h3>
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Functional volume:</span>
-                      <span>50 m³</span>
+                      <span className="font-medium">{t("bewabox.specs.capacity")}</span>
+                      <span>~4,400 t/year</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Height:</span>
-                      <span>7 m</span>
+                      <span className="font-medium">{t("bewabox.specs.process")}</span>
+                      <span>{t("bewabox.specs.process_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Installation dimensions:</span>
-                      <span>5 x 5 m</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Processing capacity:</span>
-                      <span>~10,000 t/year</span>
+                      <span className="font-medium">{t("bewabox.specs.best_fit")}</span>
+                      <span>{t("bewabox.specs.best_fit_value")}</span>
                     </li>
                   </ul>
                 </div>
@@ -152,47 +198,18 @@ export default function BiosPage() {
 
               <FadeIn delay={0.2}>
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
-                  <h3 className="mb-4 text-xl font-semibold text-center">BIOS 80m³</h3>
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Functional volume:</span>
-                      <span>80 m³</span>
+                      <span className="font-medium">{t("bewabox.specs.construction")}</span>
+                      <span>{t("bewabox.specs.construction_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Height:</span>
-                      <span>9.5 m</span>
+                      <span className="font-medium">{t("bewabox.specs.aeration")}</span>
+                      <span>{t("bewabox.specs.aeration_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Installation dimensions:</span>
-                      <span>5 x 5 m</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Processing capacity:</span>
-                      <span>~16,000 t/year</span>
-                    </li>
-                  </ul>
-                </div>
-              </FadeIn>
-
-              <FadeIn delay={0.3}>
-                <div className="rounded-lg border bg-white p-6 shadow-sm">
-                  <h3 className="mb-4 text-xl font-semibold text-center">BIOS 100m³</h3>
-                  <ul className="space-y-4">
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Functional volume:</span>
-                      <span>100 m³</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Height:</span>
-                      <span>11 m</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Installation dimensions:</span>
-                      <span>5 x 5 m</span>
-                    </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Processing capacity:</span>
-                      <span>~20,000 t/year</span>
+                      <span className="font-medium">{t("bewabox.specs.scalability")}</span>
+                      <span>{t("bewabox.specs.scalability_value")}</span>
                     </li>
                   </ul>
                 </div>
