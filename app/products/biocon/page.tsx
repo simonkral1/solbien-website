@@ -11,7 +11,7 @@ import SlideUp from "@/components/animations/slide-up"
 import StaggeredChildren from "@/components/animations/staggered-children"
 import { useLanguage } from "@/contexts/language-context"
 
-export default function BiokonPage() {
+export default function BioconPage() {
   const { t } = useLanguage()
 
   return (
@@ -51,8 +51,9 @@ export default function BiokonPage() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web1.jpg-nrdNDRob1rXE6M1wTfuYaYV1nFgVVe.jpeg"
-                    alt="BIOKON fermenter with open lid"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.33.18-KpcRtHZoNmLb4qpTDYpREAe4qGud3s.png"
+                    alt="BIOCON container fermenter"
+                    style={{ objectPosition: "left center" }}
                     width={800}
                     height={600}
                     className="object-cover scale-110 w-full h-full"

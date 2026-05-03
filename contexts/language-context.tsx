@@ -124,16 +124,16 @@ const translations: Record<Language, Record<string, string>> = {
 
     "products.title": "Our Products",
 
-    "biokon.title": "Aerobic Fermenter BIOKON",
+    "biokon.title": "Aerobic Fermenter BIOCON",
     "biokon.subtitle":
       "Processing capacity 1000 t/year (functional internal volume 30 m³) for all biowaste including food waste. Easy transport and operational handling thanks to ABROLL solution.",
     "biokon.feature1": "Possibility of off-grid operation without connection to the power grid",
     "biokon.feature2": "The simplest, most accessible and cheapest technology for municipal and other biowaste",
     "biokon.feature3": "Simple plug and play installation",
     "biokon.feature4": "Fully automatic management of the aerobic fermentation process",
-    "biokon.cta": "Learn More About BIOKON",
+    "biokon.cta": "Learn More About BIOCON",
     "biokon.description":
-      "BIOKON is our simplest fermentation technology offering an excellent price-performance ratio. It is specifically designed for ease of transportation and unloading using AB-roll trucks. Additionally, BIOKON can be equipped with photovoltaic panels, making it suitable for operation in off-grid locations.",
+      "BIOCON is our simplest fermentation technology offering an excellent price-performance ratio. It is specifically designed for ease of transportation and unloading using AB-roll trucks. Additionally, BIOCON can be equipped with photovoltaic panels, making it suitable for operation in off-grid locations.",
     "ewa.title": "Aerobic Fermenter EWA",
     "ewa.subtitle":
       "Processing capacity 1500 t/year (functional internal volume 36 m³) for all biowaste including food waste and wastewater treatment plant sludge requiring ETV.",
@@ -449,16 +449,16 @@ const translations: Record<Language, Record<string, string>> = {
 
     "products.title": "Naše produkty",
 
-    "biokon.title": "Aerobní fermentor BIOKON",
+    "biokon.title": "Aerobní fermentor BIOCON",
     "biokon.subtitle":
       "Zpracovatelská kapacita 1000 t/rok (funkční vnitřní objem 30 m³) pro veškerý bioodpad včetně potravinového odpadu. Snadná přeprava a provozní manipulace díky řešení ABROLL.",
     "biokon.feature1": "Možnost provozu off-grid bez připojení k elektrické síti",
     "biokon.feature2": "Nejjednodušší, nejdostupnější a nejlevnější technologie pro komunální a jiný bioodpad",
     "biokon.feature3": "Jednoduchá instalace plug and play",
     "biokon.feature4": "Plně automatické řízení procesu aerobní fermentace",
-    "biokon.cta": "Více o BIOKONu",
+    "biokon.cta": "Více o BIOCONu",
     "biokon.description":
-      "BIOKON je naše nejjednodušší fermentační technologie nabízející vynikající poměr ceny a výkonu. Je speciálně navržen pro snadnou přepravu a vykládku pomocí vozidel AB-roll. Navíc může být BIOKON vybaven fotovoltaickými panely, což jej činí vhodným pro provoz v místech bez připojení k elektrické síti.",
+      "BIOCON je naše nejjednodušší fermentační technologie nabízející vynikající poměr ceny a výkonu. Je speciálně navržen pro snadnou přepravu a vykládku pomocí vozidel AB-roll. Navíc může být BIOCON vybaven fotovoltaickými panely, což jej činí vhodným pro provoz v místech bez připojení k elektrické síti.",
     "ewa.title": "Aerobní fermentor EWA",
     "ewa.subtitle":
       "Zpracovatelská kapacita 1500 t/rok (funkční vnitřní objem 36 m³) pro veškerý bioodpad včetně potravinového odpadu a kalů z čistíren odpadních vod vyžadujících ETV.",

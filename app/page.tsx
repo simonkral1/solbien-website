@@ -318,7 +318,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* BIOKON Highlight */}
+        {/* BIOCON Highlight */}
         <section className="py-16 md:py-24 bg-green-50">
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid items-center gap-12 lg:grid-cols-2">
@@ -351,7 +351,7 @@ export default function Home() {
                     </ul>
                   </SlideUp>
                   <SlideUp delay={0.3}>
-                    <Link href="/products/biokon">
+                    <Link href="/products/biocon">
                       <Button className="transition-all duration-300 hover:translate-y-[-2px]">
                         {t("biokon.cta")}
                         <ChevronRight className="ml-2 h-4 w-4" />
@@ -363,8 +363,9 @@ export default function Home() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web2.jpg-ahOqJnuuV4l7oHngZXSNrS1jP0CaHR.jpeg"
-                    alt="BIOKON fermenter being loaded with biowaste"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.33.18-KpcRtHZoNmLb4qpTDYpREAe4qGud3s.png"
+                    alt="BIOCON container fermenter"
+                    style={{ objectPosition: "left center" }}
                     fill
                     className="object-cover scale-110 bg-white"
                     unoptimized={true}
