@@ -103,7 +103,7 @@ export default function Home() {
         <section className="py-12 md:py-16 bg-gradient-to-r from-green-600 to-green-700">
           <div className="container mx-auto px-4 md:px-6">
             <FadeIn>
-              <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
+              <div className="flex flex-col items-center gap-8">
                 <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
                   <div className="bg-white rounded-xl p-4 shadow-lg">
                     <Image
@@ -127,17 +127,17 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
                   <div className="rounded-xl overflow-hidden shadow-xl border-4 border-white/20 hover:border-white/40 transition-all duration-300">
                     <ImageModal
                       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/viber_image_2026-05-04_10-29-33-942-AQ2CdVko8wK8rSlbOUqug4TgZmd0Le.jpg"
                       alt="Solbien booth at IFAT Munich with BEWABOX display"
-                      width={350}
-                      height={200}
+                      width={450}
+                      height={250}
                       className="w-full"
                     />
                   </div>
-                  <div className="rounded-xl overflow-hidden shadow-xl border-4 border-white/20 hover:border-white/40 transition-all duration-300 hidden md:block">
+                  <div className="rounded-xl overflow-hidden shadow-xl border-4 border-white/20 hover:border-white/40 transition-all duration-300">
                     <ImageModal
                       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/viber_image_2026-05-03_20-11-15-149-m4wpKy0gcN4EbciZcOixSM3QPtrngC.png"
                       alt="IFAT Munich venue map showing stand FM.811/7"
