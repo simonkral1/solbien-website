@@ -60,7 +60,7 @@ export default function Home() {
       <main className="flex-1">
         {/* WETEX 2026: temporary invitation before the unchanged homepage */}
         <section aria-label="WETEX 2026 invitation" className="relative isolate overflow-hidden bg-[#072d37] text-white">
-          <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage:"url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=2000&q=85')"}} />
+          <div className="absolute inset-0 bg-cover bg-left md:bg-[position:22%_center] lg:bg-[position:18%_center]" style={{backgroundImage:"url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=2000&q=85')"}} />
           <div className="absolute inset-0 bg-gradient-to-r from-[#052e39]/95 via-[#06323d]/85 to-[#052e39]/35" />
           <div className="container relative z-10 mx-auto flex min-h-[470px] items-center px-4 py-14 md:px-6">
             <div className="max-w-3xl">
