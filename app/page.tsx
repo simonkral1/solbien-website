@@ -71,12 +71,10 @@ export default function Home() {
               <p className="mt-3 max-w-2xl text-base leading-relaxed text-white/90">Discover SOLBIEN's Czech-developed aerobic waste treatment know-how and discuss opportunities for cooperation with regional partners.</p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a href="mailto:info@solbien.com?subject=Meeting%20at%20WETEX%202026" className="inline-flex items-center rounded-md bg-[#b9f69c] px-6 py-3 font-bold text-[#06313a] transition hover:bg-white">Arrange a meeting <ChevronRight className="ml-2 h-4 w-4" /></a>
-                <a href="#solbien-existing-homepage" className="inline-flex items-center rounded-md border border-white/70 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Explore our website <ChevronRight className="ml-2 h-4 w-4" /></a>
               </div>
             </div>
           </div>
         </section>
-        <div id="solbien-existing-homepage" />
         {/* Hero Section */}
         <section className="relative">
           <div className="absolute inset-0 z-0 overflow-hidden">
