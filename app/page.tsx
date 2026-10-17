@@ -58,28 +58,21 @@ export default function Home() {
       <Navbar />
 
       <main className="flex-1">
-        {/* WETEX 2026: temporary homepage invitation. Original homepage remains intact below. */}
-        <section aria-label="WETEX 2026 invitation" className="relative isolate overflow-hidden bg-[#082c36] text-white">
-          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_85%_20%,rgba(45,153,151,0.32),transparent_52%),linear-gradient(115deg,#05242f_0%,#0c4b55_60%,#14394d_100%)]" />
-          <div className="pointer-events-none absolute -right-28 -bottom-40 h-96 w-96 rounded-full border border-emerald-200/20" />
-          <div className="container relative mx-auto grid items-center gap-8 px-4 py-12 md:grid-cols-[1.35fr_0.65fr] md:px-6 md:py-16">
-            <div>
-              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-[#a6ef97]">Meet SOLBIEN in Dubai</p>
-              <h2 className="text-4xl font-extrabold leading-tight tracking-tight md:text-5xl lg:text-6xl">Visit us at <span className="text-[#a6ef97]">WETEX 2026</span></h2>
-              <p className="mt-5 text-lg font-semibold text-white">20–22 October 2026 · Dubai World Trade Centre</p>
-              <p className="mt-2 inline-block rounded-md bg-[#a6ef97] px-4 py-2 text-sm font-bold tracking-wide text-[#062b2c]">HALL 7 | STAND 7 D12</p>
-              <h3 className="mt-7 max-w-2xl text-2xl font-semibold">From Organic Waste to Valuable Soil Resources</h3>
-              <p className="mt-3 max-w-2xl text-base leading-relaxed text-slate-200">SOLBIEN is a specialized Czech technology development company. Meet us at WETEX to discuss organic waste treatment, soil improvement opportunities and cooperation with partners in the Gulf region.</p>
-              <div className="mt-7 flex flex-wrap gap-3">
-                <a href="mailto:info@solbien.com?subject=Meeting%20at%20WETEX%202026" className="inline-flex items-center rounded-md bg-[#a6ef97] px-6 py-3 font-bold text-[#062b2c] transition hover:bg-white">Arrange a meeting <ChevronRight className="ml-2 h-4 w-4" /></a>
-                <a href="#solbien-existing-homepage" className="inline-flex items-center rounded-md border border-white/60 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Explore our website <ChevronRight className="ml-2 h-4 w-4" /></a>
+        {/* WETEX 2026: temporary invitation before the unchanged homepage */}
+        <section aria-label="WETEX 2026 invitation" className="relative isolate overflow-hidden bg-[#072d37] text-white">
+          <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage:"url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=2000&q=85')"}} />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#052e39]/95 via-[#06323d]/85 to-[#052e39]/35" />
+          <div className="container relative z-10 mx-auto flex min-h-[470px] items-center px-4 py-14 md:px-6">
+            <div className="max-w-3xl">
+              <p className="mb-4 text-sm font-semibold uppercase tracking-[.2em] text-[#b9f69c]">SOLBIEN in Dubai · 20–22 October 2026</p>
+              <h2 className="text-4xl font-extrabold leading-tight tracking-tight md:text-5xl lg:text-6xl">Meet us at <span className="text-[#b9f69c]">WETEX 2026</span></h2>
+              <p className="mt-5 text-lg font-medium text-white">Dubai World Trade Centre <span className="mx-2 text-[#b9f69c]">·</span> Hall 7 | Stand 7 D12</p>
+              <p className="mt-5 max-w-2xl text-xl font-semibold">From Organic Waste to Valuable Soil Resources</p>
+              <p className="mt-3 max-w-2xl text-base leading-relaxed text-white/90">Discover SOLBIEN's Czech-developed aerobic waste treatment know-how and discuss opportunities for cooperation with regional partners.</p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a href="mailto:info@solbien.com?subject=Meeting%20at%20WETEX%202026" className="inline-flex items-center rounded-md bg-[#b9f69c] px-6 py-3 font-bold text-[#06313a] transition hover:bg-white">Arrange a meeting <ChevronRight className="ml-2 h-4 w-4" /></a>
+                <a href="#solbien-existing-homepage" className="inline-flex items-center rounded-md border border-white/70 px-6 py-3 font-semibold text-white transition hover:bg-white/10">Explore our website <ChevronRight className="ml-2 h-4 w-4" /></a>
               </div>
-            </div>
-            <div className="hidden rounded-2xl border border-white/20 bg-white/5 p-8 text-center shadow-xl backdrop-blur-sm md:block">
-              <div className="text-xs font-bold uppercase tracking-[0.24em] text-[#a6ef97]">WETEX 2026</div>
-              <div className="mt-6 border-y border-white/20 py-8 text-6xl font-bold text-white">7 D12</div>
-              <div className="mt-5 text-sm font-semibold uppercase tracking-widest text-slate-200">Dubai · UAE</div>
-              <p className="mt-6 text-sm leading-relaxed text-slate-200">Technology know-how<br/>Regional partnerships<br/>Practical applications</p>
             </div>
           </div>
         </section>
