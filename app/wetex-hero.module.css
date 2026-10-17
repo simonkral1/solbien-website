@@ -1,0 +1,75 @@
+.hero {
+  position: relative;
+  isolation: isolate;
+  min-height: 535px;
+  overflow: hidden;
+  background: #164239;
+  color: #fff;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: url("/images/wetex-approved-bg.webp") center 52% / cover no-repeat;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(4,35,42,.91) 0%, rgba(4,35,42,.83) 28%, rgba(4,35,42,.49) 55%, rgba(4,35,42,.06) 84%);
+}
+.content {
+  max-width: 1320px;
+  margin: auto;
+  padding: 62px 6%;
+  min-height: 535px;
+  display: flex;
+  align-items: center;
+}
+.copy { max-width: 600px; }
+.eyebrow {
+  margin: 0;
+  color: #d4f7aa;
+  font-weight: 700;
+  letter-spacing: .18em;
+  font-size: 13px;
+}
+.headline {
+  font-size: 54px;
+  line-height: 1.04;
+  font-weight: 700;
+  margin: 23px 0;
+}
+.headline span { display: block; color: #d4f7aa; }
+.location { margin: 0; font-size: 19px; font-weight: 700; }
+.tagline { font-size: 22px; font-weight: 700; margin: 25px 0 16px; line-height: 1.25; }
+.description { font-size: 16px; line-height: 1.55; margin: 0; }
+.actions { display: flex; margin-top: 28px; }
+.primary {
+  display: inline-block;
+  padding: 14px 20px;
+  border-radius: 5px;
+  background: #c7f199;
+  color: #0a3a3e;
+  font-weight: 700;
+  text-decoration: none;
+}
+.primary:hover, .primary:focus-visible { background: #d8ffb2; color: #0a3a3e; }
+@media (max-width: 650px) {
+  .hero { min-height: 730px; }
+  .hero::before { background-position: 70% 50%; background-size: auto 100%; }
+  .hero::after {
+    background: linear-gradient(180deg, rgba(4,35,42,.93) 0%, rgba(4,35,42,.89) 45%, rgba(4,35,42,.50) 72%, rgba(4,35,42,.08) 100%);
+  }
+  .content { padding: 36px 24px 240px; display: block; min-height: 730px; }
+  .copy { max-width: 100%; }
+  .eyebrow { font-size: 11px; letter-spacing: .12em; }
+  .headline { font-size: 39px; margin: 18px 0; }
+  .location { font-size: 15px; }
+  .tagline { font-size: 19px; margin: 17px 0 14px; }
+  .description { font-size: 14px; line-height: 1.45; }
+  .actions { margin-top: 23px; }
+  .primary { font-size: 13px; padding: 12px; }
+}
