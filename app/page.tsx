@@ -59,17 +59,15 @@ export default function Home() {
       <Navbar />
 
       <main className="flex-1">
-        {/* WETEX 2026: approved invitation, responsive background and one CTA */}
-        <section className={wetexStyles.hero} aria-label="WETEX 2026 invitation">
+        {/* WETEX 2026: temporary post-event thank-you banner */}
+        <section className={wetexStyles.hero} aria-label="Thank you for meeting SOLBIEN at WETEX 2026">
           <div className={wetexStyles.content}>
             <div className={wetexStyles.copy}>
-              <p className={wetexStyles.eyebrow}>SOLBIEN IN DUBAI · 20–22 OCTOBER 2026</p>
-              <h2 className={wetexStyles.headline}>Meet us at <span>WETEX 2026</span></h2>
-              <p className={wetexStyles.location}>Dubai World Trade Centre · Hall 7 | Stand 7 D12</p>
-              <p className={wetexStyles.tagline}>From Organic Waste to Valuable Soil Resources</p>
-              <p className={wetexStyles.description}>Discover SOLBIEN&apos;s Czech-developed aerobic waste treatment know-how and discuss opportunities for cooperation with regional partners.</p>
+              <p className={wetexStyles.eyebrow}>WETEX 2026 · DUBAI · 20–22 OCTOBER</p>
+              <h2 className={wetexStyles.headline}>Thank you for meeting us <span>in Dubai.</span></h2>
+              <p className={wetexStyles.description}>We appreciated the conversations about transforming organic waste into valuable soil resources and look forward to exploring opportunities for cooperation.</p>
               <div className={wetexStyles.actions}>
-                <a href="mailto:info@solbien.com?subject=Meeting%20at%20WETEX%202026" className={wetexStyles.primary}>Arrange a meeting</a>
+                <a href="mailto:info@solbien.com?subject=Follow-up%20after%20WETEX%202026" className={wetexStyles.primary}>Continue the conversation</a>
               </div>
             </div>
           </div>
