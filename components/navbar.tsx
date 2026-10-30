@@ -60,8 +60,11 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             className="md:hidden flex items-center text-gray-700"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
+            onClick={() => setIsMenuOpen((open) => !open)}
+            type="button"
+            aria-label={t(isMenuOpen ? "nav.closeMenu" : "nav.openMenu")}
+            aria-expanded={isMenuOpen}
+            aria-controls="mobile-navigation"
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -70,7 +73,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t">
+        <div id="mobile-navigation" className="md:hidden bg-white border-t">
           <div className="container mx-auto px-4 py-4 space-y-3">
             <Link
               href="/products"

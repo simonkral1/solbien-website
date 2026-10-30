@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { ArrowLeft, Check, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import ProductInquiry from "@/components/product-inquiry"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FadeIn from "@/components/animations/fade-in"
@@ -130,21 +131,21 @@ export default function BiosPage() {
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
                   <h3 className="mb-4 text-xl font-semibold text-center">BIOS 50m³</h3>
                   <ul className="space-y-4">
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Functional volume:</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.volume")}</span>
                       <span>50 m³</span>
                     </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Height:</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.height")}</span>
                       <span>7 m</span>
                     </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Installation dimensions:</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.footprint")}</span>
                       <span>5 x 5 m</span>
                     </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Processing capacity:</span>
-                      <span>~10,000 t/year</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.capacity")}</span>
+                      <span>~10,000 {t("units.tonnesPerYear")}</span>
                     </li>
                   </ul>
                 </div>
@@ -154,21 +155,21 @@ export default function BiosPage() {
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
                   <h3 className="mb-4 text-xl font-semibold text-center">BIOS 80m³</h3>
                   <ul className="space-y-4">
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Functional volume:</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.volume")}</span>
                       <span>80 m³</span>
                     </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Height:</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.height")}</span>
                       <span>9.5 m</span>
                     </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Installation dimensions:</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.footprint")}</span>
                       <span>5 x 5 m</span>
                     </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Processing capacity:</span>
-                      <span>~16,000 t/year</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.capacity")}</span>
+                      <span>~16,000 {t("units.tonnesPerYear")}</span>
                     </li>
                   </ul>
                 </div>
@@ -178,21 +179,21 @@ export default function BiosPage() {
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
                   <h3 className="mb-4 text-xl font-semibold text-center">BIOS 100m³</h3>
                   <ul className="space-y-4">
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Functional volume:</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.volume")}</span>
                       <span>100 m³</span>
                     </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Height:</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.height")}</span>
                       <span>11 m</span>
                     </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Installation dimensions:</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.footprint")}</span>
                       <span>5 x 5 m</span>
                     </li>
-                    <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Processing capacity:</span>
-                      <span>~20,000 t/year</span>
+                    <li className="flex flex-wrap justify-between gap-x-4 gap-y-1 border-b pb-2">
+                      <span className="font-medium">{t("bios.specs.capacity")}</span>
+                      <span>~20,000 {t("units.tonnesPerYear")}</span>
                     </li>
                   </ul>
                 </div>
@@ -213,12 +214,11 @@ export default function BiosPage() {
                   <p className="mb-8 text-white/80">{t("solutions.cta.subtitle")}</p>
                 </SlideUp>
                 <SlideUp delay={0.3}>
-                  <Button asChild size="lg" className="bg-white text-green-900 hover:bg-green-50">
-                    <a href="https://blobs.vusercontent.net/blob/BIOS-A4-d2jxLAhs9LHKPu4wz7Les0GtIMnlcU.pdf" target="_blank" rel="noopener noreferrer">
-                      <Download className="mr-2 h-5 w-5" />
-                      {t("product.download.brochure")}
-                    </a>
-                  </Button>
+                  <ProductInquiry
+                    product="BIOS"
+                    brochureUrl="https://blobs.vusercontent.net/blob/BIOS-A4-d2jxLAhs9LHKPu4wz7Les0GtIMnlcU.pdf"
+                    onDark
+                  />
                 </SlideUp>
               </div>
             </FadeIn>

@@ -4,6 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ChevronRight, ArrowLeft, Check, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import ProductInquiry from "@/components/product-inquiry"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FadeIn from "@/components/animations/fade-in"
@@ -182,7 +183,7 @@ export default function BewaboxPage() {
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("bewabox.specs.capacity")}</span>
-                      <span>~4,400 t/year</span>
+                      <span>~4,400 {t("units.tonnesPerYear")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("bewabox.specs.process")}</span>
@@ -230,12 +231,11 @@ export default function BewaboxPage() {
                   <p className="mb-8 text-white/80">{t("solutions.cta.subtitle")}</p>
                 </SlideUp>
                 <SlideUp delay={0.3}>
-                  <Button asChild size="lg" className="bg-white text-green-900 hover:bg-green-50">
-                    <a href="https://blobs.vusercontent.net/blob/BEWABOX-A4-Ou1sW6hAbZY1i1R4UpMQsSSoAJVxMh.pdf" target="_blank" rel="noopener noreferrer">
-                      <Download className="mr-2 h-5 w-5" />
-                      {t("product.download.brochure")}
-                    </a>
-                  </Button>
+                  <ProductInquiry
+                    product="BEWABOX"
+                    brochureUrl="https://blobs.vusercontent.net/blob/BEWABOX-A4-Ou1sW6hAbZY1i1R4UpMQsSSoAJVxMh.pdf"
+                    onDark
+                  />
                 </SlideUp>
               </div>
             </FadeIn>
