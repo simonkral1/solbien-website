@@ -65,7 +65,7 @@ export default function Home() {
             <div className={wetexStyles.copy}>
               <p className={wetexStyles.eyebrow}>WETEX 2026 · DUBAI · 20–22 OCTOBER</p>
               <h2 className={wetexStyles.headline}>Thank you for meeting us <span>in Dubai.</span></h2>
-              <p className={wetexStyles.description}>We appreciated the conversations about transforming organic waste into valuable soil resources and look forward to exploring opportunities for cooperation.</p>
+              <p className={wetexStyles.description}>We appreciated the conversations and look forward to exploring opportunities for cooperation.</p>
               <div className={wetexStyles.actions}>
                 <a href="mailto:info@solbien.com?subject=Follow-up%20after%20WETEX%202026" className={wetexStyles.primary}>Continue the conversation</a>
               </div>
