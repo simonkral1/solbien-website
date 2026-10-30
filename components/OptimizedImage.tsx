@@ -1,8 +1,8 @@
 "use client"
 
-import Image from "next/image"
+import Image, { type ImageProps } from "next/image"
 import imageLoader from "../lib/imageLoader"
 
-export default function OptimizedImage(props) {
+export default function OptimizedImage(props: ImageProps) {
   return <Image {...props} loader={imageLoader} unoptimized={true} />
 }

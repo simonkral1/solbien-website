@@ -6,6 +6,7 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FadeIn from "@/components/animations/fade-in"
 import { useLanguage } from "@/contexts/language-context"
+import { company } from "@/lib/company"
 
 export default function ContactPage() {
   const { t } = useLanguage()
@@ -40,7 +41,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-medium">{t("contact.address")}</h3>
                         <p className="mt-1">
-                          SOLBIEN plc
+                          {company.name}
                           <br />
                           Dvorakova 1041/15
                           <br />
@@ -54,14 +55,14 @@ export default function ContactPage() {
                       <Phone className="mt-1 h-6 w-6 text-green-600" />
                       <div>
                         <h3 className="font-medium">{t("contact.phone")}</h3>
-                        <p className="mt-1">+420 605 902 903</p>
+                        <p className="mt-1"><a href={company.phoneHref} className="text-green-700 underline underline-offset-4">{company.phone}</a></p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
                       <Mail className="mt-1 h-6 w-6 text-green-600" />
                       <div>
                         <h3 className="font-medium">{t("contact.email")}</h3>
-                        <p className="mt-1">info@solbien.com</p>
+                        <p className="mt-1"><a href={company.emailHref} className="text-green-700 underline underline-offset-4">{company.email}</a></p>
                       </div>
                     </div>
                   </div>
@@ -69,13 +70,13 @@ export default function ContactPage() {
                   <div className="mt-8 pt-6 border-t">
                     <h3 className="mb-4 text-xl font-medium">{t("contact.person")}</h3>
                     <div className="bg-green-50 p-4 rounded-lg">
-                      <p className="font-semibold">Katerina Elisova</p>
+                      <p className="font-semibold">Kateřina Elisová</p>
                       <p className="text-muted-foreground">{t("contact.salesmanager")}</p>
                       <p className="mt-2">
-                        <span className="font-medium">{t("contact.phone")}:</span> +420 605 902 903
+                        <span className="font-medium">{t("contact.phone")}:</span>{" "}<a href={company.phoneHref} className="text-green-700 underline underline-offset-4">{company.phone}</a>
                       </p>
                       <p>
-                        <span className="font-medium">{t("contact.email")}:</span> info@solbien.com
+                        <span className="font-medium">{t("contact.email")}:</span>{" "}<a href={company.emailHref} className="text-green-700 underline underline-offset-4">{company.email}</a>
                       </p>
                     </div>
                   </div>

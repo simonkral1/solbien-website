@@ -4,6 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ChevronRight, ArrowLeft, Check, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import ProductInquiry from "@/components/product-inquiry"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FadeIn from "@/components/animations/fade-in"
@@ -230,7 +231,7 @@ export default function BioconPage() {
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("biokon.specs.power_consumption_preheating")}</span>
-                      <span>2 to 6 kW</span>
+                      <span>{t("biokon.specs.preheating_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("biokon.specs.frame_hook_lift")}</span>
@@ -238,7 +239,7 @@ export default function BioconPage() {
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("biokon.specs.processing_capacity")}</span>
-                      <span>1000 t/year</span>
+                      <span>1000 {t("units.tonnesPerYear")}</span>
                     </li>
                   </ul>
                 </div>
@@ -259,12 +260,10 @@ export default function BioconPage() {
                   <p className="mb-8 text-muted-foreground">{t("solutions.cta.subtitle")}</p>
                 </SlideUp>
                 <SlideUp delay={0.3}>
-                  <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700">
-                    <a href="https://blobs.vusercontent.net/blob/BIOCON-A4-L2L1FZSCz8wQI55Ha8vX65XIadPitU.pdf" target="_blank" rel="noopener noreferrer">
-                      <Download className="mr-2 h-5 w-5" />
-                      {t("product.download.brochure")}
-                    </a>
-                  </Button>
+                  <ProductInquiry
+                    product="BIOCON"
+                    brochureUrl="https://blobs.vusercontent.net/blob/BIOCON-A4-L2L1FZSCz8wQI55Ha8vX65XIadPitU.pdf"
+                  />
                 </SlideUp>
               </div>
             </FadeIn>

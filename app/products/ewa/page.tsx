@@ -4,6 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Check, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import ProductInquiry from "@/components/product-inquiry"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FadeIn from "@/components/animations/fade-in"
@@ -135,7 +136,7 @@ export default function EwaPage() {
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("ewa.specs.processing_capacity")}</span>
-                      <span>1500 t/year</span>
+                      <span>1500 {t("units.tonnesPerYear")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("ewa.specs.container_type")}</span>
@@ -203,12 +204,11 @@ export default function EwaPage() {
                   <p className="mb-8 text-white/80">{t("solutions.cta.subtitle")}</p>
                 </SlideUp>
                 <SlideUp delay={0.3}>
-                  <Button asChild size="lg" className="bg-white text-green-900 hover:bg-green-50">
-                    <a href="https://blobs.vusercontent.net/blob/EWA-A4b-opt-zQY0iw7fcYDb0uS9Ng4DKtsZoUhPtB.pdf" target="_blank" rel="noopener noreferrer">
-                      <Download className="mr-2 h-5 w-5" />
-                      {t("product.download.brochure")}
-                    </a>
-                  </Button>
+                  <ProductInquiry
+                    product="EWA"
+                    brochureUrl="https://blobs.vusercontent.net/blob/EWA-A4b-opt-zQY0iw7fcYDb0uS9Ng4DKtsZoUhPtB.pdf"
+                    onDark
+                  />
                 </SlideUp>
               </div>
             </FadeIn>

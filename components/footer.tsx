@@ -4,6 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Phone, Mail, MapPin } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
+import { company } from "@/lib/company"
 
 export default function Footer() {
   const { t } = useLanguage()
@@ -56,7 +57,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 shrink-0 text-green-400" />
                 <span className="text-white/80">
-                  SOLBIEN plc
+                  {company.name}
                   <br />
                   Dvorakova 1041/15
                   <br />
@@ -67,18 +68,18 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 shrink-0 text-green-400" />
-                <span className="text-white/80">+420 605 902 903</span>
+                <a href={company.phoneHref} className="text-white/80 hover:text-white underline-offset-4 hover:underline">{company.phone}</a>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 shrink-0 text-green-400" />
-                <span className="text-white/80">info@solbien.com</span>
+                <a href={company.emailHref} className="text-white/80 hover:text-white underline-offset-4 hover:underline">{company.email}</a>
               </li>
             </ul>
           </div>
 
           {/* Social Media */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Social Media</h3>
+            <h3 className="mb-4 text-lg font-semibold">{t("footer.social")}</h3>
             <div className="flex space-x-4">{/* Social media icons would go here */}</div>
           </div>
         </div>
