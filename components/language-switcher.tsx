@@ -12,6 +12,8 @@ export default function LanguageSwitcher() {
         variant={language === "EN" ? "default" : "outline"}
         size="sm"
         onClick={() => setLanguage("EN")}
+        aria-pressed={language === "EN"}
+        lang="en"
         className="px-2 py-1 h-auto text-xs"
       >
         EN
@@ -20,6 +22,8 @@ export default function LanguageSwitcher() {
         variant={language === "CS" ? "default" : "outline"}
         size="sm"
         onClick={() => setLanguage("CS")}
+        aria-pressed={language === "CS"}
+        lang="cs"
         className="px-2 py-1 h-auto text-xs"
       >
         CS

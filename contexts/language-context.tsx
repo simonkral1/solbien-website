@@ -36,6 +36,10 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
     }
   }, [language, mounted])
 
+  useEffect(() => {
+    document.documentElement.lang = language === "CS" ? "cs" : "en"
+  }, [language])
+
   // Translation function
   const t = (key: string): string => {
     return translations[language][key] || translations["EN"][key] || key
@@ -194,7 +198,7 @@ EN: {
     "about.vision.paragraph2":
       "From the outset, our goal has been to develop technologies that are not only globally applicable but also environmentally friendly and supportive of sustainability. We specialize in designing and manufacturing innovative aerobic fermentation systems and drying technologies, emphasizing low energy consumption and renewable energy sources, such as photovoltaic systems, enabling operation even in remote, off-grid locations.",
     "about.vision.paragraph3":
-      "Our patented technologies—BIOKON, EWA, BIOS, and BEWA—offer scalable solutions ranging from small local units to high-capacity facilities, flexibly meeting the diverse needs of regions and communities. Thanks to advanced control of the aerobic fermentation process, we can quickly and safely transform bio-waste into valuable compost and biofuel. This approach supports a circular economy by returning nutrients to the soil, helps municipalities, cities, and businesses effectively utilize waste materials, and positively impacts landscape biodiversity.",
+      "Our patented technologies—BIOCON, EWA, BIOS, and BEWABOX—offer scalable solutions ranging from small local units to high-capacity facilities, flexibly meeting the diverse needs of regions and communities. Thanks to advanced control of the aerobic fermentation process, we can quickly and safely transform bio-waste into valuable compost and biofuel. This approach supports a circular economy by returning nutrients to the soil, helps municipalities, cities, and businesses effectively utilize waste materials, and positively impacts landscape biodiversity.",
     "about.vision.paragraph4":
       "Our vision is a world in which every local step leads to significant global change—toward cleaner air, healthier soil, societal decarbonization, and a sustainable future.",
 
@@ -230,7 +234,7 @@ EN: {
 
     "solutions.municipal.title": "Municipal Waste Management",
     "solutions.municipal.desc":
-      "Our solutions are ideal for municipalities looking to efficiently process biodegradable waste from residential areas, parks, and public spaces. The BIOKON and EWA fermenters can be easily integrated into existing waste management systems.",
+      "Our solutions are ideal for municipalities looking to efficiently process biodegradable waste from residential areas, parks, and public spaces. The BIOCON and EWA fermenters can be easily integrated into existing waste management systems.",
 
     "solutions.highcapacity.title": "High-Capacity Solutions for Waste Processing",
     "solutions.highcapacity.desc":
@@ -351,6 +355,19 @@ EN: {
 
     // Download brochure
     "product.download.brochure": "Download Brochure",
+    "product.inquiry.cta": "Enquire about",
+    "product.inquiry.subject": "Enquiry about",
+    "product.inquiry.body": "Hello,\n\nI would like to discuss {product} for our project.\n\nWaste type:\nQuantity to process:\nProject location:\n\nContact details:\n",
+    "units.tonnesPerYear": "t/year",
+    "bios.specs.volume": "Functional volume",
+    "bios.specs.height": "Height",
+    "bios.specs.footprint": "Installation dimensions",
+    "bios.specs.capacity": "Processing capacity",
+    "biokon.specs.preheating_value": "2 to 6 kW",
+    "nav.openMenu": "Open menu",
+    "nav.closeMenu": "Close menu",
+    "footer.social": "Social Media",
+
 
     // BEWABOX
     "bewabox.title": "BEWABOX Tunnel Fermenter",
@@ -525,7 +542,7 @@ CS: {
     "about.vision.paragraph2":
       "Od počátku bylo naším cílem vyvíjet technologie, které jsou nejen globálně aplikovatelné, ale také šetrné k životnímu prostředí a podporující udržitelnost. Specializujeme se na navrhování a výrobu inovativních systémů aerobní fermentace a sušicích technologií s důrazem na nízkou spotřebu energie a obnovitelné zdroje energie, jako jsou fotovoltaické systémy, umožňující provoz i v odlehlých lokalitách bez připojení k elektrické síti.",
     "about.vision.paragraph3":
-      "Naše patentované technologie – BIOKON, EWA, BIOS a BEWA – nabízejí škálovatelná řešení od malých lokálních jednotek až po vysokokapacitní zařízení, flexibilně splňující různorodé potřeby regionů a komunit. Díky pokročilému řízení procesu aerobní fermentace můžeme rychle a bezpečně přeměnit bioodpad na hodnotný kompost a biopalivo. Tento přístup podporuje cirkulární ekonomiku návratem živin do půdy, pomáhá obcím, městům a podnikům efektivně využívat odpadní materiály a pozitivně ovlivňuje biodiverzitu krajiny.",
+      "Naše patentované technologie – BIOCON, EWA, BIOS a BEWABOX – nabízejí škálovatelná řešení od malých lokálních jednotek až po vysokokapacitní zařízení, flexibilně splňující různorodé potřeby regionů a komunit. Díky pokročilému řízení procesu aerobní fermentace můžeme rychle a bezpečně přeměnit bioodpad na hodnotný kompost a biopalivo. Tento přístup podporuje cirkulární ekonomiku návratem živin do půdy, pomáhá obcím, městům a podnikům efektivně využívat odpadní materiály a pozitivně ovlivňuje biodiverzitu krajiny.",
     "about.vision.paragraph4":
       "Naší vizí je svět, ve kterém každý lokální krok vede k významné globální změně – směrem k čistšímu ovzduší, zdravější půdě, dekarbonizaci společnosti a udržitelné budoucnosti.",
 
@@ -562,7 +579,7 @@ CS: {
 
     "solutions.municipal.title": "Nakládání s komunálním odpadem",
     "solutions.municipal.desc":
-      "Naše řešení jsou ideální pro obce, které chtějí efektivně zpracovávat biologicky rozložitelný odpad z obytných oblastí, parků a veřejných prostranství. Fermentory BIOKON a EWA lze snadno integrovat do stávajících systémů nakládání s odpady.",
+      "Naše řešení jsou ideální pro obce, které chtějí efektivně zpracovávat biologicky rozložitelný odpad z obytných oblastí, parků a veřejných prostranství. Fermentory BIOCON a EWA lze snadno integrovat do stávajících systémů nakládání s odpady.",
 
     "solutions.highcapacity.title": "Vysokokapacitní řešení pro zpracování odpadu",
     "solutions.highcapacity.desc":
@@ -683,6 +700,19 @@ CS: {
 
     // Download brochure
     "product.download.brochure": "Stáhnout brožuru",
+    "product.inquiry.cta": "Poptat",
+    "product.inquiry.subject": "Poptávka technologie",
+    "product.inquiry.body": "Dobrý den,\n\nmám zájem o konzultaci technologie {product} pro náš projekt.\n\nDruh odpadu:\nMnožství ke zpracování:\nMísto projektu:\n\nKontaktní údaje:\n",
+    "units.tonnesPerYear": "t/rok",
+    "bios.specs.volume": "Funkční objem",
+    "bios.specs.height": "Výška",
+    "bios.specs.footprint": "Instalační rozměry",
+    "bios.specs.capacity": "Zpracovatelská kapacita",
+    "biokon.specs.preheating_value": "2 až 6 kW",
+    "nav.openMenu": "Otevřít nabídku",
+    "nav.closeMenu": "Zavřít nabídku",
+    "footer.social": "Sociální sítě",
+
 
     // BEWABOX
     "bewabox.title": "Tunelový fermentor BEWABOX",
