@@ -41,11 +41,12 @@ export default function BiosPage() {
                     <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl">{t("bios.title")}</h1>
                   </SlideUp>
                   <SlideUp delay={0.1}>
-                    <p className="mb-6 text-xl text-muted-foreground">{t("bios.subtitle")}</p>
+                    <p className="mb-4 text-xl text-muted-foreground">{t("bios.subtitle")}</p>
+                    <p className="mb-6 text-sm font-semibold text-blue-700">{t("bios.stage_notice")}</p>
                   </SlideUp>
                   <SlideUp delay={0.2}>
                     <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-                      <a href="https://blobs.vusercontent.net/blob/BIOS-A4-d2jxLAhs9LHKPu4wz7Les0GtIMnlcU.pdf" target="_blank" rel="noopener noreferrer">
+                      <a href="/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
                         <Download className="mr-2 h-5 w-5" />
                         {t("product.download.brochure")}
                       </a>
@@ -54,16 +55,17 @@ export default function BiosPage() {
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
+                <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-xl bg-white shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg"
-                    alt="BIOS fermenter unit installed on concrete foundation with agricultural field in background"
-                    width={800}
-                    height={600}
-                    className="object-cover scale-110 w-full h-full"
+                    src="/images/products/BIOS_R2_concept_2026-11-26.webp"
+                    alt="BIOS 80 – proposed vertical reactor, concept visualization"
+                    width={1269}
+                    height={1495}
+                    className="h-full w-full object-contain p-2 md:p-3"
                     unoptimized={true}
                   />
                 </div>
+                <p className="mt-3 text-center text-sm text-muted-foreground">{t("bios.hero_caption")}</p>
               </FadeIn>
             </div>
           </div>
@@ -85,7 +87,7 @@ export default function BiosPage() {
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
                 <h3 className="mb-2 text-xl font-semibold">{t("bios.feature1")}</h3>
-                <p className="text-muted-foreground">{t("bios.feature1")}</p>
+                <p className="text-muted-foreground">{t("bios.feature1.desc")}</p>
               </div>
 
               <div className="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
@@ -93,7 +95,7 @@ export default function BiosPage() {
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
                 <h3 className="mb-2 text-xl font-semibold">{t("bios.feature2")}</h3>
-                <p className="text-muted-foreground">{t("bios.feature2")}</p>
+                <p className="text-muted-foreground">{t("bios.feature2.desc")}</p>
               </div>
 
               <div className="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
@@ -101,7 +103,7 @@ export default function BiosPage() {
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
                 <h3 className="mb-2 text-xl font-semibold">{t("bios.feature3")}</h3>
-                <p className="text-muted-foreground">{t("bios.feature3")}</p>
+                <p className="text-muted-foreground">{t("bios.feature3.desc")}</p>
               </div>
 
               <div className="rounded-lg border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-md hover:translate-y-[-5px]">
@@ -109,7 +111,7 @@ export default function BiosPage() {
                   <Check className="h-6 w-6 text-green-600" />
                 </div>
                 <h3 className="mb-2 text-xl font-semibold">{t("bios.feature4")}</h3>
-                <p className="text-muted-foreground">{t("bios.feature4")}</p>
+                <p className="text-muted-foreground">{t("bios.feature4.desc")}</p>
               </div>
             </StaggeredChildren>
           </div>
@@ -128,23 +130,23 @@ export default function BiosPage() {
             <div className="grid gap-8 md:grid-cols-3">
               <FadeIn delay={0.1}>
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
-                  <h3 className="mb-4 text-xl font-semibold text-center">BIOS 50m³</h3>
+                  <h3 className="mb-4 text-xl font-semibold text-center">BIOS 50</h3>
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Functional volume:</span>
+                      <span className="font-medium">{t("bios.specs.working_volume")}</span>
                       <span>50 m³</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Height:</span>
+                      <span className="font-medium">{t("bios.specs.height")}</span>
                       <span>7 m</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Installation dimensions:</span>
-                      <span>5 x 5 m</span>
+                      <span className="font-medium max-w-[60%]">{t("bios.specs.footprint")}</span>
+                      <span className="shrink-0">5 × 5 m</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Processing capacity:</span>
-                      <span>~10,000 t/year</span>
+                      <span className="font-medium max-w-[52%]">{t("bios.specs.throughput")}</span>
+                      <span className="shrink-0 text-right text-sm">{t("bios.specs.bios50")}</span>
                     </li>
                   </ul>
                 </div>
@@ -152,23 +154,23 @@ export default function BiosPage() {
 
               <FadeIn delay={0.2}>
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
-                  <h3 className="mb-4 text-xl font-semibold text-center">BIOS 80m³</h3>
+                  <h3 className="mb-4 text-xl font-semibold text-center">BIOS 80</h3>
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Functional volume:</span>
+                      <span className="font-medium">{t("bios.specs.working_volume")}</span>
                       <span>80 m³</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Height:</span>
+                      <span className="font-medium">{t("bios.specs.height")}</span>
                       <span>9.5 m</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Installation dimensions:</span>
-                      <span>5 x 5 m</span>
+                      <span className="font-medium max-w-[60%]">{t("bios.specs.footprint")}</span>
+                      <span className="shrink-0">5 × 5 m</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Processing capacity:</span>
-                      <span>~16,000 t/year</span>
+                      <span className="font-medium max-w-[52%]">{t("bios.specs.throughput")}</span>
+                      <span className="shrink-0 text-right text-sm">{t("bios.specs.bios80")}</span>
                     </li>
                   </ul>
                 </div>
@@ -176,27 +178,32 @@ export default function BiosPage() {
 
               <FadeIn delay={0.3}>
                 <div className="rounded-lg border bg-white p-6 shadow-sm">
-                  <h3 className="mb-4 text-xl font-semibold text-center">BIOS 100m³</h3>
+                  <h3 className="mb-4 text-xl font-semibold text-center">BIOS 100</h3>
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Functional volume:</span>
+                      <span className="font-medium">{t("bios.specs.working_volume")}</span>
                       <span>100 m³</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Height:</span>
+                      <span className="font-medium">{t("bios.specs.height")}</span>
                       <span>11 m</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Installation dimensions:</span>
-                      <span>5 x 5 m</span>
+                      <span className="font-medium max-w-[60%]">{t("bios.specs.footprint")}</span>
+                      <span className="shrink-0">5 × 5 m</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
-                      <span className="font-medium">Processing capacity:</span>
-                      <span>~20,000 t/year</span>
+                      <span className="font-medium max-w-[52%]">{t("bios.specs.throughput")}</span>
+                      <span className="shrink-0 text-right text-sm">{t("bios.specs.bios100")}</span>
                     </li>
                   </ul>
                 </div>
               </FadeIn>
+            </div>
+            <div className="mx-auto mt-8 max-w-4xl space-y-2 rounded-lg border border-blue-100 bg-white p-5 text-sm text-muted-foreground">
+              <p className="font-semibold text-blue-700">{t("bios.stage_notice")}</p>
+              <p>{t("bios.specs.note")}</p>
+              <p>{t("bios.process_note")}</p>
             </div>
           </div>
         </section>
@@ -214,7 +221,7 @@ export default function BiosPage() {
                 </SlideUp>
                 <SlideUp delay={0.3}>
                   <Button asChild size="lg" className="bg-white text-green-900 hover:bg-green-50">
-                    <a href="https://blobs.vusercontent.net/blob/BIOS-A4-d2jxLAhs9LHKPu4wz7Les0GtIMnlcU.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
                       <Download className="mr-2 h-5 w-5" />
                       {t("product.download.brochure")}
                     </a>
