@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
   "base": "https://www.solbien.com",
-  "generatedAt": "2026-11-26T22:54:45.593Z",
+  "generatedAt": "2026-11-26T22:58:36.844Z",
   "routes": [
     "/",
     "/about",
@@ -99,8 +99,8 @@
               1119
             ],
             "displayed": [
-              1442,
-              637
+              1450,
+              640
             ],
             "fit": "cover",
             "parentRatio": 2.26,
@@ -110,10 +110,10 @@
             "alt": "BIOCON R8 container fermenter with open lid, complete product view",
             "src": "https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1440,
+              1207
             ],
             "displayed": [
               652,
@@ -127,10 +127,10 @@
             "alt": "EWA - Ecological Waste Apparatus",
             "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1448,
+              1086
             ],
             "displayed": [
               717,
@@ -144,10 +144,10 @@
             "alt": "BIOS fermenter unit installed on concrete foundation with agricultural field in background",
             "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1024,
+              574
             ],
             "displayed": [
               717,
@@ -161,10 +161,10 @@
             "alt": "BEWABOX tunnel fermenter",
             "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              694,
+              289
             ],
             "displayed": [
               717,
@@ -178,17 +178,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -432,17 +432,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -733,17 +733,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -977,17 +977,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -1168,17 +1168,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -1328,34 +1328,34 @@
             "alt": "Financováno Evropskou unií - Projekt inovace kontejnerového fermentoru BIOKON",
             "src": "https://www.solbien.com/images/eu-funding-banner.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1572,
+              262
             ],
             "displayed": [
               800,
-              200
+              133
             ],
             "fit": "fill",
-            "parentRatio": 6.76,
+            "parentRatio": 10.14,
             "fullData": "/images/eu-funding-banner.png"
           },
           {
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -1504,17 +1504,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -1665,17 +1665,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -1825,8 +1825,8 @@
               1119
             ],
             "displayed": [
-              390,
-              593
+              393,
+              597
             ],
             "fit": "cover",
             "parentRatio": 0.66,
@@ -1836,10 +1836,10 @@
             "alt": "BIOCON R8 container fermenter with open lid, complete product view",
             "src": "https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1440,
+              1207
             ],
             "displayed": [
               358,
@@ -1853,10 +1853,10 @@
             "alt": "EWA - Ecological Waste Apparatus",
             "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1448,
+              1086
             ],
             "displayed": [
               394,
@@ -1870,10 +1870,10 @@
             "alt": "BIOS fermenter unit installed on concrete foundation with agricultural field in background",
             "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1024,
+              574
             ],
             "displayed": [
               394,
@@ -1887,10 +1887,10 @@
             "alt": "BEWABOX tunnel fermenter",
             "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              694,
+              289
             ],
             "displayed": [
               394,
@@ -1904,17 +1904,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -2100,10 +2100,10 @@
             "alt": "Kateřina Elisová",
             "src": "https://www.solbien.com/images/katerina-elisova.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              512,
+              512
             ],
             "displayed": [
               356,
@@ -2117,10 +2117,10 @@
             "alt": "Petr Vaníček",
             "src": "https://www.solbien.com/images/jaroslav-kral.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              216,
+              308
             ],
             "displayed": [
               356,
@@ -2134,10 +2134,10 @@
             "alt": "Václav Holuša",
             "src": "https://www.solbien.com/images/petr-vanicek.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              382,
+              382
             ],
             "displayed": [
               356,
@@ -2151,17 +2151,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -2437,17 +2437,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -2624,10 +2624,10 @@
             "alt": "EWA - Ecological Waste Apparatus",
             "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1448,
+              1086
             ],
             "displayed": [
               359,
@@ -2641,10 +2641,10 @@
             "alt": "BIOS fermenter unit installed on concrete foundation with agricultural field in background",
             "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1024,
+              574
             ],
             "displayed": [
               394,
@@ -2658,10 +2658,10 @@
             "alt": "BEWABOX tunnel fermenter",
             "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              694,
+              289
             ],
             "displayed": [
               359,
@@ -2675,17 +2675,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -2859,17 +2859,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -3011,34 +3011,34 @@
             "alt": "Financováno Evropskou unií - Projekt inovace kontejnerového fermentoru BIOKON",
             "src": "https://www.solbien.com/images/eu-funding-banner.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1572,
+              262
             ],
             "displayed": [
               358,
-              90
+              60
             ],
             "fit": "fill",
-            "parentRatio": 4,
+            "parentRatio": 6,
             "fullData": "/images/eu-funding-banner.png"
           },
           {
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -3181,17 +3181,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
@@ -3334,17 +3334,17 @@
             "alt": "Solbien Logo",
             "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
             "broken": false,
-            "loaded": false,
+            "loaded": true,
             "natural": [
-              0,
-              0
+              1191,
+              464
             ],
             "displayed": [
-              150,
+              103,
               40
             ],
             "fit": "fill",
-            "parentRatio": 3.75,
+            "parentRatio": 2.57,
             "fullData": "/images/solbien_logotyp-bila.png"
           }
         ],
