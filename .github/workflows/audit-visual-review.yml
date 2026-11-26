@@ -35,3 +35,5 @@ jobs:
             git commit -m 'Add base64 text copies for screenshot QA review'
             git push origin 'HEAD:refs/heads/audit/full-site-2026-11-26'
           fi
+
+# Refresh screenshot encodings after scroll-activated visual audit.
