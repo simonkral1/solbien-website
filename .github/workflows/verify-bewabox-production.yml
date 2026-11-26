@@ -1,0 +1,46 @@
+name: Verify published BEWABOX brochure and product page
+
+on:
+  push:
+    branches: [content/bewabox-2026-11-26]
+    paths: ['.github/workflows/verify-bewabox-production.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-production:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify page is live and has new BEWABOX values
+        shell: bash
+        run: |
+          set -euo pipefail
+          for i in 1 2 3 4 5 6 7 8; do
+            if curl -fsSL --retry 2 --retry-delay 3 --retry-connrefused --max-time 45 \
+              -o bewabox.html 'https://www.solbien.com/products/bewabox' \
+              && grep -Fq 'SOLBIEN_BEWABOX_Web_2026-11-26.pdf' bewabox.html \
+              && grep -Fq '192 t' bewabox.html \
+              && grep -Fq '4,400' bewabox.html; then
+              echo 'New BEWABOX web page and revised figures are public.'
+              break
+            fi
+            if test "$i" -eq 8; then
+              echo 'Production page was not updated in time.'
+              exit 1
+            fi
+            sleep 10
+          done
+          test "$(grep -o 'SOLBIEN_BEWABOX_Web_2026-11-26.pdf' bewabox.html | wc -l)" -ge 2
+          grep -Fq 'h-full w-full object-contain' bewabox.html
+      - name: Verify PDF from production matches approved source exactly
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 5 --retry-delay 5 --retry-connrefused --max-time 50 \
+            -o bewabox.pdf -w 'PDF HTTP: %{http_code}; bytes: %{size_download}\n' \
+            'https://www.solbien.com/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf'
+          test "$(stat -c %s bewabox.pdf)" -eq 233499
+          printf '%s  %s\n' 'f5c74dbfb9372787f24fbfc2ef5bda7c164661a6d5fba3dd867a00474c42cde9' 'bewabox.pdf' | sha256sum -c -
+          echo 'Published PDF matches exact approved 26 November 2026 brochure.'
