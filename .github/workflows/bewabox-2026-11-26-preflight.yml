@@ -1,0 +1,37 @@
+name: BEWABOX 26 November publication preflight
+
+on:
+  push:
+    branches: [content/bewabox-2026-11-26]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '20'
+          cache: pnpm
+      - name: Verify exact approved brochure and page links
+        shell: bash
+        run: |
+          set -euo pipefail
+          pdf=public/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf
+          test "$(stat -c %s "$pdf")" -eq 233499
+          echo 'f5c74dbfb9372787f24fbfc2ef5bda7c164661a6d5fba3dd867a00474c42cde9  public/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf' | sha256sum -c -
+          test "$(grep -o 'SOLBIEN_BEWABOX_Web_2026-11-26.pdf' app/products/bewabox/page.tsx | wc -l)" -eq 2
+          ! grep -q 'BEWABOX-A4-Ou1sW6hAbZY1i1R4UpMQsSSoAJVxMh.pdf' app/products/bewabox/page.tsx
+          grep -Fq '192 t' app/products/bewabox/page.tsx
+          grep -Fq 'bewabox.specs.capacity_value' contexts/language-context.tsx
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build full Next.js site
+        run: pnpm build
