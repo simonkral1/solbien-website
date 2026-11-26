@@ -1,0 +1,58 @@
+name: Verify BIOS R2 production publication
+
+on:
+  push:
+    branches: [content/bios-r2-2026-11-26]
+    paths:
+      - '.github/workflows/verify-bios-r2-production.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-live:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify BIOS live page contains approved content
+        shell: bash
+        run: |
+          set -euo pipefail
+          page='https://www.solbien.com/products/bios'
+          for n in $(seq 1 8); do
+            code="$(curl -sSL --retry 2 --retry-delay 3 --max-time 35 -o page.html -w '%{http_code}' "$page" || true)"
+            if [ "$code" = '200' ] && \
+               grep -Fq 'SOLBIEN_BIOS_R2_Web_2026-11-26.pdf' page.html && \
+               grep -Fq 'BIOS_R2_concept_2026-11-26.webp' page.html && \
+               grep -Fq 'Design targets pending prototype validation' page.html && \
+               grep -Fq '10,000 t/year' page.html && \
+               grep -Fq '16,000 t/year' page.html && \
+               grep -Fq '20,000 t/year' page.html; then
+              echo "Production page HTTP $code, updated BIOS R2 content verified."
+              break
+            fi
+            if [ "$n" -eq 8 ]; then
+              echo "Live page not updated; HTTP=$code" >&2
+              exit 1
+            fi
+            sleep 8
+          done
+          ! grep -Fq 'BIOS-A4-d2jxLAhs9LHKPu4wz7Les0GtIMnlcU.pdf' page.html
+      - name: Verify BIOS PDF available with approved checksum
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 5 --retry-delay 4 --retry-connrefused --max-time 45 \
+            -o BIOS_R2.pdf -w 'PDF HTTP=%{http_code}, bytes=%{size_download}\n' \
+            'https://www.solbien.com/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf'
+          test "$(stat -c %s BIOS_R2.pdf)" -eq 326099
+          printf '%s  %s\n' '097a1670dfacefbea6e13bb855f459d3a2156224fdd1e75f73d6c8dd80437775' 'BIOS_R2.pdf' | sha256sum -c -
+      - name: Verify BIOS concept image available with approved checksum
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 5 --retry-delay 4 --retry-connrefused --max-time 45 \
+            -o bios.webp -w 'Image HTTP=%{http_code}, bytes=%{size_download}\n' \
+            'https://www.solbien.com/images/products/BIOS_R2_concept_2026-11-26.webp'
+          test "$(stat -c %s bios.webp)" -eq 53894
+          printf '%s  %s\n' 'f96a1df2a24fffaa50a2b91adefb37afb39057243e6180979cf93ca9944d16ac' 'bios.webp' | sha256sum -c -
