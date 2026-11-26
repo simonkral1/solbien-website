@@ -1,0 +1,24 @@
+name: Check BIOCON image fix on production
+on:
+  push:
+    branches: [fix/biocon-hero-image-fit]
+    paths: ['.github/workflows/verify-biocon-image-live.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify public page image classes
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fLsS --retry 5 --retry-delay 5 --retry-connrefused --max-time 40 \
+            -o biocon.html -w 'HTTP=%{http_code} BYTES=%{size_download}\n' \
+            'https://www.solbien.com/products/biocon'
+          grep -Fq 'aspect-[4/3] overflow-hidden rounded-xl bg-white shadow-xl' biocon.html
+          grep -Fq 'h-full w-full object-contain' biocon.html
+          ! grep -Fq 'object-cover scale-110 w-full h-full' biocon.html
+          grep -Fq 'SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf' biocon.html
+          echo 'Live BIOCON hero uses uncropped image while retaining R8 brochure.'
