@@ -1,0 +1,46 @@
+name: Verify BIOCON photo reuse on home and product listing
+
+on:
+  push:
+    branches: [fix/biocon-photo-home-products]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Configure pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: '9'
+      - name: Configure Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '20'
+          cache: pnpm
+      - name: Check only approved BIOCON photo is used in both sections
+        shell: bash
+        run: |
+          set -euo pipefail
+          image=public/images/products/BIOCON_R8_full_photo_2026-11-26.webp
+          test "$(stat -c %s "$image")" -eq 90378
+          printf '%s  %s\n' '292be21b4cab3f1a7230857f438eaba68d1fcde5eafb09c8cc18a8efb5b3482f' "$image" | sha256sum -c -
+          for path in app/page.tsx app/products/page.tsx; do
+            test "$(grep -o 'src="/images/products/BIOCON_R8_full_photo_2026-11-26.webp"' "$path" | wc -l)" -eq 1
+            grep -Fq 'aspect-[4/3]' "$path"
+            grep -Fq 'className="object-contain p-3 md:p-4"' "$path"
+            ! grep -Fq 'Screenshot%202026-05-03%20at%2019.33.18' "$path"
+          done
+          grep -Fq '/products/biocon' app/page.tsx
+          grep -Fq '/products/biocon' app/products/page.tsx
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Verify site build
+        run: pnpm build
