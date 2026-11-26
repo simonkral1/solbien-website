@@ -1,0 +1,36 @@
+name: Verify published EWA brochure on SOLBIEN production
+
+on:
+  push:
+    branches: [migration/cloudflare-pages]
+    paths: ['.github/workflows/verify-ewa-production.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  production-http-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch live EWA product page
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --retry 4 --retry-delay 4 --retry-connrefused -fsSL --max-time 35 \
+            -o ewa.html -w 'HTTP page: %{http_code}, bytes: %{size_download}\n' \
+            'https://www.solbien.com/products/ewa'
+          grep -q 'SOLBIEN_EWA_R3_Web_2026-11-26.pdf' ewa.html
+          grep -q '48' ewa.html
+          grep -q 'VN20160014' ewa.html
+          echo 'Page shows updated PDF, cycle and EU ETV certification.'
+      - name: Verify actual PDF download and checksum
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --retry 4 --retry-delay 4 --retry-connrefused -fsSL --max-time 40 \
+            -o ewa.pdf -w 'HTTP PDF: %{http_code}, bytes: %{size_download}\n' \
+            'https://www.solbien.com/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf'
+          test "$(stat -c %s ewa.pdf)" -eq 300574
+          printf '%s  %s\n' '44fe9a370e30665733394f11ff93952610036df685ac0b101017e0e5548c31de' 'ewa.pdf' | sha256sum -c -
+          echo 'Live PDF bytes match approved optimized EWA R3.'
