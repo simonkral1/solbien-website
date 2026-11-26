@@ -37,6 +37,14 @@ async function main(){
      await page.waitForLoadState("networkidle",{timeout:8000}).catch(()=>{});
      await page.evaluate(()=>document.fonts?.ready).catch(()=>{});
      await page.waitForTimeout(1000);
+     // Reveal scroll-triggered FadeIn/StaggeredChildren elements before full-page QA.
+     const scrollHeight=await page.evaluate(()=>document.documentElement.scrollHeight);
+     for(let offset=0;offset<scrollHeight;offset+=Math.round(v.h*0.70)){
+       await page.evaluate(y=>window.scrollTo(0,y),offset);
+       await page.waitForTimeout(110);
+     }
+     await page.evaluate(()=>window.scrollTo(0,0));
+     await page.waitForTimeout(600);
      item.audit=await page.evaluate(({host,terms})=>{
       const txt=(document.body?.innerText||"").replace(/\s+/g," ").trim();
       const all=[...document.querySelectorAll("img")];
