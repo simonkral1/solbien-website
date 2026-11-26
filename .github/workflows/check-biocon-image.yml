@@ -1,0 +1,38 @@
+name: Verify BIOCON image rendering fix
+
+on:
+  push:
+    branches: [fix/biocon-hero-image-fit]
+    paths:
+      - app/products/biocon/page.tsx
+      - .github/workflows/check-biocon-image.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '20'
+          cache: pnpm
+      - name: Check image presentation invariants
+        shell: bash
+        run: |
+          set -euo pipefail
+          file=app/products/biocon/page.tsx
+          grep -Fq 'aspect-[4/3]' "$file"
+          grep -Fq 'h-full w-full object-contain' "$file"
+          ! grep -Fq 'object-cover scale-110' "$file"
+          ! grep -Fq 'objectPosition: "left center"' "$file"
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build Next.js website
+        run: pnpm build
