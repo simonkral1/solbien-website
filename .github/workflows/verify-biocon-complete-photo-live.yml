@@ -1,0 +1,38 @@
+name: Verify complete BIOCON R8 photo on public website
+
+on:
+  push:
+    branches: [fix/biocon-r8-complete-photo]
+    paths:
+      - '.github/workflows/verify-biocon-complete-photo-live.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-live:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify live page references new local photo, not old screenshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 5 --retry-delay 4 --retry-connrefused --max-time 45 \
+            -o page.html -w 'Product page HTTP=%{http_code} BYTES=%{size_download}\n' \
+            'https://www.solbien.com/products/biocon'
+          grep -Fq 'src="/images/products/BIOCON_R8_full_photo_2026-11-26.webp"' page.html
+          grep -Fq 'object-contain p-3 md:p-4' page.html
+          ! grep -Fq 'Screenshot%202026-05-03%20at%2019.33.18' page.html
+          echo 'Live hero points to full BIOCON R8 photograph.'
+      - name: Verify new image is actually served and byte-exact
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 5 --retry-delay 4 --retry-connrefused --max-time 45 \
+            -o photo.webp -w 'Photo HTTP=%{http_code} BYTES=%{size_download}\n' \
+            'https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp'
+          test "$(stat -c %s photo.webp)" -eq 90378
+          printf '%s  %s\n' '292be21b4cab3f1a7230857f438eaba68d1fcde5eafb09c8cc18a8efb5b3482f' 'photo.webp' | sha256sum -c -
+          file photo.webp
+          echo 'Live photo has exact verified bytes.'
