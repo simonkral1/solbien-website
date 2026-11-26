@@ -138,6 +138,7 @@ export default function EwaPage() {
                       <span className="max-w-[58%] text-right">
                         <span className="block">{t("ewa.specs.capacity_value")}</span>
                         <span className="block text-xs text-muted-foreground">{t("ewa.specs.capacity_note")}</span>
+                      </span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("ewa.specs.container_type")}</span>
