@@ -1,0 +1,37 @@
+name: BIOCON R8 publication preflight
+
+on:
+  push:
+    branches: [content/biocon-r8]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "20"
+          cache: pnpm
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Validate staged PDF and content
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(stat -c %s public/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf)" = 212490
+          printf '%s  %s\n' '0d35b3936559c33bd3fb3292770890cf186c96b35f2d846482a6f1df3673b211' 'public/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf' | sha256sum -c -
+          test "$(grep -o 'SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf' app/products/biocon/page.tsx | wc -l)" -eq 2
+          grep -q '29 m³' app/products/biocon/page.tsx
+          grep -q '2500 mm' app/products/biocon/page.tsx
+          ! grep -q 'blobs.vusercontent.net/blob/BIOCON-A4' app/products/biocon/page.tsx
+          grep -q 'biokon.specs.throughput_note' contexts/language-context.tsx
+      - name: Build Next.js
+        run: pnpm build
