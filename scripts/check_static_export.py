@@ -8,8 +8,8 @@ OUT = Path("out")
 BROCHURES = {
     "bewabox": ("/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf",
         "f5c74dbfb9372787f24fbfc2ef5bda7c164661a6d5fba3dd867a00474c42cde9"),
-    "biocon": ("/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf",
-        "0d35b3936559c33bd3fb3292770890cf186c96b35f2d846482a6f1df3673b211"),
+    "biocon": ("/downloads/SOLBIEN_BIOCON_R9_Web_2026-11-26.pdf",
+        "ae0f7f683d6b5c0266a166a7bc59e630b8c883572aac444a1e2660afc103b846"),
     "bios": ("/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf",
         "097a1670dfacefbea6e13bb855f459d3a2156224fdd1e75f73d6c8dd80437775"),
     "ewa": ("/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf",
