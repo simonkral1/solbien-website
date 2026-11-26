@@ -1,0 +1,48 @@
+name: Verify BIOCON image on public home and products pages
+
+on:
+  push:
+    branches: [fix/biocon-photo-home-products]
+    paths: ['.github/workflows/verify-biocon-home-products-live.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  production-http:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify both public page HTML images
+        shell: bash
+        run: |
+          set -euo pipefail
+          for path in / /products; do
+            success=0
+            for n in $(seq 1 10); do
+              code="$(curl -sSL --retry 2 --retry-delay 3 --max-time 35 \
+                -o page.html -w '%{http_code}' "https://www.solbien.com${path}" || true)"
+              if [ "$code" = "200" ] && \
+                 grep -Fq 'src="/images/products/BIOCON_R8_full_photo_2026-11-26.webp"' page.html && \
+                 grep -Fq 'object-contain p-3 md:p-4' page.html && \
+                 ! grep -Fq 'Screenshot%202026-05-03%20at%2019.33.18' page.html; then
+                success=1
+                echo "Live page ${path} correct; HTTP ${code}"
+                break
+              fi
+              sleep 6
+            done
+            if [ "$success" -ne 1 ]; then
+              echo "Page ${path} still not serving approved BIOCON R8 source" >&2
+              exit 1
+            fi
+          done
+      - name: Verify actual image is served
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 5 --retry-delay 4 --retry-connrefused --max-time 40 \
+            -o biocon.webp -w 'Image HTTP=%{http_code}, bytes=%{size_download}\n' \
+            'https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp'
+          test "$(stat -c %s biocon.webp)" -eq 90378
+          printf '%s  %s\n' '292be21b4cab3f1a7230857f438eaba68d1fcde5eafb09c8cc18a8efb5b3482f' 'biocon.webp' | sha256sum -c -
