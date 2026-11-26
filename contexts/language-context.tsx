@@ -142,14 +142,14 @@ EN: {
       "BIOCON is our simplest fermentation technology offering an excellent price-performance ratio. It is specifically designed for ease of transportation and unloading using AB-roll trucks. Additionally, BIOCON can be equipped with photovoltaic panels, making it suitable for operation in off-grid locations.",
     "ewa.title": "Aerobic Fermenter EWA",
     "ewa.subtitle":
-      "Processing capacity 1500 t/year (functional internal volume 36 m³) for all biowaste including food waste and wastewater treatment plant sludge requiring ETV.",
+      "Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application.",
     "ewa.feature1": "Possibility of worldwide transport (modified ISO container 40 feet High Cube)",
     "ewa.feature2": "Simple plug and play installation",
     "ewa.feature3": "BAT technology, best on the market thanks to protected internal layering technology",
-    "ewa.feature4": "All certifications for global deployment",
+    "ewa.feature4": "EU ETV verification of EWA 2020 sanitization under specified conditions",
     "ewa.cta": "Learn More About EWA",
     "ewa.description":
-      "EWA is our advanced aerobic fermenter designed for global deployment. It's built in a modified ISO container for easy worldwide transport and comes with all necessary certifications. The EWA fermenter is particularly suitable for processing food waste and wastewater treatment plant sludge.",
+      "EWA is an enclosed aerobic batch fermenter in a modified ISO container. The EU ETV verification applies specifically to EWA 2020 sanitization performance for selected Category 2 and Category 3 animal by-products under the specified operating conditions.",
     "bios.title": "Aerobic Fermenter BIOS",
     "bios.subtitle":
       "Processing capacity tens of thousands of t/year, usable for large waste processors and cities. Available in 50 m³, 80 m³ or custom capacity precisely according to customer requirements.",
@@ -334,6 +334,8 @@ EN: {
     // EWA specifications
     "ewa.specs.functional_volume": "Functional internal volume",
     "ewa.specs.processing_capacity": "Processing capacity",
+    "ewa.specs.capacity_value": "Approx. 1,500 t/year",
+    "ewa.specs.capacity_note": "Depends on batch mass, cycle time and operating days",
     "ewa.specs.container_type": "Container type",
     "ewa.specs.container_type_value": "Modified ISO 40 feet High Cube",
     "ewa.specs.length": "Length",
@@ -346,8 +348,8 @@ EN: {
     "ewa.specs.sanitization_temperature_value": "Up to 80°C",
     "ewa.specs.process_duration": "Process duration",
     "ewa.specs.hours": "hours",
-    "ewa.specs.certifications": "Certifications",
-    "ewa.specs.certifications_value": "EU Regulation No. 1069/2009",
+    "ewa.specs.certifications": "EU ETV verification",
+    "ewa.specs.certifications_value": "EWA 2020: sanitization of selected Category 2/3 animal by-products under specified conditions. Certificate VN20160014, issued 29 January 2021.",
 
     // Download brochure
     "product.download.brochure": "Download Brochure",
@@ -473,14 +475,14 @@ CS: {
       "BIOCON je naše nejjednodušší fermentační technologie nabízející vynikající poměr ceny a výkonu. Je speciálně navržen pro snadnou přepravu a vykládku pomocí vozidel AB-roll. Navíc může být BIOCON vybaven fotovoltaickými panely, což jej činí vhodným pro provoz v místech bez připojení k elektrické síti.",
     "ewa.title": "Aerobní fermentor EWA",
     "ewa.subtitle":
-      "Zpracovatelská kapacita 1500 t/rok (funkční vnitřní objem 36 m³) pro veškerý bioodpad včetně potravinového odpadu a kalů z čistíren odpadních vod vyžadujících ETV.",
+      "Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití.",
     "ewa.feature1": "Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube)",
     "ewa.feature2": "Jednoduchá instalace plug and play",
     "ewa.feature3": "BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení",
-    "ewa.feature4": "Všechny certifikace pro globální nasazení",
+    "ewa.feature4": "EU ETV ověření hygienizace EWA 2020 za vymezených podmínek",
     "ewa.cta": "Více o EWA",
     "ewa.description":
-      "EWA je náš pokročilý aerobní fermentor navržený pro globální nasazení. Je postaven v upraveném ISO kontejneru pro snadnou celosvětovou přepravu a je dodáván se všemi potřebnými certifikacemi. Fermentor EWA je zvláště vhodný pro zpracování potravinového odpadu a kalů z čistíren odpadních vod.",
+      "EWA je uzavřený dávkový aerobní fermentor v upraveném ISO kontejneru. Ověření EU ETV se vztahuje konkrétně na hygienizační účinnost EWA 2020 u vybraných vedlejších živočišných produktů kategorií 2 a 3 za stanovených provozních podmínek.",
     "bios.title": "Aerobní fermentor BIOS",
     "bios.subtitle":
       "Zpracovatelská kapacita desítky tisíc t/rok, použitelný pro velké zpracovatele odpadu a města. K dispozici v modelech 50 m³, 80 m³ nebo s vlastní kapacitou přesně podle požadavků zákazníka.",
@@ -666,6 +668,8 @@ CS: {
     // EWA specifications
     "ewa.specs.functional_volume": "Funkční vnitřní objem",
     "ewa.specs.processing_capacity": "Zpracovatelská kapacita",
+    "ewa.specs.capacity_value": "Přibližně 1 500 t/rok",
+    "ewa.specs.capacity_note": "Závisí na hmotnosti dávky, délce cyklu a provozních dnech",
     "ewa.specs.container_type": "Typ kontejneru",
     "ewa.specs.container_type_value": "Upravený ISO 40 stop High Cube",
     "ewa.specs.length": "Délka",
@@ -678,8 +682,8 @@ CS: {
     "ewa.specs.sanitization_temperature_value": "Až 80°C",
     "ewa.specs.process_duration": "Doba procesu",
     "ewa.specs.hours": "hodin",
-    "ewa.specs.certifications": "Certifikace",
-    "ewa.specs.certifications_value": "Nařízení EU č. 1069/2009",
+    "ewa.specs.certifications": "Ověření EU ETV",
+    "ewa.specs.certifications_value": "EWA 2020: hygienizace vybraných vedlejších živočišných produktů kategorií 2 a 3 za stanovených podmínek. Certifikát VN20160014, vydán 29. ledna 2021.",
 
     // Download brochure
     "product.download.brochure": "Stáhnout brožuru",
