@@ -1,0 +1,37 @@
+name: Prepare compact audit screenshots for visual review
+
+on:
+  push:
+    branches: [audit/full-site-2026-11-26]
+    paths: ['.github/workflows/audit-visual-review.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  encode-selected:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Encode contact sheets and priority screenshot into text files
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd audit-results/2026-11-26
+          for img in CONTACT-desktop.jpg CONTACT-mobile.jpg home-desktop.jpg home-mobile.jpg products-desktop.jpg solutions-desktop.jpg about-desktop.jpg products-bios-mobile.jpg; do
+            test -s "$img"
+            base64 -w0 "$img" > "$img.b64"
+          done
+      - name: Commit encoded review material only to audit branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF_NAME" = 'audit/full-site-2026-11-26'
+          git config user.name 'solbien-audit-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add audit-results/2026-11-26/*.b64
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add base64 text copies for screenshot QA review'
+            git push origin 'HEAD:refs/heads/audit/full-site-2026-11-26'
+          fi
