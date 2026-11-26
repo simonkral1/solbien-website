@@ -6,12 +6,12 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 OUT = Path("out")
 BROCHURES = {
-    "bewabox": ("/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf",
-        "f5c74dbfb9372787f24fbfc2ef5bda7c164661a6d5fba3dd867a00474c42cde9"),
+    "bewabox": ("/downloads/SOLBIEN_BEWABOX_R1_Web_2026-11-27.pdf",
+        "fab21ec85bca6298028165373b19c7a431233803c082508f056b3c28ce93e0be"),
     "biocon": ("/downloads/SOLBIEN_BIOCON_R9_Web_2026-11-26.pdf",
         "ae0f7f683d6b5c0266a166a7bc59e630b8c883572aac444a1e2660afc103b846"),
-    "bios": ("/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf",
-        "097a1670dfacefbea6e13bb855f459d3a2156224fdd1e75f73d6c8dd80437775"),
+    "bios": ("/downloads/SOLBIEN_BIOS_R3_Web_2026-11-27.pdf",
+        "f55e33065eac6d6fc00dfd069602f7fe6a6d86668ed7965b9b1cb63f57285a63"),
     "ewa": ("/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf",
         "44fe9a370e30665733394f11ff93952610036df685ac0b101017e0e5548c31de"),
 }
