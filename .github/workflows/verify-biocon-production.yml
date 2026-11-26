@@ -1,0 +1,36 @@
+name: Verify BIOCON R8 production publication
+
+on:
+  push:
+    branches: [content/biocon-r8]
+    paths: ['.github/workflows/verify-biocon-production.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-live:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify production page and its approved brochure link
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 5 --retry-delay 5 --retry-connrefused --max-time 40 \
+            -o page.html -w 'Page HTTP: %{http_code}, size: %{size_download}\n' \
+            'https://www.solbien.com/products/biocon'
+          grep -q 'SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf' page.html
+          grep -q '29 m³' page.html
+          grep -q '2500 mm' page.html
+          echo 'Production BIOCON page includes approved updated values and PDF link.'
+      - name: Verify actual brochure downloaded from production
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 5 --retry-delay 5 --retry-connrefused --max-time 40 \
+            -o BIOCON_R8.pdf -w 'Brochure HTTP: %{http_code}, size: %{size_download}\n' \
+            'https://www.solbien.com/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf'
+          test "$(stat -c %s BIOCON_R8.pdf)" -eq 212490
+          printf '%s  %s\n' '0d35b3936559c33bd3fb3292770890cf186c96b35f2d846482a6f1df3673b211' 'BIOCON_R8.pdf' | sha256sum -c -
+          echo 'Production brochure matches approved BIOCON R8 exactly.'
