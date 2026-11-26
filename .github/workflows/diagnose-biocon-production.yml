@@ -1,0 +1,31 @@
+name: Diagnose BIOCON R8 live site
+
+on:
+  push:
+    branches: [content/biocon-r8]
+    paths: ['.github/workflows/diagnose-biocon-production.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check live page and PDF without hiding diagnostic markers
+        shell: bash
+        run: |
+          set -uo pipefail
+          echo '--- LIVE PRODUCT PAGE ---'
+          curl -sSL --retry 3 --max-time 35 -o page.html -w 'HTTP=%{http_code} URL=%{url_effective} BYTES=%{size_download}\n' 'https://www.solbien.com/products/biocon'
+          for phrase in 'SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf' '29 m³' '2500 mm' '30 m³' '2480 mm' 'BIOCON-A4-L2L1'; do
+            if grep -Fq "$phrase" page.html; then echo "FOUND $phrase"; else echo "MISSING $phrase"; fi
+          done
+          echo '--- LIVE PDF ---'
+          curl -sSL --retry 3 --max-time 35 -D pdf.headers -o biocon.pdf -w 'HTTP=%{http_code} URL=%{url_effective} BYTES=%{size_download}\n' 'https://www.solbien.com/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf'
+          stat -c 'file bytes=%s' biocon.pdf
+          sha256sum biocon.pdf
+          head -c 16 biocon.pdf | od -An -tx1
+          echo '--- HEADERS ---'
+          grep -iE '^HTTP/|^content-type:|^content-length:|^location:' pdf.headers | head -20
