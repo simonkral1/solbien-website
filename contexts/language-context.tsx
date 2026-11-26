@@ -139,7 +139,7 @@ EN: {
     "biokon.feature4": "Automatic process control and continuous temperature monitoring",
     "biokon.cta": "Learn More About BIOCON",
     "biokon.description":
-      "BIOCON is our simplest fermentation technology offering an excellent price-performance ratio. It is specifically designed for ease of transportation and unloading using AB-roll trucks. Additionally, BIOCON can be equipped with photovoltaic panels, making it suitable for operation in off-grid locations.",
+      "BIOCON is a mobile, enclosed aerobic batch fermenter with a 29 m³ working volume. It is compatible with hook-lift trucks and can be equipped with an optional photovoltaic and battery system for off-grid operation.",
     "ewa.title": "Aerobic Fermenter EWA",
     "ewa.subtitle":
       "Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application.",
@@ -465,7 +465,7 @@ CS: {
 
     "products.title": "Naše produkty",
 
-    "biokon.title": "Aerobní fermentor BIOCON",
+    "biokon.title": "Aerobní fermentor BIOKON / BIOCON",
     "biokon.subtitle":
       "Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu.",
     "biokon.feature1": "Volitelný ostrovní provoz s fotovoltaikou a bateriemi",
@@ -474,7 +474,7 @@ CS: {
     "biokon.feature4": "Automatické řízení procesu a průběžné měření teploty",
     "biokon.cta": "Více o BIOCONu",
     "biokon.description":
-      "BIOCON je naše nejjednodušší fermentační technologie nabízející vynikající poměr ceny a výkonu. Je speciálně navržen pro snadnou přepravu a vykládku pomocí vozidel AB-roll. Navíc může být BIOCON vybaven fotovoltaickými panely, což jej činí vhodným pro provoz v místech bez připojení k elektrické síti.",
+      "BIOKON (v anglických materiálech BIOCON) je mobilní uzavřený dávkový aerobní fermentor s pracovním objemem 29 m³. Je kompatibilní s hákovými nosiči a může být vybaven volitelnou fotovoltaikou a bateriemi pro ostrovní provoz.",
     "ewa.title": "Aerobní fermentor EWA",
     "ewa.subtitle":
       "Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití.",
