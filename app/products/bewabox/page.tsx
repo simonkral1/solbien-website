@@ -45,7 +45,7 @@ export default function BewaboxPage() {
                   </SlideUp>
                   <SlideUp delay={0.2}>
                     <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-                      <a href="https://blobs.vusercontent.net/blob/BEWABOX-A4-Ou1sW6hAbZY1i1R4UpMQsSSoAJVxMh.pdf" target="_blank" rel="noopener noreferrer">
+                      <a href="/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
                         <Download className="mr-2 h-5 w-5" />
                         {t("product.download.brochure")}
                       </a>
@@ -54,13 +54,13 @@ export default function BewaboxPage() {
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl bg-green-100">
+                <div className="relative aspect-[4/3] overflow-hidden rounded-xl shadow-xl bg-white">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
                     alt="BEWABOX tunnel fermenter"
                     width={800}
                     height={600}
-                    className="object-cover scale-110 w-full h-full"
+                    className="h-full w-full object-contain"
                     unoptimized={true}
                   />
                 </div>
@@ -182,11 +182,26 @@ export default function BewaboxPage() {
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("bewabox.specs.capacity")}</span>
-                      <span>~4,400 t/year</span>
+                      <span className="max-w-[58%] text-right">
+                        <span className="block">{t("bewabox.specs.capacity_value")}</span>
+                        <span className="block text-xs text-muted-foreground">{t("bewabox.specs.capacity_note")}</span>
+                      </span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("bewabox.specs.process")}</span>
                       <span>{t("bewabox.specs.process_value")}</span>
+                    </li>
+                    <li className="flex justify-between gap-3 border-b pb-2">
+                      <span className="font-medium">{t("bewabox.specs.reference_tunnel")}</span>
+                      <span className="text-right">6 × 32 × 5–6 m</span>
+                    </li>
+                    <li className="flex justify-between gap-3 border-b pb-2">
+                      <span className="font-medium">{t("bewabox.specs.batch_mass")}</span>
+                      <span className="text-right">192 t</span>
+                    </li>
+                    <li className="flex justify-between gap-3 border-b pb-2">
+                      <span className="font-medium">{t("bewabox.specs.batches")}</span>
+                      <span className="text-right">{t("bewabox.specs.batches_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("bewabox.specs.best_fit")}</span>
@@ -205,7 +220,15 @@ export default function BewaboxPage() {
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("bewabox.specs.aeration")}</span>
-                      <span>{t("bewabox.specs.aeration_value")}</span>
+                      <span className="max-w-[57%] text-right">{t("bewabox.specs.aeration_value")}</span>
+                    </li>
+                    <li className="flex justify-between gap-3 border-b pb-2">
+                      <span className="font-medium">{t("bewabox.specs.duration")}</span>
+                      <span className="text-right">{t("bewabox.specs.duration_value")}</span>
+                    </li>
+                    <li className="flex justify-between gap-3 border-b pb-2">
+                      <span className="font-medium">{t("bewabox.specs.fan")}</span>
+                      <span className="text-right">{t("bewabox.specs.fan_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("bewabox.specs.scalability")}</span>
@@ -231,7 +254,7 @@ export default function BewaboxPage() {
                 </SlideUp>
                 <SlideUp delay={0.3}>
                   <Button asChild size="lg" className="bg-white text-green-900 hover:bg-green-50">
-                    <a href="https://blobs.vusercontent.net/blob/BEWABOX-A4-Ou1sW6hAbZY1i1R4UpMQsSSoAJVxMh.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
                       <Download className="mr-2 h-5 w-5" />
                       {t("product.download.brochure")}
                     </a>
