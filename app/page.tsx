@@ -362,13 +362,12 @@ export default function Home() {
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
+                <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-white shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.33.18-jet3U6YJC8csj5YXVqhC1zZjReHbRg.png"
-                    alt="BIOCON container fermenter"
-                    style={{ objectPosition: "left center" }}
+                    src="/images/products/BIOCON_R8_full_photo_2026-11-26.webp"
+                    alt="BIOCON R8 container fermenter with open lid, complete product view"
                     fill
-                    className="object-cover scale-110 bg-white"
+                    className="object-contain p-3 md:p-4"
                     unoptimized={true}
                   />
                 </div>
