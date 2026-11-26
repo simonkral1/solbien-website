@@ -1,0 +1,52 @@
+name: Verify BIOS R2 brochure and product page
+
+on:
+  push:
+    branches: [content/bios-r2-2026-11-26]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout staging branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '20'
+          cache: pnpm
+      - name: Verify approved brochure and concept illustration
+        shell: bash
+        run: |
+          set -euo pipefail
+          pdf=public/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf
+          image=public/images/products/BIOS_R2_concept_2026-11-26.webp
+          test "$(stat -c %s "$pdf")" -eq 326099
+          test "$(stat -c %s "$image")" -eq 53894
+          printf '%s  %s\n' '097a1670dfacefbea6e13bb855f459d3a2156224fdd1e75f73d6c8dd80437775' "$pdf" | sha256sum -c -
+          printf '%s  %s\n' 'f96a1df2a24fffaa50a2b91adefb37afb39057243e6180979cf93ca9944d16ac' "$image" | sha256sum -c -
+          test "$(grep -o 'SOLBIEN_BIOS_R2_Web_2026-11-26.pdf' app/products/bios/page.tsx | wc -l)" -eq 2
+          grep -Fq 'BIOS_R2_concept_2026-11-26.webp' app/products/bios/page.tsx
+          grep -Fq 'object-contain' app/products/bios/page.tsx
+          ! grep -Fq 'BIOS-A4-d2jxLAhs9LHKPu4wz7Les0GtIMnlcU.pdf' app/products/bios/page.tsx
+          ! grep -Fq 'scale-110' app/products/bios/page.tsx
+          grep -Fq 'bios.stage_notice' contexts/language-context.tsx
+          grep -Fq '10,000 t/year' contexts/language-context.tsx
+          grep -Fq '16,000 t/year' contexts/language-context.tsx
+          grep -Fq '20,000 t/year' contexts/language-context.tsx
+          grep -Fq 'Návrhové parametry čekají na ověření prototypem' contexts/language-context.tsx
+          echo 'BIOS R2 PDF, concept image, links and development-stage claims verified.'
+      - name: Install exact dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build complete Next.js website
+        run: pnpm build
