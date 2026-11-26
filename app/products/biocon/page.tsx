@@ -56,11 +56,11 @@ export default function BioconPage() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-white shadow-xl">
                   <Image
-                    src="/images/migrated/biocon-product.webp"
-                    alt="BIOCON container fermenter"
-                    width={800}
-                    height={600}
-                    className="h-full w-full object-contain"
+                    src="/images/products/BIOCON_R8_full_photo_2026-11-26.webp"
+                    alt="BIOCON fermenter with its lid open, complete product view"
+                    width={1440}
+                    height={1207}
+                    className="h-full w-full object-contain p-3 md:p-4"
                     unoptimized={true}
                   />
                 </div>
