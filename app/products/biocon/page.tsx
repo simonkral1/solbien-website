@@ -45,7 +45,7 @@ export default function BioconPage() {
                   </SlideUp>
                   <SlideUp delay={0.2}>
                     <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-                      <a href="https://blobs.vusercontent.net/blob/BIOCON-A4-L2L1FZSCz8wQI55Ha8vX65XIadPitU.pdf" target="_blank" rel="noopener noreferrer">
+                      <a href="/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
                         <Download className="mr-2 h-5 w-5" />
                         {t("product.download.brochure")}
                       </a>
@@ -187,7 +187,7 @@ export default function BioconPage() {
                   <ul className="space-y-4">
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("biokon.specs.capacity")}</span>
-                      <span>30 m³</span>
+                      <span>29 m³</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("biokon.specs.weight")}</span>
@@ -203,7 +203,7 @@ export default function BioconPage() {
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("biokon.specs.width")}</span>
-                      <span>2480 mm</span>
+                      <span>2500 mm</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("biokon.specs.height")}</span>
@@ -234,11 +234,14 @@ export default function BioconPage() {
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("biokon.specs.frame_hook_lift")}</span>
-                      <span>{t("biokon.specs.frame_hook_lift_value")}</span>
+                      <span className="max-w-[58%] text-right text-sm">{t("biokon.specs.frame_hook_lift_value")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("biokon.specs.processing_capacity")}</span>
-                      <span>1000 t/year</span>
+                      <span className="max-w-[58%] text-right">
+                        <span className="block">{t("biokon.specs.throughput_value")}</span>
+                        <span className="block text-xs text-muted-foreground">{t("biokon.specs.throughput_note")}</span>
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -260,7 +263,7 @@ export default function BioconPage() {
                 </SlideUp>
                 <SlideUp delay={0.3}>
                   <Button asChild size="lg" className="bg-green-600 text-white hover:bg-green-700">
-                    <a href="https://blobs.vusercontent.net/blob/BIOCON-A4-L2L1FZSCz8wQI55Ha8vX65XIadPitU.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
                       <Download className="mr-2 h-5 w-5" />
                       {t("product.download.brochure")}
                     </a>
