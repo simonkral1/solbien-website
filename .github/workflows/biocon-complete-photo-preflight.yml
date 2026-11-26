@@ -1,0 +1,38 @@
+name: Verify complete BIOCON R8 product photograph
+
+on:
+  push:
+    branches: [fix/biocon-r8-complete-photo]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "20"
+          cache: pnpm
+      - name: Check actual replacement image, links and no cropping
+        shell: bash
+        run: |
+          set -euo pipefail
+          image=public/images/products/BIOCON_R8_full_photo_2026-11-26.webp
+          test "$(stat -c %s "$image")" -eq 90378
+          printf '%s  %s\n' '292be21b4cab3f1a7230857f438eaba68d1fcde5eafb09c8cc18a8efb5b3482f' "$image" | sha256sum -c -
+          grep -Fq 'src="/images/products/BIOCON_R8_full_photo_2026-11-26.webp"' app/products/biocon/page.tsx
+          grep -Fq 'h-full w-full object-contain p-3 md:p-4' app/products/biocon/page.tsx
+          ! grep -Fq 'Screenshot%202026-05-03%20at%2019.33.18' app/products/biocon/page.tsx
+          ! grep -Fq 'object-cover scale-110' app/products/biocon/page.tsx
+          grep -Fq 'SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf' app/products/biocon/page.tsx
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build Next.js
+        run: pnpm build
