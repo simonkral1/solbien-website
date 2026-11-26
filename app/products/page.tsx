@@ -46,7 +46,7 @@ export default function ProductsPage() {
               <div className="grid items-center gap-8 md:grid-cols-2">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.33.18-jet3U6YJC8csj5YXVqhC1zZjReHbRg.png"
+                    src="/images/migrated/biocon-product.png"
                     alt="BIOCON container fermenter"
                     style={{ objectPosition: "left center" }}
                     fill
@@ -110,7 +110,7 @@ export default function ProductsPage() {
                 </div>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl order-2 md:order-1">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
+                    src="/images/migrated/ewa-product.png"
                     alt="EWA - Ecological Waste Apparatus"
                     fill
                     className="object-cover scale-110"
@@ -123,7 +123,7 @@ export default function ProductsPage() {
               <div className="grid items-center gap-8 md:grid-cols-2">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg"
+                    src="/images/migrated/bios-product.jpeg"
                     alt="BIOS fermenter unit installed on concrete foundation with agricultural field in background"
                     fill
                     className="object-cover scale-110"
@@ -186,7 +186,7 @@ export default function ProductsPage() {
                 </div>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl order-2 md:order-1 bg-green-100">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+                    src="/images/migrated/bewabox-product.png"
                     alt="BEWABOX tunnel fermenter"
                     fill
                     className="object-cover scale-110"

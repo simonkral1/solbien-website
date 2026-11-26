@@ -40,7 +40,7 @@ export default function SolutionsPage() {
               <FadeIn delay={0.2}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web2.jpg-ahOqJnuuV4l7oHngZXSNrS1jP0CaHR.jpeg"
+                    src="/images/migrated/biocon-solutions.jpeg"
                     alt="Solbien fermenter in operation"
                     width={800}
                     height={600}
