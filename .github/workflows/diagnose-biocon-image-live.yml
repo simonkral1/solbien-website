@@ -1,0 +1,29 @@
+name: Diagnose BIOCON image on public domain
+
+on:
+  push:
+    branches: [fix/biocon-hero-image-fit]
+    paths: ['.github/workflows/diagnose-biocon-image-live.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect fresh public HTML for hero classes
+        shell: bash
+        run: |
+          set -euo pipefail
+          for suffix in '' '?nocache=biocon-20261126-img'; do
+            echo "---- REQUEST: $suffix"
+            curl -sSL --retry 3 --max-time 40 -D response.headers \
+              -o response.html -w 'HTTP=%{http_code} BYTES=%{size_download} FINAL=%{url_effective}\n' \
+              "https://www.solbien.com/products/biocon$suffix"
+            for marker in 'aspect-video overflow-hidden' 'aspect-[4/3] overflow-hidden' 'object-cover scale-110' 'h-full w-full object-contain' 'SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf'; do
+              if grep -Fq "$marker" response.html; then echo "FOUND $marker"; else echo "MISSING $marker"; fi
+            done
+            grep -iE '^HTTP/|^x-vercel|^cache-control:|^age:|^server:|^etag:' response.headers | head -15
+          done
