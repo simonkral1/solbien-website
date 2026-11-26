@@ -4,7 +4,7 @@ Pracovní postup z 26. 11. 2026 pro správce webu a správce domény. Zdroj je v
 
 ## 1. Založení testovacího projektu
 
-1. Přihlaste se do firemního účtu na [dash.cloudflare.com](https://dash.cloudflare.com/), případně jej založte na adrese spravované SOLBIEN, potvrďte e-mail a nastavte vícefaktorové ověření a zastupitelnost správce. Pro tento projekt stačí tarif Free. Registrace domény ani změna nameserverů k testu nejsou potřeba.
+1. Na [registrační stránce Cloudflare](https://dash.cloudflare.com/sign-up) založte účet s e-mailovou adresou spravovanou SOLBIEN. Potvrďte adresu odkazem z doručeného e-mailu a nastavte vícefaktorové ověření a zastupitelnost správce. Pro tento projekt stačí tarif Free. Registrace domény ani změna nameserverů k testu nejsou potřeba.
 2. Otevřete **Workers & Pages → Create application → Pages → Import an existing Git repository**. Zvolte GitHub, u aplikace Cloudflare povolte přístup k repozitáři **simonkral1/solbien-website**, vyberte jej a otevřete **Begin setup**.
 3. Vyplňte hodnoty v tabulce. Volba *Production branch* zde určuje hlavní adresu testovacího projektu na `pages.dev`. Firemní doménu nastaví správce až ve schváleném okně přepnutí.
 
@@ -75,4 +75,4 @@ Referenční zdroj obrázků je commit `7d6e9dd1813cf403d2ef829d91c8d99db57b5cf7
 - V aktivních stránkách zůstávají čtyři produktové PDF na blobs.vusercontent.net. Oba odkazy u každého produktu se shodují. U všech čtyř dokumentů server při čtení začátku PDF odpověděl 206, typem application/pdf a platnou signaturou. Finální listy čekají na schválení.
 - Dvě staré obrazové adresy v archivním app/_backup/implementations-page.tsx nejsou ve výstupu. Generátor v0.app v metadatech je textový údaj. Balíček @vercel/analytics byl odebrán ze závislostí i ze zámku. Jednorázové zrcadlení z Vercelu, nasazovací workflow GitHub Pages a nepoužívaná simulační serverová akce byly z migrační větve odstraněny.
 - Při porovnání s referenční verzí se na anglické /solutions při šířce 320 px objevil vodorovný přesah 11 px v kartách řešení. Migrační úprava dovoluje zalomit popisek jejich tří produktových tlačítek na displeji užším než 360 px. Texty zůstávají shodné s výchozí verzí.
-- Kontrolu na skutečném Pages, TLS, firemní DNS a doručování pošty provede správce při příslušné etapě. Připojení firemního účtu Cloudflare nebylo doloženo.
+- Kontrolu na skutečném Pages, TLS, firemní DNS a doručování pošty provede správce při příslušné etapě. SOLBIEN dne 26. 11. 2026 potvrdil, že firemní účet Cloudflare dosud nebyl založen.
