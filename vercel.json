@@ -1,0 +1,7 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "migration/cloudflare-pages": false
+    }
+  }
+}

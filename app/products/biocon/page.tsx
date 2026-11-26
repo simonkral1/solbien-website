@@ -56,7 +56,7 @@ export default function BioconPage() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="/images/migrated/biocon-product.png"
+                    src="/images/migrated/biocon-product.webp"
                     alt="BIOCON container fermenter"
                     style={{ objectPosition: "left center" }}
                     width={800}

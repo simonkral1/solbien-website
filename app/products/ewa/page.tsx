@@ -56,7 +56,7 @@ export default function EwaPage() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="/images/migrated/ewa-product.png"
+                    src="/images/migrated/ewa-product.webp"
                     alt="EWA - Ecological Waste Apparatus"
                     width={800}
                     height={600}

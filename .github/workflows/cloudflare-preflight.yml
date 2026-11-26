@@ -19,12 +19,12 @@ jobs:
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9
+          version: 9.15.9
 
       - name: Set up Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
-          node-version: "20"
+          node-version: "22.23.4"
           cache: pnpm
 
       - name: Install locked dependencies
@@ -33,21 +33,8 @@ jobs:
       - name: Build static site
         run: pnpm build
 
-      - name: Validate expected static pages
-        shell: bash
-        run: |
-          set -euo pipefail
-          test -s out/index.html
-          for route in about contacts solutions products products/ewa products/biocon products/bios products/bewabox; do
-            test -s "out/${route}.html" || { echo "Missing exported route: ${route}"; exit 1; }
-          done
-          echo "All expected HTML routes exported successfully."
-
-      - name: Validate zero broken local paths in HTML
-        shell: bash
-        run: |
-          set -euo pipefail
-          test -s out/404.html
+      - name: Validate exported pages, assets, product links and size limits
+        run: python3 scripts/check_static_export.py
 
       - name: Preserve nonproduction build as test artifact
         uses: actions/upload-artifact@v4

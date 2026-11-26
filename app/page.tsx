@@ -62,7 +62,7 @@ export default function Home() {
         <section className="relative">
           <div className="absolute inset-0 z-0 overflow-hidden">
             <Image
-              src="/images/migrated/home-meadow.jpeg"
+              src="/images/migrated/home-meadow.webp"
               alt="Green meadow with wildflowers under a bright blue sky with white clouds"
               fill
               className="object-cover scale-110 brightness-[0.85] animate-subtle-zoom"
@@ -364,7 +364,7 @@ export default function Home() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="/images/migrated/biocon-product.png"
+                    src="/images/migrated/biocon-product.webp"
                     alt="BIOCON container fermenter"
                     style={{ objectPosition: "left center" }}
                     fill
@@ -384,7 +384,7 @@ export default function Home() {
               <FadeIn delay={0.3} className="order-2 lg:order-1">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="/images/migrated/ewa-product.png"
+                    src="/images/migrated/ewa-product.webp"
                     alt="EWA - Ecological Waste Apparatus"
                     fill
                     className="object-cover scale-110 bg-white"
@@ -479,7 +479,7 @@ export default function Home() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="/images/migrated/bios-product.jpeg"
+                    src="/images/migrated/bios-product.webp"
                     alt="BIOS fermenter unit installed on concrete foundation with agricultural field in background"
                     fill
                     className="object-cover scale-110 bg-white"
@@ -498,7 +498,7 @@ export default function Home() {
               <FadeIn delay={0.3} className="order-2 lg:order-1">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="/images/migrated/bewabox-product.png"
+                    src="/images/migrated/bewabox-product.webp"
                     alt="BEWABOX tunnel fermenter"
                     fill
                     className="object-cover scale-110 bg-white"

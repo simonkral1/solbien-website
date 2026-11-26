@@ -40,7 +40,7 @@ export default function SolutionsPage() {
               <FadeIn delay={0.2}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="/images/migrated/biocon-solutions.jpeg"
+                    src="/images/migrated/biocon-solutions.webp"
                     alt="Solbien fermenter in operation"
                     width={800}
                     height={600}
@@ -101,7 +101,7 @@ export default function SolutionsPage() {
                     </li>
                   </ul>
                   <Link href="/products/biocon">
-                    <Button className="w-full">
+                    <Button className="w-full max-[359px]:h-auto max-[359px]:min-h-10 max-[359px]:whitespace-normal">
                       {t("biokon.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
                     </Button>
@@ -128,7 +128,7 @@ export default function SolutionsPage() {
                     </li>
                   </ul>
                   <Link href="/products/bios">
-                    <Button className="w-full">
+                    <Button className="w-full max-[359px]:h-auto max-[359px]:min-h-10 max-[359px]:whitespace-normal">
                       {t("bios.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
                     </Button>
@@ -155,7 +155,7 @@ export default function SolutionsPage() {
                     </li>
                   </ul>
                   <Link href="/products/ewa">
-                    <Button className="w-full">
+                    <Button className="w-full max-[359px]:h-auto max-[359px]:min-h-10 max-[359px]:whitespace-normal">
                       {t("ewa.cta")}
                       <ChevronRight className="ml-2 h-4 w-4" />
                     </Button>

@@ -46,7 +46,7 @@ export default function ProductsPage() {
               <div className="grid items-center gap-8 md:grid-cols-2">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="/images/migrated/biocon-product.png"
+                    src="/images/migrated/biocon-product.webp"
                     alt="BIOCON container fermenter"
                     style={{ objectPosition: "left center" }}
                     fill
@@ -110,7 +110,7 @@ export default function ProductsPage() {
                 </div>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl order-2 md:order-1">
                   <Image
-                    src="/images/migrated/ewa-product.png"
+                    src="/images/migrated/ewa-product.webp"
                     alt="EWA - Ecological Waste Apparatus"
                     fill
                     className="object-cover scale-110"
@@ -123,7 +123,7 @@ export default function ProductsPage() {
               <div className="grid items-center gap-8 md:grid-cols-2">
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
                   <Image
-                    src="/images/migrated/bios-product.jpeg"
+                    src="/images/migrated/bios-product.webp"
                     alt="BIOS fermenter unit installed on concrete foundation with agricultural field in background"
                     fill
                     className="object-cover scale-110"
@@ -186,7 +186,7 @@ export default function ProductsPage() {
                 </div>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl order-2 md:order-1 bg-green-100">
                   <Image
-                    src="/images/migrated/bewabox-product.png"
+                    src="/images/migrated/bewabox-product.webp"
                     alt="BEWABOX tunnel fermenter"
                     fill
                     className="object-cover scale-110"

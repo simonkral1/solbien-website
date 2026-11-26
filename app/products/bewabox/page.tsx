@@ -56,7 +56,7 @@ export default function BewaboxPage() {
               <FadeIn delay={0.3}>
                 <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl bg-green-100">
                   <Image
-                    src="/images/migrated/bewabox-product.png"
+                    src="/images/migrated/bewabox-product.webp"
                     alt="BEWABOX tunnel fermenter"
                     width={800}
                     height={600}
