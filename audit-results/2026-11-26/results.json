@@ -1,0 +1,3646 @@
+{
+  "date": "2026-11-26",
+  "base": "https://www.solbien.com",
+  "generatedAt": "2026-11-26T22:54:45.593Z",
+  "routes": [
+    "/",
+    "/about",
+    "/contacts",
+    "/solutions",
+    "/products",
+    "/products/ewa",
+    "/products/biocon",
+    "/products/bios",
+    "/products/bewabox"
+  ],
+  "viewports": [
+    {
+      "name": "desktop",
+      "w": 1440,
+      "h": 900,
+      "mobile": false
+    },
+    {
+      "name": "mobile",
+      "w": 390,
+      "h": 844,
+      "mobile": true
+    }
+  ],
+  "results": [
+    {
+      "route": "/",
+      "view": "desktop",
+      "url": "https://www.solbien.com/",
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Turning Today's Waste Into Tomorrow's Resources"
+        ],
+        "h2": [
+          "Our Core Technology",
+          "Why Choose Solbien Technologies?",
+          "Types of Waste We Can Process",
+          "Our Products",
+          "Aerobic Fermenter BIOCON",
+          "Aerobic Fermenter EWA",
+          "BIOS – Vertical Reactor Concept",
+          "BEWABOX Tunnel Fermenter",
+          "Let's Clean the Planet Together"
+        ],
+        "textLength": 4822,
+        "firstText": "+420 605 902 903 info@solbien.com Products Solutions About Contacts EN CS Turning Today's Waste Into Tomorrow's Resources We transform biodegradable waste into sustainable resources, contributing to soil fertility, water protection, biodiversity, and circular economy goals. Discover Our Solutions Our Core Technology Advanced Aerobic Fermentation At Solbien, we specialize in developing innovative technologies to efficiently and sustainably process organic and biodegradable waste. Our state-of-the-art aerobic fermenters rapidly hygienize waste within just a few hours Converting bio-waste into valuable substrates (soil improvers). Once processed, these materials no longer require handling as waste and become valuable products suitable for agricultural use, land reclamation, or as biofuel. Municipal Waste Processing Our technology effectively processes the municipal waste undersize fraction from municipal waste sorting facilities. This municipal waste undersize fraction typically contains up to 50% biodegradable waste, mixed plastics, and other combustible materials By rapidly sanitizing this fraction, we transform it into an energy-rich fuel suitable for efficient energy recovery, further enhancing waste-to-energy solutions and supporting sustainable resource management. Why Choose Solbien Technologies? We turn biodegradable waste into sustainable resources, contributing to soil fertility, water protection, biodiversity, and circular economy goals. Natural & Eco-Friendly Process",
+        "fullText": "+420 605 902 903 info@solbien.com Products Solutions About Contacts EN CS Turning Today's Waste Into Tomorrow's Resources We transform biodegradable waste into sustainable resources, contributing to soil fertility, water protection, biodiversity, and circular economy goals. Discover Our Solutions Our Core Technology Advanced Aerobic Fermentation At Solbien, we specialize in developing innovative technologies to efficiently and sustainably process organic and biodegradable waste. Our state-of-the-art aerobic fermenters rapidly hygienize waste within just a few hours Converting bio-waste into valuable substrates (soil improvers). Once processed, these materials no longer require handling as waste and become valuable products suitable for agricultural use, land reclamation, or as biofuel. Municipal Waste Processing Our technology effectively processes the municipal waste undersize fraction from municipal waste sorting facilities. This municipal waste undersize fraction typically contains up to 50% biodegradable waste, mixed plastics, and other combustible materials By rapidly sanitizing this fraction, we transform it into an energy-rich fuel suitable for efficient energy recovery, further enhancing waste-to-energy solutions and supporting sustainable resource management. Why Choose Solbien Technologies? We turn biodegradable waste into sustainable resources, contributing to soil fertility, water protection, biodiversity, and circular economy goals. Natural & Eco-Friendly Process Increases temperature naturally while minimizing greenhouse gas emissions and supporting climate protection Certified Quality Complies with Regulation (EC) No. 1069/2009, ensuring the highest standards of safety Cost Efficiency Reduces transportation and disposal costs significantly with energy-efficient operation Rapid Processing Our aerobic fermentation technology drastically reduces processing time, improving efficiency and productivity. Effective Sanitization Operating at temperatures up to 80°C through natural fermentation, our systems safely eliminate harmful pathogens, bacteria, viruses, and weed seeds, ensuring complete sanitization of all processed materials. Types of Waste We Can Process Food Waste (restaurants, canteens, catering facilities) Agricultural Waste (crop residues, livestock manure, organic farm waste) Green Waste (garden waste, grass clippings, leaves, branches) Industrial Organic Waste (food processing industry waste, slaughterhouse waste) Municipal waste undersize fraction from Municipal Waste Sorting Facilities Biodegradable Components of Municipal Solid Waste Wood and Paper Industry Waste Organic Waste from Supermarkets and Retailers Compostable Packaging Materials and Textiles Our Products Aerobic Fermenter BIOCON Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. Optional off-grid operation with photovoltaic panels and batteries Enclosed aerobic batch treatment with controlled aeration Mobile hook-lift compatible container unit Automatic process control and continuous temperature monitoring Learn More About BIOCON Aerobic Fermenter EWA Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. Possibility of worldwide transport (modified ISO container 40 feet High Cube) Simple plug and play installation BAT technology, best on the market thanks to protected internal layering technology EU ETV verification of EWA 2020 sanitization under specified conditions Learn More About EWA BIOS – Vertical Reactor Concept Development-stage vertical reactor concept for continuous aerobic treatment and drying of biodegradable waste and organic-rich municipal solid waste (MSW) fines. Designed for integration into treatment lines Continuous aerobic treatment concept Main reactor footprint 5 × 5 m Drying with external heat Learn More About BIOS BEWABOX Tunnel Fermenter Enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams. No In-Reactor Turning Protected Floor Aeration Scalable Configuration Learn More About BEWABOX Let's Clean the Planet Together Join us in our mission to create a more sustainable future through innovative ecological solutions. Contact Us Today Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "highest standards of safety",
+          "no longer require handling as waste",
+          "complete sanitization",
+          "within just a few hours",
+          "best on the market",
+          "development-stage",
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 1440,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "Green meadow with wildflowers under a bright blue sky with white clouds",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo-1688068705061-0305b5828e58.jpg-KOgNya4us51GdxXhUNwozMYl87F6YB.jpeg",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1871,
+              1119
+            ],
+            "displayed": [
+              1442,
+              637
+            ],
+            "fit": "cover",
+            "parentRatio": 2.26,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo-1688068705061-0305b5828e58.jpg-KOgNya4us51GdxXhUNwozMYl87F6YB.jpeg"
+          },
+          {
+            "alt": "BIOCON R8 container fermenter with open lid, complete product view",
+            "src": "https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              652,
+              489
+            ],
+            "fit": "contain",
+            "parentRatio": 1.33,
+            "fullData": "/images/products/BIOCON_R8_full_photo_2026-11-26.webp"
+          },
+          {
+            "alt": "EWA - Ecological Waste Apparatus",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              717,
+              403
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
+          },
+          {
+            "alt": "BIOS fermenter unit installed on concrete foundation with agricultural field in background",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              717,
+              403
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg"
+          },
+          {
+            "alt": "BEWABOX tunnel fermenter",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              717,
+              403
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          },
+          {
+            "label": "Discover Our Solutions",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BIOCON",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About EWA",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BIOS",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BEWABOX",
+            "hasName": true
+          },
+          {
+            "label": "Contact Us Today",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "tel:+420605902903",
+            "text": "+420 605 902 903"
+          },
+          {
+            "href": "mailto:info@solbien.com",
+            "text": "info@solbien.com"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/solutions",
+            "text": "Discover Our Solutions"
+          },
+          {
+            "href": "/products/biocon",
+            "text": "Learn More About BIOCON"
+          },
+          {
+            "href": "/products/ewa",
+            "text": "Learn More About EWA"
+          },
+          {
+            "href": "/products/bios#top",
+            "text": "Learn More About BIOS"
+          },
+          {
+            "href": "/products/bewabox",
+            "text": "Learn More About BEWABOX"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contact Us Today"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/home-desktop.jpg",
+      "czech": {
+        "switchFound": true,
+        "afterH1": "Přeměňujeme dnešní odpad na zdroje budoucnosti",
+        "afterLang": "en",
+        "changed": true,
+        "afterSample": "+420 605 902 903 info@solbien.com Produkty Řešení O nás Kontakty EN CS Přeměňujeme dnešní odpad na zdroje budoucnosti Transformujeme biologicky rozložitelný odpad na udržitelné zdroje, přispíváme k úrodnosti půdy, ochraně vod, biodiverzitě a cílům cirkulární ekonomiky. Objevte naše řešení Naše klíčová technologie Pokročilá aerobní fermentace Ve společnosti Solbien se specializujeme na vývoj inovativních technologií pro efektivní a udržitelné zpracování organického a biologicky rozložitelného odpadu. Naše špičkové aerobní fermentory rychle hygienizují odpad během pouhých několika hodin Přeměňujeme bioodpad na hodnotné substráty (zlepšovače půdy). Po zpracování již tyto materiály nevyžadují nakládání jako s odpadem a stávají se cennými produkty vhodnými pro zemědělské využití, rekultivaci půdy nebo jako biopalivo. Zpracování komunálního odpadu Naše technologie efektivně zpracovává podsítnou frakci komunálního odpadu z třídicích linek. Tato podsítná frakce komunálního odpadu obvykle obsahuje až 50 % biologicky rozložitelného odpadu, směsných plastů a dalších hořlavých materiálů Rychlou hygienizací této frakce ji přeměňujeme na energeticky bohaté palivo vhodné pro efektivní energetické využití, čímž dále posilujeme řešení pro energetické využití odpadu a podporujeme udržitelné hospodaření se zdroji. Proč zvolit technologie Solbien? Přeměňujeme biologicky rozložitelný odpad na udržitelné zdroje, přispíváme k úrodnosti půdy, ochraně vod, biodiverzitě a cílům cirkulární ekonomiky. P",
+        "screenshot": "audit-results/2026-11-26/home-cs-desktop.jpg"
+      }
+    },
+    {
+      "route": "/about",
+      "view": "desktop",
+      "url": "https://www.solbien.com/about",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "O nás"
+        ],
+        "h2": [
+          "Od lokálních řešení k udržitelné a dekarbonizované budoucnosti",
+          "Náš tým",
+          "Připojte se k nám při vytváření udržitelné budoucnosti"
+        ],
+        "textLength": 2431,
+        "firstText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku O nás Zjistěte více o naší misi, vizi a závazku k udržitelnému nakládání s odpady Od lokálních řešení k udržitelné a dekarbonizované budoucnosti Pevně věříme, že řešení globálních environmentálních výzev začíná na lokální úrovni. Naším posláním je efektivně přeměňovat biologicky rozložitelný odpad na hygienicky stabilizované produkty, bezpečně a udržitelně využitelné v zemědělství nebo při výrobě energie. Tímto přímo přispíváme ke zmírnění skleníkového efektu a dekarbonizaci společnosti, nahrazujeme fosilní paliva a chemická hnojiva přírodními alternativami. Od počátku bylo naším cílem vyvíjet technologie, které jsou nejen globálně aplikovatelné, ale také šetrné k životnímu prostředí a podporující udržitelnost. Specializujeme se na navrhování a výrobu inovativních systémů aerobní fermentace a sušicích technologií s důrazem na nízkou spotřebu energie a obnovitelné zdroje energie, jako jsou fotovoltaické systémy, umožňující provoz i v odlehlých lokalitách bez připojení k elektrické síti. Naše patentované technologie – BIOKON, EWA, BIOS a BEWA – nabízejí škálovatelná řešení od malých lokálních jednotek až po vysokokapacitní zařízení, flexibilně splňující různorodé potřeby regionů a komunit. Díky pokročilému řízení procesu aerobní fermentace můžeme rychle a bezpečně přeměnit bioodpad na hodnotný kompost a biopalivo. Tento přístup podporuje cirkulární ekonomiku návratem živin do půdy, pomáhá obcím, městům a podnikům efekt",
+        "fullText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku O nás Zjistěte více o naší misi, vizi a závazku k udržitelnému nakládání s odpady Od lokálních řešení k udržitelné a dekarbonizované budoucnosti Pevně věříme, že řešení globálních environmentálních výzev začíná na lokální úrovni. Naším posláním je efektivně přeměňovat biologicky rozložitelný odpad na hygienicky stabilizované produkty, bezpečně a udržitelně využitelné v zemědělství nebo při výrobě energie. Tímto přímo přispíváme ke zmírnění skleníkového efektu a dekarbonizaci společnosti, nahrazujeme fosilní paliva a chemická hnojiva přírodními alternativami. Od počátku bylo naším cílem vyvíjet technologie, které jsou nejen globálně aplikovatelné, ale také šetrné k životnímu prostředí a podporující udržitelnost. Specializujeme se na navrhování a výrobu inovativních systémů aerobní fermentace a sušicích technologií s důrazem na nízkou spotřebu energie a obnovitelné zdroje energie, jako jsou fotovoltaické systémy, umožňující provoz i v odlehlých lokalitách bez připojení k elektrické síti. Naše patentované technologie – BIOKON, EWA, BIOS a BEWA – nabízejí škálovatelná řešení od malých lokálních jednotek až po vysokokapacitní zařízení, flexibilně splňující různorodé potřeby regionů a komunit. Díky pokročilému řízení procesu aerobní fermentace můžeme rychle a bezpečně přeměnit bioodpad na hodnotný kompost a biopalivo. Tento přístup podporuje cirkulární ekonomiku návratem živin do půdy, pomáhá obcím, městům a podnikům efektivně využívat odpadní materiály a pozitivně ovlivňuje biodiverzitu krajiny. Naší vizí je svět, ve kterém každý lokální krok vede k významné globální změně – směrem k čistšímu ovzduší, zdravější půdě, dekarbonizaci společnosti a udržitelné budoucnosti. Náš tým Jaroslav Král Generální ředitel (CEO) Kateřina Elisová Obchodní ředitel Petr Vaníček Technický ředitel, vedoucí R&D Václav Holuša Manažer environmentálních projektů Připojte se k nám při vytváření udržitelné budoucnosti Zjistěte, jak vám naše inovativní řešení mohou pomoci přeměnit odpad na cenné zdroje a přispět k čistší planetě. Prozkoumat naše produkty Kontaktujte nás Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 1440,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "Jaroslav Král",
+            "src": "https://www.solbien.com/images/vaclav-holusa.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              280,
+              280
+            ],
+            "displayed": [
+              312,
+              256
+            ],
+            "fit": "contain",
+            "parentRatio": 1.22,
+            "fullData": "/images/vaclav-holusa.png"
+          },
+          {
+            "alt": "Kateřina Elisová",
+            "src": "https://www.solbien.com/images/katerina-elisova.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              512,
+              512
+            ],
+            "displayed": [
+              312,
+              256
+            ],
+            "fit": "contain",
+            "parentRatio": 1.22,
+            "fullData": "/images/katerina-elisova.png"
+          },
+          {
+            "alt": "Petr Vaníček",
+            "src": "https://www.solbien.com/images/jaroslav-kral.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              216,
+              308
+            ],
+            "displayed": [
+              312,
+              256
+            ],
+            "fit": "contain",
+            "parentRatio": 1.22,
+            "fullData": "/images/jaroslav-kral.png"
+          },
+          {
+            "alt": "Václav Holuša",
+            "src": "https://www.solbien.com/images/petr-vanicek.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              382,
+              382
+            ],
+            "displayed": [
+              312,
+              256
+            ],
+            "fit": "contain",
+            "parentRatio": 1.22,
+            "fullData": "/images/petr-vanicek.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          },
+          {
+            "label": "Prozkoumat naše produkty",
+            "hasName": true
+          },
+          {
+            "label": "Kontaktujte nás",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontakty"
+          },
+          {
+            "href": "/",
+            "text": "Zpět na úvodní stránku"
+          },
+          {
+            "href": "/products",
+            "text": "Prozkoumat naše produkty"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontaktujte nás"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/about-desktop.jpg",
+      "czech": {
+        "switchFound": true,
+        "afterH1": "O nás",
+        "afterLang": "en",
+        "changed": false,
+        "afterSample": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku O nás Zjistěte více o naší misi, vizi a závazku k udržitelnému nakládání s odpady Od lokálních řešení k udržitelné a dekarbonizované budoucnosti Pevně věříme, že řešení globálních environmentálních výzev začíná na lokální úrovni. Naším posláním je efektivně přeměňovat biologicky rozložitelný odpad na hygienicky stabilizované produkty, bezpečně a udržitelně využitelné v zemědělství nebo při výrobě energie. Tímto přímo přispíváme ke zmírnění skleníkového efektu a dekarbonizaci společnosti, nahrazujeme fosilní paliva a chemická hnojiva přírodními alternativami. Od počátku bylo naším cílem vyvíjet technologie, které jsou nejen globálně aplikovatelné, ale také šetrné k životnímu prostředí a podporující udržitelnost. Specializujeme se na navrhování a výrobu inovativních systémů aerobní fermentace a sušicích technologií s důrazem na nízkou spotřebu energie a obnovitelné zdroje energie, jako jsou fotovoltaické systémy, umožňující provoz i v odlehlých lokalitách bez připojení k elektrické síti. Naše patentované technologie – BIOKON, EWA, BIOS a BEWA – nabízejí škálovatelná řešení od malých lokálních jednotek až po vysokokapacitní zařízení, flexibilně splňující různorodé potřeby regionů a komunit. Díky pokročilému řízení procesu aerobní fermentace můžeme rychle a bezpečně přeměnit bioodpad na hodnotný kompost a biopalivo. Tento přístup podporuje cirkulární ekonomiku návratem živin do půdy, pomáhá obcím, městům a podnikům efekt",
+        "screenshot": "audit-results/2026-11-26/about-cs-desktop.jpg"
+      }
+    },
+    {
+      "route": "/contacts",
+      "view": "desktop",
+      "url": "https://www.solbien.com/contacts",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Kontakty"
+        ],
+        "h2": [],
+        "textLength": 671,
+        "firstText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Kontakty Spojte se s naším týmem a dozvíte se více o našich produktech a řešeních Adresa SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic Telefon +420 605 902 903 E-mail info@solbien.com Kontaktní osoba Katerina Elisova Obchodní manažer Telefon: +420 605 902 903 E-mail: info@solbien.com Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "fullText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Kontakty Spojte se s naším týmem a dozvíte se více o našich produktech a řešeních Adresa SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic Telefon +420 605 902 903 E-mail info@solbien.com Kontaktní osoba Katerina Elisova Obchodní manažer Telefon: +420 605 902 903 E-mail: info@solbien.com Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 1440,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1191,
+              464
+            ],
+            "displayed": [
+              103,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 2.57,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontakty"
+          },
+          {
+            "href": "/",
+            "text": "Zpět na úvodní stránku"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/contacts-desktop.jpg",
+      "czech": {
+        "switchFound": true,
+        "afterH1": "Kontakty",
+        "afterLang": "en",
+        "changed": false,
+        "afterSample": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Kontakty Spojte se s naším týmem a dozvíte se více o našich produktech a řešeních Adresa SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic Telefon +420 605 902 903 E-mail info@solbien.com Kontaktní osoba Katerina Elisova Obchodní manažer Telefon: +420 605 902 903 E-mail: info@solbien.com Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "screenshot": "audit-results/2026-11-26/contacts-cs-desktop.jpg"
+      }
+    },
+    {
+      "route": "/solutions",
+      "view": "desktop",
+      "url": "https://www.solbien.com/solutions",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Naše řešení"
+        ],
+        "h2": [
+          "Ekologické zpracování biologicky rozložitelného odpadu pomocí technologie aerobní fermentace",
+          "Komplexní řešení pro nakládání s odpady",
+          "Náš proces",
+          "Konečné produkty",
+          "Jste připraveni transformovat své nakládání s odpady?"
+        ],
+        "textLength": 4573,
+        "firstText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Naše řešení Objevte, jak naše inovativní aerobní fermentory mohou transformovat váš proces nakládání s odpady Ekologické zpracování biologicky rozložitelného odpadu pomocí technologie aerobní fermentace Our aerobic fermenters are specifically designed for the ecological processing of biodegradable waste, including sewage sludge from wastewater treatment plants and animal by-products. The controlled fermentation process naturally generates heat within the system, eliminating the need for external heat sources. This internally generated heat effectively destroys pathogens, ensuring the resulting compost is hygienically safe and non-infectious. After fermentation, the compost is free from unpleasant odors, leachate, vectors, pathogens, dangerous viruses, bacteria, and parasite eggs or larvae that could otherwise contaminate the soil and pose risks to human health. Komplexní řešení pro nakládání s odpady Nabízíme komplexní řešení pro různé výzvy v oblasti nakládání s odpady Nakládání s komunálním odpadem Naše řešení jsou ideální pro obce, které chtějí efektivně zpracovávat biologicky rozložitelný odpad z obytných oblastí, parků a veřejných prostranství. Fermentory BIOKON a EWA lze snadno integrovat do stávajících systémů nakládání s odpady. Processing of green waste from parks and gardens Handling of food waste from residential areas Integration with existing collection systems Více o BIOCONu Vysokokapacitní řešení pro z",
+        "fullText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Naše řešení Objevte, jak naše inovativní aerobní fermentory mohou transformovat váš proces nakládání s odpady Ekologické zpracování biologicky rozložitelného odpadu pomocí technologie aerobní fermentace Our aerobic fermenters are specifically designed for the ecological processing of biodegradable waste, including sewage sludge from wastewater treatment plants and animal by-products. The controlled fermentation process naturally generates heat within the system, eliminating the need for external heat sources. This internally generated heat effectively destroys pathogens, ensuring the resulting compost is hygienically safe and non-infectious. After fermentation, the compost is free from unpleasant odors, leachate, vectors, pathogens, dangerous viruses, bacteria, and parasite eggs or larvae that could otherwise contaminate the soil and pose risks to human health. Komplexní řešení pro nakládání s odpady Nabízíme komplexní řešení pro různé výzvy v oblasti nakládání s odpady Nakládání s komunálním odpadem Naše řešení jsou ideální pro obce, které chtějí efektivně zpracovávat biologicky rozložitelný odpad z obytných oblastí, parků a veřejných prostranství. Fermentory BIOKON a EWA lze snadno integrovat do stávajících systémů nakládání s odpady. Processing of green waste from parks and gardens Handling of food waste from residential areas Integration with existing collection systems Více o BIOCONu Vysokokapacitní řešení pro zpracování odpadu Náš fermentor BIOS je navržen pro průmyslové provozy zpracovávající velké objemy biologicky rozložitelného odpadu nebo podsítnou frakci komunálního odpadu z třídicích linek. Prostřednictvím rychlé hygienizace přeměňujeme tento materiál na energeticky bohaté palivo vhodné pro efektivní energetické využití. Quickly eliminates pathogens, ensuring safety for energy use Optimizes energy recovery from mixed municipal waste Reduces disposal and transportation expenses Více o BIOSu Čistírny odpadních vod Náš fermentor EWA je speciálně navržen pro zpracování kalů z čistíren odpadních vod a poskytuje efektivní a ekologické řešení pro tento náročný odpadní proud. Processing of wastewater treatment plant sludge Reduction of odor and pathogen concerns Conversion to safe, usable end products Více o EWA Zemědělské aplikace Pro farmy a zemědělské provozy poskytují naše fermentory vynikající řešení pro nakládání se zvířecím odpadem, zbytky plodin a dalšími zemědělskými vedlejšími produkty. Processing of animal manure and bedding Handling of crop residues and agricultural waste Production of high-quality soil improvers Náš proces Jak naše technologie aerobní fermentace přeměňuje odpad na cenné zdroje 1 Sběr a nakládka Biologicky rozložitelný odpad je sbírán a nakládán do fermentoru pomocí standardního vybavení, jako jsou čelní nakladače. 2 Aerobní fermentace Začíná řízený proces fermentace, přičemž teploty přirozeně stoupají na 70-80 °C, což eliminuje patogeny. 3 Monitorování a řízení Naše automatizované systémy monitorují a řídí proces, zajišťují optimální podmínky pro efektivní fermentaci. 4 Vykládka a využití Po 48-72 hodinách je hygienizovaný materiál vyložen, připraven k použití jako zlepšovač půdy nebo k dalšímu zpracování. Konečné produkty Náš fermentační proces vytváří hodnotné výstupy z toho, co bylo kdysi odpadem Zlepšovač půdy The primary output of our fermentation process is a high-quality soil improver that can be used in agriculture, landscaping, and gardening. This material is: Free from pathogens and weed seeds Rich in organic matter and nutrients Beneficial for soil structure and water retention Compliant with regulatory standards Biomasa jako palivo In some applications, the output can be further processed into biomass fuel for energy generation. This creates a circular economy approach where waste becomes an energy source. This fuel is: Renewable and carbon-neutral Suitable for various heating and power generation applications Reduces dependence on fossil fuels Creates additional revenue streams Jste připraveni transformovat své nakládání s odpady? Kontaktujte nás ještě dnes a projednejte, jak naše řešení mohou řešit vaše specifické výzvy v oblasti nakládání s odpady. Kontaktujte nás Prozkoumat naše produkty Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "dangerousPhrases": [
+          "safe and non-infectious",
+          "free from unpleasant odors",
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 1440,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "Solbien fermenter in operation",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web2.jpg-ahOqJnuuV4l7oHngZXSNrS1jP0CaHR.jpeg",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              4000,
+              1848
+            ],
+            "displayed": [
+              717,
+              403
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web2.jpg-ahOqJnuuV4l7oHngZXSNrS1jP0CaHR.jpeg"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          },
+          {
+            "label": "Více o BIOCONu",
+            "hasName": true
+          },
+          {
+            "label": "Více o BIOSu",
+            "hasName": true
+          },
+          {
+            "label": "Více o EWA",
+            "hasName": true
+          },
+          {
+            "label": "Kontaktujte nás",
+            "hasName": true
+          },
+          {
+            "label": "Prozkoumat naše produkty",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontakty"
+          },
+          {
+            "href": "/",
+            "text": "Zpět na úvodní stránku"
+          },
+          {
+            "href": "/products/biocon",
+            "text": "Více o BIOCONu"
+          },
+          {
+            "href": "/products/bios",
+            "text": "Více o BIOSu"
+          },
+          {
+            "href": "/products/ewa",
+            "text": "Více o EWA"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontaktujte nás"
+          },
+          {
+            "href": "/products",
+            "text": "Prozkoumat naše produkty"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/solutions-desktop.jpg",
+      "czech": {
+        "switchFound": true,
+        "afterH1": "Naše řešení",
+        "afterLang": "en",
+        "changed": false,
+        "afterSample": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Naše řešení Objevte, jak naše inovativní aerobní fermentory mohou transformovat váš proces nakládání s odpady Ekologické zpracování biologicky rozložitelného odpadu pomocí technologie aerobní fermentace Our aerobic fermenters are specifically designed for the ecological processing of biodegradable waste, including sewage sludge from wastewater treatment plants and animal by-products. The controlled fermentation process naturally generates heat within the system, eliminating the need for external heat sources. This internally generated heat effectively destroys pathogens, ensuring the resulting compost is hygienically safe and non-infectious. After fermentation, the compost is free from unpleasant odors, leachate, vectors, pathogens, dangerous viruses, bacteria, and parasite eggs or larvae that could otherwise contaminate the soil and pose risks to human health. Komplexní řešení pro nakládání s odpady Nabízíme komplexní řešení pro různé výzvy v oblasti nakládání s odpady Nakládání s komunálním odpadem Naše řešení jsou ideální pro obce, které chtějí efektivně zpracovávat biologicky rozložitelný odpad z obytných oblastí, parků a veřejných prostranství. Fermentory BIOKON a EWA lze snadno integrovat do stávajících systémů nakládání s odpady. Processing of green waste from parks and gardens Handling of food waste from residential areas Integration with existing collection systems Více o BIOCONu Vysokokapacitní řešení pro z",
+        "screenshot": "audit-results/2026-11-26/solutions-cs-desktop.jpg"
+      }
+    },
+    {
+      "route": "/products",
+      "view": "desktop",
+      "url": "https://www.solbien.com/products",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Naše produkty"
+        ],
+        "h2": [
+          "Aerobní fermentor BIOKON / BIOCON",
+          "Aerobní fermentor EWA",
+          "BIOS – koncept vertikálního reaktoru",
+          "Tunelový fermentor BEWABOX",
+          "Najděte správné řešení pro vaše potřeby"
+        ],
+        "textLength": 3036,
+        "firstText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Naše produkty Objevte naši řadu ekologických aerobních fermentorů navržených pro efektivní zpracování bioodpadu Aerobní fermentor BIOKON / BIOCON Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. BIOKON (v anglických materiálech BIOCON) je mobilní uzavřený dávkový aerobní fermentor s pracovním objemem 29 m³. Je kompatibilní s hákovými nosiči a může být vybaven volitelnou fotovoltaikou a bateriemi pro ostrovní provoz. Volitelný ostrovní provoz s fotovoltaikou a bateriemi Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním Mobilní kontejnerová jednotka pro hákový nosič Více o BIOCONu Aerobní fermentor EWA Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. EWA je uzavřený dávkový aerobní fermentor v upraveném ISO kontejneru. Ověření EU ETV se vztahuje konkrétně na hygienizační účinnost EWA 2020 u vybraných vedlejších živočišných produktů kategorií 2 a 3 za stanovených provozních podmínek. Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube) Jednoduchá instalace plug and play BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení Více o EWA BIOS – koncept vertikálního reaktoru Vývojový kon",
+        "fullText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Naše produkty Objevte naši řadu ekologických aerobních fermentorů navržených pro efektivní zpracování bioodpadu Aerobní fermentor BIOKON / BIOCON Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. BIOKON (v anglických materiálech BIOCON) je mobilní uzavřený dávkový aerobní fermentor s pracovním objemem 29 m³. Je kompatibilní s hákovými nosiči a může být vybaven volitelnou fotovoltaikou a bateriemi pro ostrovní provoz. Volitelný ostrovní provoz s fotovoltaikou a bateriemi Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním Mobilní kontejnerová jednotka pro hákový nosič Více o BIOCONu Aerobní fermentor EWA Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. EWA je uzavřený dávkový aerobní fermentor v upraveném ISO kontejneru. Ověření EU ETV se vztahuje konkrétně na hygienizační účinnost EWA 2020 u vybraných vedlejších živočišných produktů kategorií 2 a 3 za stanovených provozních podmínek. Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube) Jednoduchá instalace plug and play BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení Více o EWA BIOS – koncept vertikálního reaktoru Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. BIOS je vývojový koncept vertikálního kontinuálního reaktoru pro velké provozovatele odpadového hospodářství. Pracovní objemy, cílové kapacity a hygienizační účinnost vyžadují ověření. Navržen pro integraci do zpracovatelských linek Koncept kontinuálního aerobního procesu Půdorys hlavního reaktoru 5 × 5 m Více o BIOSu Tunelový fermentor BEWABOX Uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů. BEWABOX je uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů. Bez obracení v reaktoru Chráněná podlahová aerace Škálovatelná konfigurace Více o BEWABOX Najděte správné řešení pro vaše potřeby Nejste si jisti, který produkt je pro vás vhodný? Kontaktujte náš tým pro odborné poradenství přizpůsobené vašim specifickým požadavkům. Kontaktujte nás ještě dnes Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 1440,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "BIOCON R8 container fermenter with open lid, complete product view",
+            "src": "https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1440,
+              1207
+            ],
+            "displayed": [
+              660,
+              495
+            ],
+            "fit": "contain",
+            "parentRatio": 1.33,
+            "fullData": "/images/products/BIOCON_R8_full_photo_2026-11-26.webp"
+          },
+          {
+            "alt": "EWA - Ecological Waste Apparatus",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1448,
+              1086
+            ],
+            "displayed": [
+              691,
+              389
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
+          },
+          {
+            "alt": "BIOS fermenter unit installed on concrete foundation with agricultural field in background",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1024,
+              574
+            ],
+            "displayed": [
+              726,
+              408
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg"
+          },
+          {
+            "alt": "BEWABOX tunnel fermenter",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              694,
+              289
+            ],
+            "displayed": [
+              691,
+              389
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          },
+          {
+            "label": "Více o BIOCONu",
+            "hasName": true
+          },
+          {
+            "label": "Více o EWA",
+            "hasName": true
+          },
+          {
+            "label": "Více o BIOSu",
+            "hasName": true
+          },
+          {
+            "label": "Více o BEWABOX",
+            "hasName": true
+          },
+          {
+            "label": "Kontaktujte nás ještě dnes",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontakty"
+          },
+          {
+            "href": "/",
+            "text": "Zpět na úvodní stránku"
+          },
+          {
+            "href": "/products/biocon",
+            "text": "Více o BIOCONu"
+          },
+          {
+            "href": "/products/ewa",
+            "text": "Více o EWA"
+          },
+          {
+            "href": "/products/bios",
+            "text": "Více o BIOSu"
+          },
+          {
+            "href": "/products/bewabox",
+            "text": "Více o BEWABOX"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontaktujte nás ještě dnes"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-desktop.jpg",
+      "czech": {
+        "switchFound": true,
+        "afterH1": "Naše produkty",
+        "afterLang": "en",
+        "changed": false,
+        "afterSample": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Naše produkty Objevte naši řadu ekologických aerobních fermentorů navržených pro efektivní zpracování bioodpadu Aerobní fermentor BIOKON / BIOCON Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. BIOKON (v anglických materiálech BIOCON) je mobilní uzavřený dávkový aerobní fermentor s pracovním objemem 29 m³. Je kompatibilní s hákovými nosiči a může být vybaven volitelnou fotovoltaikou a bateriemi pro ostrovní provoz. Volitelný ostrovní provoz s fotovoltaikou a bateriemi Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním Mobilní kontejnerová jednotka pro hákový nosič Více o BIOCONu Aerobní fermentor EWA Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. EWA je uzavřený dávkový aerobní fermentor v upraveném ISO kontejneru. Ověření EU ETV se vztahuje konkrétně na hygienizační účinnost EWA 2020 u vybraných vedlejších živočišných produktů kategorií 2 a 3 za stanovených provozních podmínek. Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube) Jednoduchá instalace plug and play BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení Více o EWA BIOS – koncept vertikálního reaktoru Vývojový kon",
+        "screenshot": "audit-results/2026-11-26/products-cs-desktop.jpg"
+      }
+    },
+    {
+      "route": "/products/ewa",
+      "view": "desktop",
+      "url": "https://www.solbien.com/products/ewa",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Aerobní fermentor EWA"
+        ],
+        "h2": [
+          "Hlavní výhody",
+          "Technické informace",
+          "Jste připraveni transformovat své nakládání s odpady?"
+        ],
+        "textLength": 2242,
+        "firstText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Aerobní fermentor EWA Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. Stáhnout brožuru Hlavní výhody Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube) Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube) Jednoduchá instalace plug and play Jednoduchá instalace plug and play BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení EU ETV ověření hygienizace EWA 2020 za vymezených podmínek EU ETV ověření hygienizace EWA 2020 za vymezených podmínek Technické informace Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. Funkční vnitřní objem 36 m³ Zpracovatelská kapacita Přibližně 1 500 t/rok Závisí na hmotnosti dávky, délce cyklu a provozních dnech Typ kontejneru Upravený ISO 40 stop High Cube Délka 12192 mm Šířka 2438 mm Výška 2896 mm Napájení 230 / 400 V Spotřeba energie - pohotovostní režim 50 W Spotřeb",
+        "fullText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Aerobní fermentor EWA Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. Stáhnout brožuru Hlavní výhody Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube) Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube) Jednoduchá instalace plug and play Jednoduchá instalace plug and play BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení EU ETV ověření hygienizace EWA 2020 za vymezených podmínek EU ETV ověření hygienizace EWA 2020 za vymezených podmínek Technické informace Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. Funkční vnitřní objem 36 m³ Zpracovatelská kapacita Přibližně 1 500 t/rok Závisí na hmotnosti dávky, délce cyklu a provozních dnech Typ kontejneru Upravený ISO 40 stop High Cube Délka 12192 mm Šířka 2438 mm Výška 2896 mm Napájení 230 / 400 V Spotřeba energie - pohotovostní režim 50 W Spotřeba energie během provozu 100-150 W Teplota hygienizace Až 80°C Doba procesu 48–96 hodin Ověření EU ETV EWA 2020: hygienizace vybraných vedlejších živočišných produktů kategorií 2 a 3 za stanovených podmínek. Certifikát VN20160014, vydán 29. ledna 2021. Jste připraveni transformovat své nakládání s odpady? Kontaktujte nás ještě dnes a projednejte, jak naše řešení mohou řešit vaše specifické výzvy v oblasti nakládání s odpady. Stáhnout brožuru Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 1440,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "EWA - Ecological Waste Apparatus",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1448,
+              1086
+            ],
+            "displayed": [
+              717,
+              403
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontakty"
+          },
+          {
+            "href": "/",
+            "text": "Zpět na úvodní stránku"
+          },
+          {
+            "href": "/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf",
+            "text": "Stáhnout brožuru"
+          },
+          {
+            "href": "/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf",
+            "text": "Stáhnout brožuru"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-ewa-desktop.jpg",
+      "czech": {
+        "switchFound": true,
+        "afterH1": "Aerobní fermentor EWA",
+        "afterLang": "en",
+        "changed": false,
+        "afterSample": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Aerobní fermentor EWA Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. Stáhnout brožuru Hlavní výhody Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube) Možnost celosvětové přepravy (upravený ISO kontejner 40 stop High Cube) Jednoduchá instalace plug and play Jednoduchá instalace plug and play BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení BAT technologie, nejlepší na trhu díky chráněné technologii vnitřního vrstvení EU ETV ověření hygienizace EWA 2020 za vymezených podmínek EU ETV ověření hygienizace EWA 2020 za vymezených podmínek Technické informace Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití. Funkční vnitřní objem 36 m³ Zpracovatelská kapacita Přibližně 1 500 t/rok Závisí na hmotnosti dávky, délce cyklu a provozních dnech Typ kontejneru Upravený ISO 40 stop High Cube Délka 12192 mm Šířka 2438 mm Výška 2896 mm Napájení 230 / 400 V Spotřeba energie - pohotovostní režim 50 W Spotřeb",
+        "screenshot": "audit-results/2026-11-26/products-ewa-cs-desktop.jpg"
+      }
+    },
+    {
+      "route": "/products/biocon",
+      "view": "desktop",
+      "url": "https://www.solbien.com/products/biocon",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Aerobní fermentor BIOKON / BIOCON"
+        ],
+        "h2": [
+          "Hlavní výhody",
+          "Volitelné funkce",
+          "Technické informace",
+          "Jste připraveni transformovat své nakládání s odpady?"
+        ],
+        "textLength": 2871,
+        "firstText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Aerobní fermentor BIOKON / BIOCON Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Stáhnout brožuru Hlavní výhody Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Volitelný ostrovní provoz s fotovoltaikou a bateriemi Volitelný ostrovní provoz s fotovoltaikou a bateriemi Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním Mobilní kontejnerová jednotka pro hákový nosič Mobilní kontejnerová jednotka pro hákový nosič Automatické řízení procesu a průběžné měření teploty Automatické řízení procesu a průběžné měření teploty Volitelné funkce Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Fotovoltaický systém Volitelná fotovoltaika s bateriemi může umožnit ostrovní provoz, pokud dostupné sluneční záření a uložená energie postačují. Předehřívání vsázky Volitelný předehřev vsázky usnadňuje zahájení procesu; hygienizace vyžaduje doložené dosažení předepsané teploty a doby jejího působení. Integrovaný biofiltr Fermentor může být vybaven in",
+        "fullText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Aerobní fermentor BIOKON / BIOCON Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Stáhnout brožuru Hlavní výhody Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Volitelný ostrovní provoz s fotovoltaikou a bateriemi Volitelný ostrovní provoz s fotovoltaikou a bateriemi Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním Mobilní kontejnerová jednotka pro hákový nosič Mobilní kontejnerová jednotka pro hákový nosič Automatické řízení procesu a průběžné měření teploty Automatické řízení procesu a průběžné měření teploty Volitelné funkce Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Fotovoltaický systém Volitelná fotovoltaika s bateriemi může umožnit ostrovní provoz, pokud dostupné sluneční záření a uložená energie postačují. Předehřívání vsázky Volitelný předehřev vsázky usnadňuje zahájení procesu; hygienizace vyžaduje doložené dosažení předepsané teploty a doby jejího působení. Integrovaný biofiltr Fermentor může být vybaven integrovaným biofiltrem pro zvýšení environmentální výkonnosti. Přizpůsobitelné parametry Parametry řešení lze upravit podle požadavků zákazníka pro provoz fermentoru podle místa instalace a ročních období. Technické informace Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Pracovní objem 29 m³ Hmotnost 3.5 t Maximální hmotnost vsázky 17 t Délka 6500 mm Šířka 2500 mm Výška 2650 mm Napájení 230 / 400 V Spotřeba energie - pohotovostní režim 30 W Spotřeba energie během aerace 80 W Spotřeba energie - s volitelným předehříváním vsázky 2 to 6 kW Rám a hákový nakladač Kompatibilní s hákovým nosičem; hák a výstupky potvrzuje výkres objednané verze Orientační roční kapacita Přibližně 1 000 t/rok Hmotnost vsázky, délka cyklu a provozní dny Jste připraveni transformovat své nakládání s odpady? Kontaktujte nás ještě dnes a projednejte, jak naše řešení mohou řešit vaše specifické výzvy v oblasti nakládání s odpady. Stáhnout brožuru Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 1440,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "BIOCON fermenter with its lid open, complete product view",
+            "src": "https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1440,
+              1207
+            ],
+            "displayed": [
+              652,
+              489
+            ],
+            "fit": "contain",
+            "parentRatio": 1.33,
+            "fullData": "/images/products/BIOCON_R8_full_photo_2026-11-26.webp"
+          },
+          {
+            "alt": "Financováno Evropskou unií - Projekt inovace kontejnerového fermentoru BIOKON",
+            "src": "https://www.solbien.com/images/eu-funding-banner.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              800,
+              200
+            ],
+            "fit": "fill",
+            "parentRatio": 6.76,
+            "fullData": "/images/eu-funding-banner.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontakty"
+          },
+          {
+            "href": "/",
+            "text": "Zpět na úvodní stránku"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf",
+            "text": "Stáhnout brožuru"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf",
+            "text": "Stáhnout brožuru"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-biocon-desktop.jpg",
+      "czech": {
+        "switchFound": true,
+        "afterH1": "Aerobní fermentor BIOKON / BIOCON",
+        "afterLang": "en",
+        "changed": false,
+        "afterSample": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Aerobní fermentor BIOKON / BIOCON Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Stáhnout brožuru Hlavní výhody Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Volitelný ostrovní provoz s fotovoltaikou a bateriemi Volitelný ostrovní provoz s fotovoltaikou a bateriemi Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním Mobilní kontejnerová jednotka pro hákový nosič Mobilní kontejnerová jednotka pro hákový nosič Automatické řízení procesu a průběžné měření teploty Automatické řízení procesu a průběžné měření teploty Volitelné funkce Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu. Fotovoltaický systém Volitelná fotovoltaika s bateriemi může umožnit ostrovní provoz, pokud dostupné sluneční záření a uložená energie postačují. Předehřívání vsázky Volitelný předehřev vsázky usnadňuje zahájení procesu; hygienizace vyžaduje doložené dosažení předepsané teploty a doby jejího působení. Integrovaný biofiltr Fermentor může být vybaven in",
+        "screenshot": "audit-results/2026-11-26/products-biocon-cs-desktop.jpg"
+      }
+    },
+    {
+      "route": "/products/bios",
+      "view": "desktop",
+      "url": "https://www.solbien.com/products/bios",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "BIOS – koncept vertikálního reaktoru"
+        ],
+        "h2": [
+          "Hlavní výhody",
+          "Technické informace",
+          "Jste připraveni transformovat své nakládání s odpady?"
+        ],
+        "textLength": 2474,
+        "firstText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku BIOS – koncept vertikálního reaktoru Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. Návrhové parametry čekají na ověření prototypem Stáhnout brožuru BIOS 80 – vizualizace konceptu, výška 9,5 m, pracovní objem 80 m³ Hlavní výhody Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. Navržen pro integraci do zpracovatelských linek Navržené plnění dopravníkem shora a řízené vyprazdňování dole umožňují propojení BIOS s technologickou linkou. Koncept kontinuálního aerobního procesu Navržené řízené provzdušňování a pohyb materiálu dolů vyžadují ověření funkčnosti prototypem. Půdorys hlavního reaktoru 5 × 5 m Rozměr platí pouze pro hlavní reaktor; nezahrnuje vyprazdňovací dopravník, další zařízení ani prostor stavby. Sušení s externím přívodem tepla Sušení vyžaduje externí teplo. Výstupní vlhkost závisí na vstupu, dodaném teple a době zdržení. Technické informace Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. BIOS 50 Pracovní objem 50 m³ Výška 7 m Půdorys hlavního reaktoru 5 × 5 m Cílová roční kapacita 10 000 t/rok BIOS 80 Pracovní objem 80 m³ Výška 9.5 ",
+        "fullText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku BIOS – koncept vertikálního reaktoru Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. Návrhové parametry čekají na ověření prototypem Stáhnout brožuru BIOS 80 – vizualizace konceptu, výška 9,5 m, pracovní objem 80 m³ Hlavní výhody Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. Navržen pro integraci do zpracovatelských linek Navržené plnění dopravníkem shora a řízené vyprazdňování dole umožňují propojení BIOS s technologickou linkou. Koncept kontinuálního aerobního procesu Navržené řízené provzdušňování a pohyb materiálu dolů vyžadují ověření funkčnosti prototypem. Půdorys hlavního reaktoru 5 × 5 m Rozměr platí pouze pro hlavní reaktor; nezahrnuje vyprazdňovací dopravník, další zařízení ani prostor stavby. Sušení s externím přívodem tepla Sušení vyžaduje externí teplo. Výstupní vlhkost závisí na vstupu, dodaném teple a době zdržení. Technické informace Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. BIOS 50 Pracovní objem 50 m³ Výška 7 m Půdorys hlavního reaktoru 5 × 5 m Cílová roční kapacita 10 000 t/rok BIOS 80 Pracovní objem 80 m³ Výška 9.5 m Půdorys hlavního reaktoru 5 × 5 m Cílová roční kapacita 16 000 t/rok BIOS 100 Pracovní objem 100 m³ Výška 11 m Půdorys hlavního reaktoru 5 × 5 m Cílová roční kapacita 20 000 t/rok Návrhové parametry čekají na ověření prototypem Půdorys 5 × 5 m nezahrnuje vyprazdňovací dopravník. Skutečná kapacita závisí na vstupu, době zdržení a konfiguraci procesu. Hygienizace vyžaduje ověření předepsané teploty a doby jejího působení pro každý typ odpadu; sušení potřebuje vnější zdroj tepla. Jste připraveni transformovat své nakládání s odpady? Kontaktujte nás ještě dnes a projednejte, jak naše řešení mohou řešit vaše specifické výzvy v oblasti nakládání s odpady. Stáhnout brožuru Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 1440,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "BIOS 80 – proposed vertical reactor, concept visualization",
+            "src": "https://www.solbien.com/images/products/BIOS_R2_concept_2026-11-26.webp",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1269,
+              1495
+            ],
+            "displayed": [
+              448,
+              560
+            ],
+            "fit": "contain",
+            "parentRatio": 0.8,
+            "fullData": "/images/products/BIOS_R2_concept_2026-11-26.webp"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontakty"
+          },
+          {
+            "href": "/",
+            "text": "Zpět na úvodní stránku"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf",
+            "text": "Stáhnout brožuru"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf",
+            "text": "Stáhnout brožuru"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-bios-desktop.jpg",
+      "czech": {
+        "switchFound": true,
+        "afterH1": "BIOS – koncept vertikálního reaktoru",
+        "afterLang": "en",
+        "changed": false,
+        "afterSample": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku BIOS – koncept vertikálního reaktoru Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. Návrhové parametry čekají na ověření prototypem Stáhnout brožuru BIOS 80 – vizualizace konceptu, výška 9,5 m, pracovní objem 80 m³ Hlavní výhody Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. Navržen pro integraci do zpracovatelských linek Navržené plnění dopravníkem shora a řízené vyprazdňování dole umožňují propojení BIOS s technologickou linkou. Koncept kontinuálního aerobního procesu Navržené řízené provzdušňování a pohyb materiálu dolů vyžadují ověření funkčnosti prototypem. Půdorys hlavního reaktoru 5 × 5 m Rozměr platí pouze pro hlavní reaktor; nezahrnuje vyprazdňovací dopravník, další zařízení ani prostor stavby. Sušení s externím přívodem tepla Sušení vyžaduje externí teplo. Výstupní vlhkost závisí na vstupu, dodaném teple a době zdržení. Technické informace Vývojový koncept vertikálního reaktoru pro kontinuální aerobní zpracování a sušení biologicky rozložitelných odpadů a organicky bohatých podsítných frakcí komunálního odpadu. BIOS 50 Pracovní objem 50 m³ Výška 7 m Půdorys hlavního reaktoru 5 × 5 m Cílová roční kapacita 10 000 t/rok BIOS 80 Pracovní objem 80 m³ Výška 9.5 ",
+        "screenshot": "audit-results/2026-11-26/products-bios-cs-desktop.jpg"
+      }
+    },
+    {
+      "route": "/products/bewabox",
+      "view": "desktop",
+      "url": "https://www.solbien.com/products/bewabox",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Tunelový fermentor BEWABOX"
+        ],
+        "h2": [
+          "Hlavní výhody",
+          "Popis technologie",
+          "Typické aplikace",
+          "Technické informace",
+          "Jste připraveni transformovat své nakládání s odpady?"
+        ],
+        "textLength": 2838,
+        "firstText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Tunelový fermentor BEWABOX Uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů. Stáhnout brožuru Hlavní výhody Uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů. Bez obracení v reaktoru Biologická stabilizace bez mechanického obracení uvnitř reaktoru, snižující provozní složitost a interní manipulaci s materiálem. Chráněná podlahová aerace Chráněné podlahové vývody vzduchu jsou přístupné přes odnímatelné chemicky odolné kryty pro kontrolu a čištění. Škálovatelná konfigurace Více tunelových boxů lze instalovat vedle sebe pro dosažení požadované kapacity místa. Popis technologie BEWABOX zpracovává podsítné frakce z třídění komunálního odpadu, biologicky rozložitelné odpady a vhodné směsi s kaly v uzavřeném železobetonovém dávkovém tunelu. Podlahová aerace dodává vzduch bez mechanického převrstvování. Podle vstupů a podmínek projektu umožňuje stabilizaci nebo sušení. Stavební část může realizovat místní dodavatel. SOLBIEN může dodat systém podlahové aerace, měření a automatizaci pro sledování procesu, záznam provozních údajů a vzdálenou diagnostiku. Odpadní vzduch lze čistit ve vhodně navrženém biofiltru. ",
+        "fullText": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Tunelový fermentor BEWABOX Uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů. Stáhnout brožuru Hlavní výhody Uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů. Bez obracení v reaktoru Biologická stabilizace bez mechanického obracení uvnitř reaktoru, snižující provozní složitost a interní manipulaci s materiálem. Chráněná podlahová aerace Chráněné podlahové vývody vzduchu jsou přístupné přes odnímatelné chemicky odolné kryty pro kontrolu a čištění. Škálovatelná konfigurace Více tunelových boxů lze instalovat vedle sebe pro dosažení požadované kapacity místa. Popis technologie BEWABOX zpracovává podsítné frakce z třídění komunálního odpadu, biologicky rozložitelné odpady a vhodné směsi s kaly v uzavřeném železobetonovém dávkovém tunelu. Podlahová aerace dodává vzduch bez mechanického převrstvování. Podle vstupů a podmínek projektu umožňuje stabilizaci nebo sušení. Stavební část může realizovat místní dodavatel. SOLBIEN může dodat systém podlahové aerace, měření a automatizaci pro sledování procesu, záznam provozních údajů a vzdálenou diagnostiku. Odpadní vzduch lze čistit ve vhodně navrženém biofiltru. Typické aplikace Stabilizace podsítné frakce komunálního odpadu Biologická stabilizace před skládkováním nebo dalším zpracováním Zpracování biologicky rozložitelného komunálního odpadu Čistírenské kaly a směsi na bázi kalů Sušení nebo příprava materiálu pro výrobu RDF / SRF Velká obecní a regionální zařízení pro zpracování odpadu Technické informace Orientační roční kapacita referenčního tunelu Přibližně 4 400 t/rok 192 t/dávka × 23 dávek/rok = 4 416 t/rok Typ procesu Tunelový vsázkový proces Referenční tunel (Š × D × V) 6 × 32 × 5–6 m Hmotnost dávky 192 t Počet dávek ročně Přibližně 23 Nejvhodnější pro Podsítná frakce & velká zařízení Konstrukce Železobeton Aerační systém Chráněné podlahové vývody, odnímatelné kryty Typická doba zpracování Přibližně 15 dní Ventilátor aerace Cca 2,5 kW (pouze aerace) Škálovatelnost Více boxů vedle sebe Jste připraveni transformovat své nakládání s odpady? Kontaktujte nás ještě dnes a projednejte, jak naše řešení mohou řešit vaše specifické výzvy v oblasti nakládání s odpady. Stáhnout brožuru Řešení pro bio energii. Přeměňujeme odpad na ekologická řešení pro čistší planetu. Rychlé odkazy Produkty Řešení O nás Kontaktujte nás SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. Všechna práva vyhrazena.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 1440,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "BEWABOX tunnel fermenter",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              694,
+              289
+            ],
+            "displayed": [
+              652,
+              489
+            ],
+            "fit": "contain",
+            "parentRatio": 1.33,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          },
+          {
+            "href": "/contacts",
+            "text": "Kontakty"
+          },
+          {
+            "href": "/",
+            "text": "Zpět na úvodní stránku"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf",
+            "text": "Stáhnout brožuru"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf",
+            "text": "Stáhnout brožuru"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Produkty"
+          },
+          {
+            "href": "/solutions",
+            "text": "Řešení"
+          },
+          {
+            "href": "/about",
+            "text": "O nás"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-bewabox-desktop.jpg",
+      "czech": {
+        "switchFound": true,
+        "afterH1": "Tunelový fermentor BEWABOX",
+        "afterLang": "en",
+        "changed": false,
+        "afterSample": "Produkty Řešení O nás Kontakty EN CS Zpět na úvodní stránku Tunelový fermentor BEWABOX Uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů. Stáhnout brožuru Hlavní výhody Uzavřený železobetonový tunelový fermentor pro aerobní fermentaci a biologickou stabilizaci podsítné frakce komunálního odpadu, bioodpadu, čistírenských kalů a dalších biologicky rozložitelných odpadních proudů. Bez obracení v reaktoru Biologická stabilizace bez mechanického obracení uvnitř reaktoru, snižující provozní složitost a interní manipulaci s materiálem. Chráněná podlahová aerace Chráněné podlahové vývody vzduchu jsou přístupné přes odnímatelné chemicky odolné kryty pro kontrolu a čištění. Škálovatelná konfigurace Více tunelových boxů lze instalovat vedle sebe pro dosažení požadované kapacity místa. Popis technologie BEWABOX zpracovává podsítné frakce z třídění komunálního odpadu, biologicky rozložitelné odpady a vhodné směsi s kaly v uzavřeném železobetonovém dávkovém tunelu. Podlahová aerace dodává vzduch bez mechanického převrstvování. Podle vstupů a podmínek projektu umožňuje stabilizaci nebo sušení. Stavební část může realizovat místní dodavatel. SOLBIEN může dodat systém podlahové aerace, měření a automatizaci pro sledování procesu, záznam provozních údajů a vzdálenou diagnostiku. Odpadní vzduch lze čistit ve vhodně navrženém biofiltru. ",
+        "screenshot": "audit-results/2026-11-26/products-bewabox-cs-desktop.jpg"
+      }
+    },
+    {
+      "route": "/",
+      "view": "mobile",
+      "url": "https://www.solbien.com/",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Turning Today's Waste Into Tomorrow's Resources"
+        ],
+        "h2": [
+          "Our Core Technology",
+          "Why Choose Solbien Technologies?",
+          "Types of Waste We Can Process",
+          "Our Products",
+          "Aerobic Fermenter BIOCON",
+          "Aerobic Fermenter EWA",
+          "BIOS – Vertical Reactor Concept",
+          "BEWABOX Tunnel Fermenter",
+          "Let's Clean the Planet Together"
+        ],
+        "textLength": 4782,
+        "firstText": "+420 605 902 903 info@solbien.com Turning Today's Waste Into Tomorrow's Resources We transform biodegradable waste into sustainable resources, contributing to soil fertility, water protection, biodiversity, and circular economy goals. Discover Our Solutions Our Core Technology Advanced Aerobic Fermentation At Solbien, we specialize in developing innovative technologies to efficiently and sustainably process organic and biodegradable waste. Our state-of-the-art aerobic fermenters rapidly hygienize waste within just a few hours Converting bio-waste into valuable substrates (soil improvers). Once processed, these materials no longer require handling as waste and become valuable products suitable for agricultural use, land reclamation, or as biofuel. Municipal Waste Processing Our technology effectively processes the municipal waste undersize fraction from municipal waste sorting facilities. This municipal waste undersize fraction typically contains up to 50% biodegradable waste, mixed plastics, and other combustible materials By rapidly sanitizing this fraction, we transform it into an energy-rich fuel suitable for efficient energy recovery, further enhancing waste-to-energy solutions and supporting sustainable resource management. Why Choose Solbien Technologies? We turn biodegradable waste into sustainable resources, contributing to soil fertility, water protection, biodiversity, and circular economy goals. Natural & Eco-Friendly Process Increases temperature naturally while m",
+        "fullText": "+420 605 902 903 info@solbien.com Turning Today's Waste Into Tomorrow's Resources We transform biodegradable waste into sustainable resources, contributing to soil fertility, water protection, biodiversity, and circular economy goals. Discover Our Solutions Our Core Technology Advanced Aerobic Fermentation At Solbien, we specialize in developing innovative technologies to efficiently and sustainably process organic and biodegradable waste. Our state-of-the-art aerobic fermenters rapidly hygienize waste within just a few hours Converting bio-waste into valuable substrates (soil improvers). Once processed, these materials no longer require handling as waste and become valuable products suitable for agricultural use, land reclamation, or as biofuel. Municipal Waste Processing Our technology effectively processes the municipal waste undersize fraction from municipal waste sorting facilities. This municipal waste undersize fraction typically contains up to 50% biodegradable waste, mixed plastics, and other combustible materials By rapidly sanitizing this fraction, we transform it into an energy-rich fuel suitable for efficient energy recovery, further enhancing waste-to-energy solutions and supporting sustainable resource management. Why Choose Solbien Technologies? We turn biodegradable waste into sustainable resources, contributing to soil fertility, water protection, biodiversity, and circular economy goals. Natural & Eco-Friendly Process Increases temperature naturally while minimizing greenhouse gas emissions and supporting climate protection Certified Quality Complies with Regulation (EC) No. 1069/2009, ensuring the highest standards of safety Cost Efficiency Reduces transportation and disposal costs significantly with energy-efficient operation Rapid Processing Our aerobic fermentation technology drastically reduces processing time, improving efficiency and productivity. Effective Sanitization Operating at temperatures up to 80°C through natural fermentation, our systems safely eliminate harmful pathogens, bacteria, viruses, and weed seeds, ensuring complete sanitization of all processed materials. Types of Waste We Can Process Food Waste (restaurants, canteens, catering facilities) Agricultural Waste (crop residues, livestock manure, organic farm waste) Green Waste (garden waste, grass clippings, leaves, branches) Industrial Organic Waste (food processing industry waste, slaughterhouse waste) Municipal waste undersize fraction from Municipal Waste Sorting Facilities Biodegradable Components of Municipal Solid Waste Wood and Paper Industry Waste Organic Waste from Supermarkets and Retailers Compostable Packaging Materials and Textiles Our Products Aerobic Fermenter BIOCON Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. Optional off-grid operation with photovoltaic panels and batteries Enclosed aerobic batch treatment with controlled aeration Mobile hook-lift compatible container unit Automatic process control and continuous temperature monitoring Learn More About BIOCON Aerobic Fermenter EWA Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. Possibility of worldwide transport (modified ISO container 40 feet High Cube) Simple plug and play installation BAT technology, best on the market thanks to protected internal layering technology EU ETV verification of EWA 2020 sanitization under specified conditions Learn More About EWA BIOS – Vertical Reactor Concept Development-stage vertical reactor concept for continuous aerobic treatment and drying of biodegradable waste and organic-rich municipal solid waste (MSW) fines. Designed for integration into treatment lines Continuous aerobic treatment concept Main reactor footprint 5 × 5 m Drying with external heat Learn More About BIOS BEWABOX Tunnel Fermenter Enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams. No In-Reactor Turning Protected Floor Aeration Scalable Configuration Learn More About BEWABOX Let's Clean the Planet Together Join us in our mission to create a more sustainable future through innovative ecological solutions. Contact Us Today Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "highest standards of safety",
+          "no longer require handling as waste",
+          "complete sanitization",
+          "within just a few hours",
+          "best on the market",
+          "development-stage",
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 390,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "Green meadow with wildflowers under a bright blue sky with white clouds",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo-1688068705061-0305b5828e58.jpg-KOgNya4us51GdxXhUNwozMYl87F6YB.jpeg",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1871,
+              1119
+            ],
+            "displayed": [
+              390,
+              593
+            ],
+            "fit": "cover",
+            "parentRatio": 0.66,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo-1688068705061-0305b5828e58.jpg-KOgNya4us51GdxXhUNwozMYl87F6YB.jpeg"
+          },
+          {
+            "alt": "BIOCON R8 container fermenter with open lid, complete product view",
+            "src": "https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              358,
+              269
+            ],
+            "fit": "contain",
+            "parentRatio": 1.33,
+            "fullData": "/images/products/BIOCON_R8_full_photo_2026-11-26.webp"
+          },
+          {
+            "alt": "EWA - Ecological Waste Apparatus",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              394,
+              222
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
+          },
+          {
+            "alt": "BIOS fermenter unit installed on concrete foundation with agricultural field in background",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              394,
+              222
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg"
+          },
+          {
+            "alt": "BEWABOX tunnel fermenter",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              394,
+              222
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          },
+          {
+            "label": "Discover Our Solutions",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BIOCON",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About EWA",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BIOS",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BEWABOX",
+            "hasName": true
+          },
+          {
+            "label": "Contact Us Today",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "tel:+420605902903",
+            "text": "+420 605 902 903"
+          },
+          {
+            "href": "mailto:info@solbien.com",
+            "text": "info@solbien.com"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/solutions",
+            "text": "Discover Our Solutions"
+          },
+          {
+            "href": "/products/biocon",
+            "text": "Learn More About BIOCON"
+          },
+          {
+            "href": "/products/ewa",
+            "text": "Learn More About EWA"
+          },
+          {
+            "href": "/products/bios#top",
+            "text": "Learn More About BIOS"
+          },
+          {
+            "href": "/products/bewabox",
+            "text": "Learn More About BEWABOX"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contact Us Today"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/home-mobile.jpg"
+    },
+    {
+      "route": "/about",
+      "view": "mobile",
+      "url": "https://www.solbien.com/about",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "About Us"
+        ],
+        "h2": [
+          "From Local Solutions to a Sustainable and Decarbonized Future",
+          "Our Team",
+          "Join Us in Creating a Sustainable Future"
+        ],
+        "textLength": 2426,
+        "firstText": "Back to Home About Us Learn about our mission, vision, and commitment to sustainable waste management From Local Solutions to a Sustainable and Decarbonized Future We firmly believe that addressing global environmental challenges begins at the local level. Our mission is to efficiently transform biodegradable waste into hygienically stabilized products, safely and sustainably usable in agriculture or energy production. By doing this, we directly contribute to mitigating the greenhouse effect and decarbonizing society, replacing fossil fuels and chemical fertilizers with natural alternatives. From the outset, our goal has been to develop technologies that are not only globally applicable but also environmentally friendly and supportive of sustainability. We specialize in designing and manufacturing innovative aerobic fermentation systems and drying technologies, emphasizing low energy consumption and renewable energy sources, such as photovoltaic systems, enabling operation even in remote, off-grid locations. Our patented technologies—BIOKON, EWA, BIOS, and BEWA—offer scalable solutions ranging from small local units to high-capacity facilities, flexibly meeting the diverse needs of regions and communities. Thanks to advanced control of the aerobic fermentation process, we can quickly and safely transform bio-waste into valuable compost and biofuel. This approach supports a circular economy by returning nutrients to the soil, helps municipalities, cities, and businesses effect",
+        "fullText": "Back to Home About Us Learn about our mission, vision, and commitment to sustainable waste management From Local Solutions to a Sustainable and Decarbonized Future We firmly believe that addressing global environmental challenges begins at the local level. Our mission is to efficiently transform biodegradable waste into hygienically stabilized products, safely and sustainably usable in agriculture or energy production. By doing this, we directly contribute to mitigating the greenhouse effect and decarbonizing society, replacing fossil fuels and chemical fertilizers with natural alternatives. From the outset, our goal has been to develop technologies that are not only globally applicable but also environmentally friendly and supportive of sustainability. We specialize in designing and manufacturing innovative aerobic fermentation systems and drying technologies, emphasizing low energy consumption and renewable energy sources, such as photovoltaic systems, enabling operation even in remote, off-grid locations. Our patented technologies—BIOKON, EWA, BIOS, and BEWA—offer scalable solutions ranging from small local units to high-capacity facilities, flexibly meeting the diverse needs of regions and communities. Thanks to advanced control of the aerobic fermentation process, we can quickly and safely transform bio-waste into valuable compost and biofuel. This approach supports a circular economy by returning nutrients to the soil, helps municipalities, cities, and businesses effectively utilize waste materials, and positively impacts landscape biodiversity. Our vision is a world in which every local step leads to significant global change—toward cleaner air, healthier soil, societal decarbonization, and a sustainable future. Our Team Jaroslav Král Chief Executive Officer (CEO) Kateřina Elisová Sales Director Petr Vaníček Technical Director, Head of R&D Václav Holuša Environmental Project Manager Join Us in Creating a Sustainable Future Discover how our innovative solutions can help you transform waste into valuable resources while contributing to a cleaner planet. Explore Our Products Contact Us Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "patented",
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 390,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "Jaroslav Král",
+            "src": "https://www.solbien.com/images/vaclav-holusa.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              280,
+              280
+            ],
+            "displayed": [
+              356,
+              256
+            ],
+            "fit": "contain",
+            "parentRatio": 1.39,
+            "fullData": "/images/vaclav-holusa.png"
+          },
+          {
+            "alt": "Kateřina Elisová",
+            "src": "https://www.solbien.com/images/katerina-elisova.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              356,
+              256
+            ],
+            "fit": "contain",
+            "parentRatio": 1.39,
+            "fullData": "/images/katerina-elisova.png"
+          },
+          {
+            "alt": "Petr Vaníček",
+            "src": "https://www.solbien.com/images/jaroslav-kral.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              356,
+              256
+            ],
+            "fit": "contain",
+            "parentRatio": 1.39,
+            "fullData": "/images/jaroslav-kral.png"
+          },
+          {
+            "alt": "Václav Holuša",
+            "src": "https://www.solbien.com/images/petr-vanicek.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              356,
+              256
+            ],
+            "fit": "contain",
+            "parentRatio": 1.39,
+            "fullData": "/images/petr-vanicek.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          },
+          {
+            "label": "Explore Our Products",
+            "hasName": true
+          },
+          {
+            "label": "Contact Us",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/",
+            "text": "Back to Home"
+          },
+          {
+            "href": "/products",
+            "text": "Explore Our Products"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contact Us"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/about-mobile.jpg"
+    },
+    {
+      "route": "/contacts",
+      "view": "mobile",
+      "url": "https://www.solbien.com/contacts",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Contacts"
+        ],
+        "h2": [],
+        "textLength": 618,
+        "firstText": "Back to Home Contacts Get in touch with our team to learn more about our products and solutions Address SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic Phone +420 605 902 903 Email info@solbien.com Contact Person Katerina Elisova Sales Manager Phone: +420 605 902 903 Email: info@solbien.com Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "fullText": "Back to Home Contacts Get in touch with our team to learn more about our products and solutions Address SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic Phone +420 605 902 903 Email info@solbien.com Contact Person Katerina Elisova Sales Manager Phone: +420 605 902 903 Email: info@solbien.com Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 390,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1191,
+              464
+            ],
+            "displayed": [
+              103,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 2.57,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/",
+            "text": "Back to Home"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/contacts-mobile.jpg"
+    },
+    {
+      "route": "/solutions",
+      "view": "mobile",
+      "url": "https://www.solbien.com/solutions",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Our Solutions"
+        ],
+        "h2": [
+          "Ecological Processing of Biodegradable Waste Using Aerobic Fermentation Technology",
+          "Complete Waste Management Solutions",
+          "Our Process",
+          "End Products",
+          "Ready to Transform Your Waste Management?"
+        ],
+        "textLength": 4498,
+        "firstText": "Back to Home Our Solutions Discover how our innovative aerobic fermenters can transform your waste management process Ecological Processing of Biodegradable Waste Using Aerobic Fermentation Technology Our aerobic fermenters are specifically designed for the ecological processing of biodegradable waste, including sewage sludge from wastewater treatment plants and animal by-products. The controlled fermentation process naturally generates heat within the system, eliminating the need for external heat sources. This internally generated heat effectively destroys pathogens, ensuring the resulting compost is hygienically safe and non-infectious. After fermentation, the compost is free from unpleasant odors, leachate, vectors, pathogens, dangerous viruses, bacteria, and parasite eggs or larvae that could otherwise contaminate the soil and pose risks to human health. Complete Waste Management Solutions We offer comprehensive solutions for various waste management challenges Municipal Waste Management Our solutions are ideal for municipalities looking to efficiently process biodegradable waste from residential areas, parks, and public spaces. The BIOKON and EWA fermenters can be easily integrated into existing waste management systems. Processing of green waste from parks and gardens Handling of food waste from residential areas Integration with existing collection systems Learn More About BIOCON High-Capacity Solutions for Waste Processing Our BIOS fermenter is designed for industria",
+        "fullText": "Back to Home Our Solutions Discover how our innovative aerobic fermenters can transform your waste management process Ecological Processing of Biodegradable Waste Using Aerobic Fermentation Technology Our aerobic fermenters are specifically designed for the ecological processing of biodegradable waste, including sewage sludge from wastewater treatment plants and animal by-products. The controlled fermentation process naturally generates heat within the system, eliminating the need for external heat sources. This internally generated heat effectively destroys pathogens, ensuring the resulting compost is hygienically safe and non-infectious. After fermentation, the compost is free from unpleasant odors, leachate, vectors, pathogens, dangerous viruses, bacteria, and parasite eggs or larvae that could otherwise contaminate the soil and pose risks to human health. Complete Waste Management Solutions We offer comprehensive solutions for various waste management challenges Municipal Waste Management Our solutions are ideal for municipalities looking to efficiently process biodegradable waste from residential areas, parks, and public spaces. The BIOKON and EWA fermenters can be easily integrated into existing waste management systems. Processing of green waste from parks and gardens Handling of food waste from residential areas Integration with existing collection systems Learn More About BIOCON High-Capacity Solutions for Waste Processing Our BIOS fermenter is designed for industrial operations processing large volumes of biodegradable waste or the municipal waste undersize fraction from municipal waste sorting. Through rapid sanitization, we transform this material into energy-rich fuel suitable for efficient energy recovery. Quickly eliminates pathogens, ensuring safety for energy use Optimizes energy recovery from mixed municipal waste Reduces disposal and transportation expenses Learn More About BIOS Wastewater Treatment Plants Our EWA fermenter is specifically designed to handle sludge from wastewater treatment plants, providing an efficient and environmentally friendly solution for this challenging waste stream. Processing of wastewater treatment plant sludge Reduction of odor and pathogen concerns Conversion to safe, usable end products Learn More About EWA Agricultural Applications For farms and agricultural operations, our fermenters provide an excellent solution for managing animal waste, crop residues, and other agricultural by-products. Processing of animal manure and bedding Handling of crop residues and agricultural waste Production of high-quality soil improvers Our Process How our aerobic fermentation technology transforms waste into valuable resources 1 Collection & Loading Biodegradable waste is collected and loaded into the fermenter using standard equipment like front loaders. 2 Aerobic Fermentation The controlled fermentation process begins, with temperatures rising naturally to 70-80°C, eliminating pathogens. 3 Monitoring & Control Our automated systems monitor and control the process, ensuring optimal conditions for efficient fermentation. 4 Unloading & Use After 48-72 hours, the sanitized material is unloaded, ready for use as soil improver or further processing. End Products Our fermentation process creates valuable outputs from what was once waste Soil Improver The primary output of our fermentation process is a high-quality soil improver that can be used in agriculture, landscaping, and gardening. This material is: Free from pathogens and weed seeds Rich in organic matter and nutrients Beneficial for soil structure and water retention Compliant with regulatory standards Biomass Fuel In some applications, the output can be further processed into biomass fuel for energy generation. This creates a circular economy approach where waste becomes an energy source. This fuel is: Renewable and carbon-neutral Suitable for various heating and power generation applications Reduces dependence on fossil fuels Creates additional revenue streams Ready to Transform Your Waste Management? Contact us today to discuss how our solutions can address your specific waste management challenges. Contact Us Explore Our Products Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "safe and non-infectious",
+          "free from unpleasant odors",
+          "48-72 hours",
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 390,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "Solbien fermenter in operation",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web2.jpg-ahOqJnuuV4l7oHngZXSNrS1jP0CaHR.jpeg",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              4000,
+              1848
+            ],
+            "displayed": [
+              394,
+              222
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BIOKON%20web2.jpg-ahOqJnuuV4l7oHngZXSNrS1jP0CaHR.jpeg"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BIOCON",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BIOS",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About EWA",
+            "hasName": true
+          },
+          {
+            "label": "Contact Us",
+            "hasName": true
+          },
+          {
+            "label": "Explore Our Products",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/",
+            "text": "Back to Home"
+          },
+          {
+            "href": "/products/biocon",
+            "text": "Learn More About BIOCON"
+          },
+          {
+            "href": "/products/bios",
+            "text": "Learn More About BIOS"
+          },
+          {
+            "href": "/products/ewa",
+            "text": "Learn More About EWA"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contact Us"
+          },
+          {
+            "href": "/products",
+            "text": "Explore Our Products"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/solutions-mobile.jpg"
+    },
+    {
+      "route": "/products",
+      "view": "mobile",
+      "url": "https://www.solbien.com/products",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Our Products"
+        ],
+        "h2": [
+          "Aerobic Fermenter BIOCON",
+          "Aerobic Fermenter EWA",
+          "BIOS – Vertical Reactor Concept",
+          "BEWABOX Tunnel Fermenter",
+          "Find the Right Solution for Your Needs"
+        ],
+        "textLength": 2908,
+        "firstText": "Back to Home Our Products Discover our range of ecological aerobic fermenters designed for efficient biowaste processing Aerobic Fermenter BIOCON Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. BIOCON is a mobile, enclosed aerobic batch fermenter with a 29 m³ working volume. It is compatible with hook-lift trucks and can be equipped with an optional photovoltaic and battery system for off-grid operation. Optional off-grid operation with photovoltaic panels and batteries Enclosed aerobic batch treatment with controlled aeration Mobile hook-lift compatible container unit Learn More About BIOCON Aerobic Fermenter EWA Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. EWA is an enclosed aerobic batch fermenter in a modified ISO container. The EU ETV verification applies specifically to EWA 2020 sanitization performance for selected Category 2 and Category 3 animal by-products under the specified operating conditions. Possibility of worldwide transport (modified ISO container 40 feet High Cube) Simple plug and play installation BAT technology, best on the market thanks to protected internal layering technology Learn More About EWA BIOS – Vertical Reactor Concept Development-stage vertical react",
+        "fullText": "Back to Home Our Products Discover our range of ecological aerobic fermenters designed for efficient biowaste processing Aerobic Fermenter BIOCON Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. BIOCON is a mobile, enclosed aerobic batch fermenter with a 29 m³ working volume. It is compatible with hook-lift trucks and can be equipped with an optional photovoltaic and battery system for off-grid operation. Optional off-grid operation with photovoltaic panels and batteries Enclosed aerobic batch treatment with controlled aeration Mobile hook-lift compatible container unit Learn More About BIOCON Aerobic Fermenter EWA Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. EWA is an enclosed aerobic batch fermenter in a modified ISO container. The EU ETV verification applies specifically to EWA 2020 sanitization performance for selected Category 2 and Category 3 animal by-products under the specified operating conditions. Possibility of worldwide transport (modified ISO container 40 feet High Cube) Simple plug and play installation BAT technology, best on the market thanks to protected internal layering technology Learn More About EWA BIOS – Vertical Reactor Concept Development-stage vertical reactor concept for continuous aerobic treatment and drying of biodegradable waste and organic-rich municipal solid waste (MSW) fines. BIOS is a development-stage vertical continuous reactor concept for large waste operators. Working volumes, annual throughput targets and sanitization performance require validation. Designed for integration into treatment lines Continuous aerobic treatment concept Main reactor footprint 5 × 5 m Learn More About BIOS BEWABOX Tunnel Fermenter Enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams. BEWABOX is an enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams. No In-Reactor Turning Protected Floor Aeration Scalable Configuration Learn More About BEWABOX Find the Right Solution for Your Needs Not sure which product is right for you? Contact our team for expert advice tailored to your specific requirements. Contact Us Today Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "best on the market",
+          "development-stage",
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 390,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "BIOCON R8 container fermenter with open lid, complete product view",
+            "src": "https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1440,
+              1207
+            ],
+            "displayed": [
+              358,
+              269
+            ],
+            "fit": "contain",
+            "parentRatio": 1.33,
+            "fullData": "/images/products/BIOCON_R8_full_photo_2026-11-26.webp"
+          },
+          {
+            "alt": "EWA - Ecological Waste Apparatus",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              359,
+              202
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
+          },
+          {
+            "alt": "BIOS fermenter unit installed on concrete foundation with agricultural field in background",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              394,
+              222
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Generated%20Image%20March%2019%2C%202025%20-%2010_47AM.png-Vtx9j5mPgofXYWcDx52mlUj7kW6MCp.jpeg"
+          },
+          {
+            "alt": "BEWABOX tunnel fermenter",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              359,
+              202
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BIOCON",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About EWA",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BIOS",
+            "hasName": true
+          },
+          {
+            "label": "Learn More About BEWABOX",
+            "hasName": true
+          },
+          {
+            "label": "Contact Us Today",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/",
+            "text": "Back to Home"
+          },
+          {
+            "href": "/products/biocon",
+            "text": "Learn More About BIOCON"
+          },
+          {
+            "href": "/products/ewa",
+            "text": "Learn More About EWA"
+          },
+          {
+            "href": "/products/bios",
+            "text": "Learn More About BIOS"
+          },
+          {
+            "href": "/products/bewabox",
+            "text": "Learn More About BEWABOX"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contact Us Today"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-mobile.jpg"
+    },
+    {
+      "route": "/products/ewa",
+      "view": "mobile",
+      "url": "https://www.solbien.com/products/ewa",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Aerobic Fermenter EWA"
+        ],
+        "h2": [
+          "Main Advantages",
+          "Technical Information",
+          "Ready to Transform Your Waste Management?"
+        ],
+        "textLength": 2286,
+        "firstText": "Back to Home Aerobic Fermenter EWA Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. Download Brochure Main Advantages Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. Possibility of worldwide transport (modified ISO container 40 feet High Cube) Possibility of worldwide transport (modified ISO container 40 feet High Cube) Simple plug and play installation Simple plug and play installation BAT technology, best on the market thanks to protected internal layering technology BAT technology, best on the market thanks to protected internal layering technology EU ETV verification of EWA 2020 sanitization under specified conditions EU ETV verification of EWA 2020 sanitization under specified conditions Technical Information Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. Functional internal volume 36 m³ Processing capacity Approx. 1,500 t/year Depends on batch mass, cycle time and operating days Container type Modified ISO 40 feet High Cube Length 12192 mm Width 2438 mm Height 2896 mm Power supp",
+        "fullText": "Back to Home Aerobic Fermenter EWA Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. Download Brochure Main Advantages Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. Possibility of worldwide transport (modified ISO container 40 feet High Cube) Possibility of worldwide transport (modified ISO container 40 feet High Cube) Simple plug and play installation Simple plug and play installation BAT technology, best on the market thanks to protected internal layering technology BAT technology, best on the market thanks to protected internal layering technology EU ETV verification of EWA 2020 sanitization under specified conditions EU ETV verification of EWA 2020 sanitization under specified conditions Technical Information Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application. Functional internal volume 36 m³ Processing capacity Approx. 1,500 t/year Depends on batch mass, cycle time and operating days Container type Modified ISO 40 feet High Cube Length 12192 mm Width 2438 mm Height 2896 mm Power supply 230 / 400 V Power consumption - standby mode 50 W Power consumption during operation 100-150 W Sanitization temperature Up to 80°C Process duration 48–96 hours EU ETV verification EWA 2020: sanitization of selected Category 2/3 animal by-products under specified conditions. Certificate VN20160014, issued 29 January 2021. Ready to Transform Your Waste Management? Contact us today to discuss how our solutions can address your specific waste management challenges. Download Brochure Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "best on the market",
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 390,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "EWA - Ecological Waste Apparatus",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1448,
+              1086
+            ],
+            "displayed": [
+              394,
+              222
+            ],
+            "fit": "cover",
+            "parentRatio": 1.78,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EWA-m0wyYLNMsrnsfNkGAJbV2BNNGvBnZR.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/",
+            "text": "Back to Home"
+          },
+          {
+            "href": "/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf",
+            "text": "Download Brochure"
+          },
+          {
+            "href": "/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf",
+            "text": "Download Brochure"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-ewa-mobile.jpg"
+    },
+    {
+      "route": "/products/biocon",
+      "view": "mobile",
+      "url": "https://www.solbien.com/products/biocon",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "Aerobic Fermenter BIOCON"
+        ],
+        "h2": [
+          "Main Advantages",
+          "Optional Features",
+          "Technical Information",
+          "Ready to Transform Your Waste Management?"
+        ],
+        "textLength": 2826,
+        "firstText": "Back to Home Aerobic Fermenter BIOCON Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. Download Brochure Main Advantages Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. Optional off-grid operation with photovoltaic panels and batteries Optional off-grid operation with photovoltaic panels and batteries Enclosed aerobic batch treatment with controlled aeration Enclosed aerobic batch treatment with controlled aeration Mobile hook-lift compatible container unit Mobile hook-lift compatible container unit Automatic process control and continuous temperature monitoring Automatic process control and continuous temperature monitoring Optional Features Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. Photovoltaic System An optional photovoltaic and battery system can enable off-grid operation when available sunlight and stored energy are sufficient. Batch Preheating Optional feedstock preheating supports process start-up; sanitization requires documented temperature and holding time for the applicable treatment. Integrated Biofilter The fermenter can be equipped with an integrated Biofilter for enhanced environ",
+        "fullText": "Back to Home Aerobic Fermenter BIOCON Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. Download Brochure Main Advantages Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. Optional off-grid operation with photovoltaic panels and batteries Optional off-grid operation with photovoltaic panels and batteries Enclosed aerobic batch treatment with controlled aeration Enclosed aerobic batch treatment with controlled aeration Mobile hook-lift compatible container unit Mobile hook-lift compatible container unit Automatic process control and continuous temperature monitoring Automatic process control and continuous temperature monitoring Optional Features Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. Photovoltaic System An optional photovoltaic and battery system can enable off-grid operation when available sunlight and stored energy are sufficient. Batch Preheating Optional feedstock preheating supports process start-up; sanitization requires documented temperature and holding time for the applicable treatment. Integrated Biofilter The fermenter can be equipped with an integrated Biofilter for enhanced environmental performance. Customizable Parameters The parameters of the solution can be modified according to customer requirements for fermenter operation according to the installation location and seasons. Technical Information Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste. Working volume 29 m³ Weight 3.5 t Maximum batch weight 17 t Length 6500 mm Width 2500 mm Height 2650 mm Power supply 230 / 400 V Power consumption - standby mode 30 W Power consumption during aeration 80 W Power consumption - with optional batch preheating 2 to 6 kW Frame and hook lift Hook-lift truck compatible; confirm hook and projections in the ordered configuration drawing Indicative throughput Approx. 1,000 t/year Batch mass, cycle time and operating days Ready to Transform Your Waste Management? Contact us today to discuss how our solutions can address your specific waste management challenges. Download Brochure Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 390,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "BIOCON fermenter with its lid open, complete product view",
+            "src": "https://www.solbien.com/images/products/BIOCON_R8_full_photo_2026-11-26.webp",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1440,
+              1207
+            ],
+            "displayed": [
+              358,
+              269
+            ],
+            "fit": "contain",
+            "parentRatio": 1.33,
+            "fullData": "/images/products/BIOCON_R8_full_photo_2026-11-26.webp"
+          },
+          {
+            "alt": "Financováno Evropskou unií - Projekt inovace kontejnerového fermentoru BIOKON",
+            "src": "https://www.solbien.com/images/eu-funding-banner.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              358,
+              90
+            ],
+            "fit": "fill",
+            "parentRatio": 4,
+            "fullData": "/images/eu-funding-banner.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/",
+            "text": "Back to Home"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf",
+            "text": "Download Brochure"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf",
+            "text": "Download Brochure"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-biocon-mobile.jpg"
+    },
+    {
+      "route": "/products/bios",
+      "view": "mobile",
+      "url": "https://www.solbien.com/products/bios",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "BIOS – Vertical Reactor Concept"
+        ],
+        "h2": [
+          "Main Advantages",
+          "Technical Information",
+          "Ready to Transform Your Waste Management?"
+        ],
+        "textLength": 2407,
+        "firstText": "Back to Home BIOS – Vertical Reactor Concept Development-stage vertical reactor concept for continuous aerobic treatment and drying of biodegradable waste and organic-rich municipal solid waste (MSW) fines. Design targets pending prototype validation Download Brochure BIOS 80 — concept visualization, 9.5 m high, 80 m³ working volume Main Advantages Development-stage vertical reactor concept for continuous aerobic treatment and drying of biodegradable waste and organic-rich municipal solid waste (MSW) fines. Designed for integration into treatment lines Proposed conveyor feeding from above and controlled discharge at the base connect BIOS to the treatment line. Continuous aerobic treatment concept The proposed design combines controlled aeration and downward material movement; performance requires prototype validation. Main reactor footprint 5 × 5 m The footprint applies to the main reactor only, excluding the discharge conveyor, other equipment and site area. Drying with external heat Drying requires an external heat supply. Outlet moisture depends on feedstock, available heat and residence time. Technical Information Development-stage vertical reactor concept for continuous aerobic treatment and drying of biodegradable waste and organic-rich municipal solid waste (MSW) fines. BIOS 50 Working volume 50 m³ Height 7 m Main reactor footprint 5 × 5 m Target annual throughput 10,000 t/year BIOS 80 Working volume 80 m³ Height 9.5 m Main reactor footprint 5 × 5 m Target annual throu",
+        "fullText": "Back to Home BIOS – Vertical Reactor Concept Development-stage vertical reactor concept for continuous aerobic treatment and drying of biodegradable waste and organic-rich municipal solid waste (MSW) fines. Design targets pending prototype validation Download Brochure BIOS 80 — concept visualization, 9.5 m high, 80 m³ working volume Main Advantages Development-stage vertical reactor concept for continuous aerobic treatment and drying of biodegradable waste and organic-rich municipal solid waste (MSW) fines. Designed for integration into treatment lines Proposed conveyor feeding from above and controlled discharge at the base connect BIOS to the treatment line. Continuous aerobic treatment concept The proposed design combines controlled aeration and downward material movement; performance requires prototype validation. Main reactor footprint 5 × 5 m The footprint applies to the main reactor only, excluding the discharge conveyor, other equipment and site area. Drying with external heat Drying requires an external heat supply. Outlet moisture depends on feedstock, available heat and residence time. Technical Information Development-stage vertical reactor concept for continuous aerobic treatment and drying of biodegradable waste and organic-rich municipal solid waste (MSW) fines. BIOS 50 Working volume 50 m³ Height 7 m Main reactor footprint 5 × 5 m Target annual throughput 10,000 t/year BIOS 80 Working volume 80 m³ Height 9.5 m Main reactor footprint 5 × 5 m Target annual throughput 16,000 t/year BIOS 100 Working volume 100 m³ Height 11 m Main reactor footprint 5 × 5 m Target annual throughput 20,000 t/year Design targets pending prototype validation The 5 × 5 m footprint excludes the discharge conveyor. Actual throughput depends on feedstock, residence time and process configuration. Aerobic sanitization requires validated temperature and holding time for each waste stream; drying requires an external heat source. Ready to Transform Your Waste Management? Contact us today to discuss how our solutions can address your specific waste management challenges. Download Brochure Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "development-stage",
+          "prototype validation",
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 390,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "BIOS 80 – proposed vertical reactor, concept visualization",
+            "src": "https://www.solbien.com/images/products/BIOS_R2_concept_2026-11-26.webp",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1269,
+              1495
+            ],
+            "displayed": [
+              358,
+              448
+            ],
+            "fit": "contain",
+            "parentRatio": 0.8,
+            "fullData": "/images/products/BIOS_R2_concept_2026-11-26.webp"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/",
+            "text": "Back to Home"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf",
+            "text": "Download Brochure"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf",
+            "text": "Download Brochure"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-bios-mobile.jpg"
+    },
+    {
+      "route": "/products/bewabox",
+      "view": "mobile",
+      "url": "https://www.solbien.com/products/bewabox",
+      "errors": [],
+      "consoleErrors": [],
+      "httpStatus": 200,
+      "audit": {
+        "title": "Solbien - Solutions for Bio Energy",
+        "description": "Transforming waste into ecological solutions for a cleaner planet",
+        "canonical": null,
+        "lang": "en",
+        "h1": [
+          "BEWABOX Tunnel Fermenter"
+        ],
+        "h2": [
+          "Main Advantages",
+          "Technology Description",
+          "Typical Applications",
+          "Technical Information",
+          "Ready to Transform Your Waste Management?"
+        ],
+        "textLength": 2707,
+        "firstText": "Back to Home BEWABOX Tunnel Fermenter Enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams. Download Brochure Main Advantages Enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams. No In-Reactor Turning Biological stabilization without mechanical turning inside the reactor, reducing operational complexity and internal material handling. Protected Floor Aeration Protected floor air outlets are accessible through removable, chemically resistant covers for inspection and cleaning. Scalable Configuration Multiple tunnel boxes can be installed side by side to match the required site capacity. Technology Description BEWABOX treats MSW sorting fines, biodegradable waste and suitable sludge mixtures in an enclosed reinforced-concrete batch tunnel. Floor aeration supplies air without mechanical turning. Depending on the input and project conditions, it supports stabilization or drying. Civil works can be carried out by a local contractor. SOLBIEN can supply the floor aeration system, instrumentation and automation for monitoring, process data logging and remote diagnostics. Exhaust air can be treated in a suitably designed biofilter. Typical Applications Stabilization of MSW fines / municipal waste undersize fraction Biological stabilization be",
+        "fullText": "Back to Home BEWABOX Tunnel Fermenter Enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams. Download Brochure Main Advantages Enclosed reinforced-concrete tunnel fermenter for aerobic fermentation and biological stabilization of MSW fines, biowaste, sewage sludge and other biodegradable waste streams. No In-Reactor Turning Biological stabilization without mechanical turning inside the reactor, reducing operational complexity and internal material handling. Protected Floor Aeration Protected floor air outlets are accessible through removable, chemically resistant covers for inspection and cleaning. Scalable Configuration Multiple tunnel boxes can be installed side by side to match the required site capacity. Technology Description BEWABOX treats MSW sorting fines, biodegradable waste and suitable sludge mixtures in an enclosed reinforced-concrete batch tunnel. Floor aeration supplies air without mechanical turning. Depending on the input and project conditions, it supports stabilization or drying. Civil works can be carried out by a local contractor. SOLBIEN can supply the floor aeration system, instrumentation and automation for monitoring, process data logging and remote diagnostics. Exhaust air can be treated in a suitably designed biofilter. Typical Applications Stabilization of MSW fines / municipal waste undersize fraction Biological stabilization before landfilling or further handling Treatment of biodegradable municipal waste Sewage sludge and sludge-based mixtures Drying or preparation of material for RDF / SRF production Large municipal and regional waste treatment facilities Technical Information Indicative annual throughput per reference tunnel Approx. 4,400 t/year 192 t/batch × 23 batches/year = 4,416 t/year Process type Batch tunnel process Reference tunnel (W × L × H) 6 × 32 × 5–6 m Batch mass 192 t Annual batches Approx. 23 Best fit MSW fines & large-scale sites Construction Reinforced concrete Aeration system Protected floor outlets, removable covers Typical treatment time Approx. 15 days Aeration fan Approx. 2.5 kW (aeration only) Scalability Multiple boxes side by side Ready to Transform Your Waste Management? Contact us today to discuss how our solutions can address your specific waste management challenges. Download Brochure Solutions for Bio Energy. Transforming waste into ecological solutions for a cleaner planet. Quick Links Products Solutions About Contact Us SOLBIEN plc Dvorakova 1041/15 702 00 Ostrava - Mor. Ostrava Czech Republic +420 605 902 903 info@solbien.com Social Media © 2024 Solbien. All rights reserved.",
+        "dangerousPhrases": [
+          "© 2024"
+        ],
+        "horizontalOverflow": 0,
+        "documentWidth": 390,
+        "brokenImages": [],
+        "images": [
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien-logo.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              1543,
+              617
+            ],
+            "displayed": [
+              80,
+              32
+            ],
+            "fit": "fill",
+            "parentRatio": 2.5,
+            "fullData": "/images/solbien-logo.png"
+          },
+          {
+            "alt": "BEWABOX tunnel fermenter",
+            "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png",
+            "broken": false,
+            "loaded": true,
+            "natural": [
+              694,
+              289
+            ],
+            "displayed": [
+              358,
+              269
+            ],
+            "fit": "contain",
+            "parentRatio": 1.33,
+            "fullData": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-05-03%20at%2019.28.48-hdEcd7Ld65L45Oy8g8vN5HioTYEaQG.png"
+          },
+          {
+            "alt": "Solbien Logo",
+            "src": "https://www.solbien.com/images/solbien_logotyp-bila.png",
+            "broken": false,
+            "loaded": false,
+            "natural": [
+              0,
+              0
+            ],
+            "displayed": [
+              150,
+              40
+            ],
+            "fit": "fill",
+            "parentRatio": 3.75,
+            "fullData": "/images/solbien_logotyp-bila.png"
+          }
+        ],
+        "buttons": [
+          {
+            "label": "EN",
+            "hasName": true
+          },
+          {
+            "label": "CS",
+            "hasName": true
+          },
+          {
+            "label": "Toggle menu",
+            "hasName": true
+          }
+        ],
+        "anchors": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          },
+          {
+            "href": "/contacts",
+            "text": "Contacts"
+          },
+          {
+            "href": "/",
+            "text": "Back to Home"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf",
+            "text": "Download Brochure"
+          },
+          {
+            "href": "/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf",
+            "text": "Download Brochure"
+          },
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/products",
+            "text": "Products"
+          },
+          {
+            "href": "/solutions",
+            "text": "Solutions"
+          },
+          {
+            "href": "/about",
+            "text": "About"
+          }
+        ],
+        "imagesMissingAlt": 0,
+        "buttonsMissingName": 0
+      },
+      "screenshot": "audit-results/2026-11-26/products-bewabox-mobile.jpg"
+    }
+  ],
+  "links": [
+    {
+      "url": "https://www.solbien.com/",
+      "onRoutes": [
+        "/",
+        "/",
+        "/about",
+        "/about",
+        "/about",
+        "/contacts",
+        "/contacts",
+        "/contacts",
+        "/solutions",
+        "/solutions",
+        "/solutions",
+        "/products",
+        "/products",
+        "/products",
+        "/products/ewa",
+        "/products/ewa",
+        "/products/ewa",
+        "/products/biocon",
+        "/products/biocon",
+        "/products/biocon",
+        "/products/bios",
+        "/products/bios",
+        "/products/bios",
+        "/products/bewabox",
+        "/products/bewabox",
+        "/products/bewabox"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.solbien.com/products",
+      "onRoutes": [
+        "/",
+        "/",
+        "/about",
+        "/about",
+        "/about",
+        "/contacts",
+        "/contacts",
+        "/solutions",
+        "/solutions",
+        "/solutions",
+        "/products",
+        "/products",
+        "/products/ewa",
+        "/products/ewa",
+        "/products/biocon",
+        "/products/biocon",
+        "/products/bios",
+        "/products/bios",
+        "/products/bewabox",
+        "/products/bewabox"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.solbien.com/solutions",
+      "onRoutes": [
+        "/",
+        "/",
+        "/",
+        "/about",
+        "/about",
+        "/contacts",
+        "/contacts",
+        "/solutions",
+        "/solutions",
+        "/products",
+        "/products",
+        "/products/ewa",
+        "/products/ewa",
+        "/products/biocon",
+        "/products/biocon",
+        "/products/bios",
+        "/products/bios",
+        "/products/bewabox",
+        "/products/bewabox"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.solbien.com/about",
+      "onRoutes": [
+        "/",
+        "/",
+        "/about",
+        "/about",
+        "/contacts",
+        "/contacts",
+        "/solutions",
+        "/solutions",
+        "/products",
+        "/products",
+        "/products/ewa",
+        "/products/ewa",
+        "/products/biocon",
+        "/products/biocon",
+        "/products/bios",
+        "/products/bios",
+        "/products/bewabox",
+        "/products/bewabox"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.solbien.com/contacts",
+      "onRoutes": [
+        "/",
+        "/",
+        "/about",
+        "/about",
+        "/contacts",
+        "/solutions",
+        "/solutions",
+        "/products",
+        "/products",
+        "/products/ewa",
+        "/products/biocon",
+        "/products/bios",
+        "/products/bewabox"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.solbien.com/products/biocon",
+      "onRoutes": [
+        "/",
+        "/solutions",
+        "/products"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.solbien.com/products/ewa",
+      "onRoutes": [
+        "/",
+        "/solutions",
+        "/products"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.solbien.com/products/bios",
+      "onRoutes": [
+        "/",
+        "/solutions",
+        "/products"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.solbien.com/products/bewabox",
+      "onRoutes": [
+        "/",
+        "/products"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.solbien.com/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf",
+      "onRoutes": [
+        "/products/ewa",
+        "/products/ewa"
+      ],
+      "status": 200,
+      "type": "application/pdf"
+    },
+    {
+      "url": "https://www.solbien.com/downloads/SOLBIEN_BIOCON_R8_Web_2026-11-26.pdf",
+      "onRoutes": [
+        "/products/biocon",
+        "/products/biocon"
+      ],
+      "status": 200,
+      "type": "application/pdf"
+    },
+    {
+      "url": "https://www.solbien.com/downloads/SOLBIEN_BIOS_R2_Web_2026-11-26.pdf",
+      "onRoutes": [
+        "/products/bios",
+        "/products/bios"
+      ],
+      "status": 200,
+      "type": "application/pdf"
+    },
+    {
+      "url": "https://www.solbien.com/downloads/SOLBIEN_BEWABOX_Web_2026-11-26.pdf",
+      "onRoutes": [
+        "/products/bewabox",
+        "/products/bewabox"
+      ],
+      "status": 200,
+      "type": "application/pdf"
+    }
+  ],
+  "extra": {
+    "/robots.txt": {
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "head": "<!DOCTYPE html><!--Py5tmVF_T8__KjCU04dBA--><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"stylesheet\" href=\"/_next/static/css/5b5f1bd70a0fbc8a.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-f16fe8550a90d7a3.js\"/><script src=\"/_next/static/chunks/93ff4275-9308c63134a0180e.js\" async=\"\">"
+    },
+    "/sitemap.xml": {
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "head": "<!DOCTYPE html><!--Py5tmVF_T8__KjCU04dBA--><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"stylesheet\" href=\"/_next/static/css/5b5f1bd70a0fbc8a.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-f16fe8550a90d7a3.js\"/><script src=\"/_next/static/chunks/93ff4275-9308c63134a0180e.js\" async=\"\">"
+    },
+    "/this-route-does-not-exist-20261126": {
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "head": "<!DOCTYPE html><!--Py5tmVF_T8__KjCU04dBA--><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/><link rel=\"stylesheet\" href=\"/_next/static/css/5b5f1bd70a0fbc8a.css\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-f16fe8550a90d7a3.js\"/><script src=\"/_next/static/chunks/93ff4275-9308c63134a0180e.js\" async=\"\">"
+    }
+  }
+}
