@@ -16,7 +16,7 @@ const suspicious=[
 function slug(u){return u==="/"?"home":u.slice(1).replace(/\//g,"-")}
 async function main(){
  fs.mkdirSync(dir,{recursive:true});
- const browser=await chromium.launch({headless:true,args:["--no-sandbox"]});
+ const browser=await chromium.launch({headless:true,executablePath:process.env.AUDIT_CHROME||undefined,args:["--no-sandbox"]});
  const data=[],linkMap=new Map();
  try{
   for(const v of views){
