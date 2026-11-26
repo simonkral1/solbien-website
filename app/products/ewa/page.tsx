@@ -45,7 +45,7 @@ export default function EwaPage() {
                   </SlideUp>
                   <SlideUp delay={0.2}>
                     <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-                      <a href="https://blobs.vusercontent.net/blob/EWA-A4b-opt-zQY0iw7fcYDb0uS9Ng4DKtsZoUhPtB.pdf" target="_blank" rel="noopener noreferrer">
+                      <a href="/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
                         <Download className="mr-2 h-5 w-5" />
                         {t("product.download.brochure")}
                       </a>
@@ -135,7 +135,9 @@ export default function EwaPage() {
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("ewa.specs.processing_capacity")}</span>
-                      <span>1500 t/year</span>
+                      <span className="max-w-[58%] text-right">
+                        <span className="block">{t("ewa.specs.capacity_value")}</span>
+                        <span className="block text-xs text-muted-foreground">{t("ewa.specs.capacity_note")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("ewa.specs.container_type")}</span>
@@ -178,11 +180,11 @@ export default function EwaPage() {
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("ewa.specs.process_duration")}</span>
-                      <span>48-72 {t("ewa.specs.hours")}</span>
+                      <span>48–96 {t("ewa.specs.hours")}</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="font-medium">{t("ewa.specs.certifications")}</span>
-                      <span>{t("ewa.specs.certifications_value")}</span>
+                      <span className="max-w-[62%] text-right text-sm">{t("ewa.specs.certifications_value")}</span>
                     </li>
                   </ul>
                 </div>
@@ -204,7 +206,7 @@ export default function EwaPage() {
                 </SlideUp>
                 <SlideUp delay={0.3}>
                   <Button asChild size="lg" className="bg-white text-green-900 hover:bg-green-50">
-                    <a href="https://blobs.vusercontent.net/blob/EWA-A4b-opt-zQY0iw7fcYDb0uS9Ng4DKtsZoUhPtB.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
                       <Download className="mr-2 h-5 w-5" />
                       {t("product.download.brochure")}
                     </a>
