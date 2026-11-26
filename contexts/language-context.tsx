@@ -132,14 +132,14 @@ EN: {
 
     "biokon.title": "Aerobic Fermenter BIOCON",
     "biokon.subtitle":
-      "Processing capacity 1000 t/year (functional internal volume 30 m³) for all biowaste including food waste. Easy transport and operational handling thanks to ABROLL solution.",
-    "biokon.feature1": "Possibility of off-grid operation without connection to the power grid",
-    "biokon.feature2": "The simplest, most accessible and cheapest technology for municipal and other biowaste",
-    "biokon.feature3": "Simple plug and play installation",
-    "biokon.feature4": "Fully automatic management of the aerobic fermentation process",
+      "Indicative throughput approx. 1,000 t/year (29 m³ working volume), depending on batch mass, cycle time and operating days. For local treatment of suitable biodegradable waste.",
+    "biokon.feature1": "Optional off-grid operation with photovoltaic panels and batteries",
+    "biokon.feature2": "Enclosed aerobic batch treatment with controlled aeration",
+    "biokon.feature3": "Mobile hook-lift compatible container unit",
+    "biokon.feature4": "Automatic process control and continuous temperature monitoring",
     "biokon.cta": "Learn More About BIOCON",
     "biokon.description":
-      "BIOCON is our simplest fermentation technology offering an excellent price-performance ratio. It is specifically designed for ease of transportation and unloading using AB-roll trucks. Additionally, BIOCON can be equipped with photovoltaic panels, making it suitable for operation in off-grid locations.",
+      "BIOCON is a mobile, enclosed aerobic batch fermenter with a 29 m³ working volume. It is compatible with hook-lift trucks and can be equipped with an optional photovoltaic and battery system for off-grid operation.",
     "ewa.title": "Aerobic Fermenter EWA",
     "ewa.subtitle":
       "Indicative processing capacity approx. 1,500 t/year (36 m³ functional volume), depending on batch mass, cycle time and operating days. Suitable feedstocks and treatment conditions are assessed for each application.",
@@ -304,9 +304,9 @@ EN: {
 
     // BIOKON optional features
     "biokon.optional.photovoltaic":
-      "The fermenter can be equipped with a photovoltaic system for off-grid operation independent of connection to the electrical grid.",
+      "An optional photovoltaic and battery system can enable off-grid operation when available sunlight and stored energy are sufficient.",
     "biokon.optional.preheating":
-      "The fermenter can be equipped with batch preheating for quick start of fermentation and certainty of sanitization.",
+      "Optional feedstock preheating supports process start-up; sanitization requires documented temperature and holding time for the applicable treatment.",
     "biokon.optional.biofilter":
       "The fermenter can be equipped with an integrated Biofilter for enhanced environmental performance.",
     "biokon.optional.customizable":
@@ -317,7 +317,7 @@ EN: {
     "biokon.optional.title.customizable": "Customizable Parameters",
 
     // BIOKON specifications
-    "biokon.specs.capacity": "Capacity",
+    "biokon.specs.capacity": "Working volume",
     "biokon.specs.weight": "Weight",
     "biokon.specs.max_batch_weight": "Maximum batch weight",
     "biokon.specs.length": "Length",
@@ -328,8 +328,10 @@ EN: {
     "biokon.specs.power_consumption_aeration": "Power consumption during aeration",
     "biokon.specs.power_consumption_preheating": "Power consumption - with optional batch preheating",
     "biokon.specs.frame_hook_lift": "Frame and hook lift",
-    "biokon.specs.frame_hook_lift_value": "According to DIN 30722",
-    "biokon.specs.processing_capacity": "Processing capacity",
+    "biokon.specs.frame_hook_lift_value": "Hook-lift truck compatible; confirm hook and projections in the ordered configuration drawing",
+    "biokon.specs.processing_capacity": "Indicative throughput",
+    "biokon.specs.throughput_value": "Approx. 1,000 t/year",
+    "biokon.specs.throughput_note": "Batch mass, cycle time and operating days",
 
     // EWA specifications
     "ewa.specs.functional_volume": "Functional internal volume",
@@ -463,16 +465,16 @@ CS: {
 
     "products.title": "Naše produkty",
 
-    "biokon.title": "Aerobní fermentor BIOCON",
+    "biokon.title": "Aerobní fermentor BIOKON / BIOCON",
     "biokon.subtitle":
-      "Zpracovatelská kapacita 1000 t/rok (funkční vnitřní objem 30 m³) pro veškerý bioodpad včetně potravinového odpadu. Snadná přeprava a provozní manipulace díky řešení ABROLL.",
-    "biokon.feature1": "Možnost provozu off-grid bez připojení k elektrické síti",
-    "biokon.feature2": "Nejjednodušší, nejdostupnější a nejlevnější technologie pro komunální a jiný bioodpad",
-    "biokon.feature3": "Jednoduchá instalace plug and play",
-    "biokon.feature4": "Plně automatické řízení procesu aerobní fermentace",
+      "Orientační kapacita přibližně 1 000 t/rok (pracovní objem 29 m³), podle hmotnosti vsázky, délky cyklu a počtu provozních dnů. Pro místní zpracování vhodného biologicky rozložitelného odpadu.",
+    "biokon.feature1": "Volitelný ostrovní provoz s fotovoltaikou a bateriemi",
+    "biokon.feature2": "Uzavřené dávkové aerobní zpracování s řízeným provzdušňováním",
+    "biokon.feature3": "Mobilní kontejnerová jednotka pro hákový nosič",
+    "biokon.feature4": "Automatické řízení procesu a průběžné měření teploty",
     "biokon.cta": "Více o BIOCONu",
     "biokon.description":
-      "BIOCON je naše nejjednodušší fermentační technologie nabízející vynikající poměr ceny a výkonu. Je speciálně navržen pro snadnou přepravu a vykládku pomocí vozidel AB-roll. Navíc může být BIOCON vybaven fotovoltaickými panely, což jej činí vhodným pro provoz v místech bez připojení k elektrické síti.",
+      "BIOKON (v anglických materiálech BIOCON) je mobilní uzavřený dávkový aerobní fermentor s pracovním objemem 29 m³. Je kompatibilní s hákovými nosiči a může být vybaven volitelnou fotovoltaikou a bateriemi pro ostrovní provoz.",
     "ewa.title": "Aerobní fermentor EWA",
     "ewa.subtitle":
       "Orientační kapacita přibližně 1 500 t/rok (funkční objem 36 m³), podle hmotnosti dávky, délky cyklu a počtu provozních dnů. Vhodnost vstupů a provozní podmínky se posuzují pro konkrétní použití.",
@@ -638,9 +640,9 @@ CS: {
 
     // BIOKON optional features
     "biokon.optional.photovoltaic":
-      "Fermentor může být vybaven fotovoltaickým systémem pro provoz off-grid nezávisle na připojení k elektrické síti.",
+      "Volitelná fotovoltaika s bateriemi může umožnit ostrovní provoz, pokud dostupné sluneční záření a uložená energie postačují.",
     "biokon.optional.preheating":
-      "Fermentor může být vybaven předehříváním vsázky pro rychlý start fermentace a jistotu hygienizace.",
+      "Volitelný předehřev vsázky usnadňuje zahájení procesu; hygienizace vyžaduje doložené dosažení předepsané teploty a doby jejího působení.",
     "biokon.optional.biofilter":
       "Fermentor může být vybaven integrovaným biofiltrem pro zvýšení environmentální výkonnosti.",
     "biokon.optional.customizable":
@@ -651,7 +653,7 @@ CS: {
     "biokon.optional.title.customizable": "Přizpůsobitelné parametry",
 
     // BIOKON specifications
-    "biokon.specs.capacity": "Kapacita",
+    "biokon.specs.capacity": "Pracovní objem",
     "biokon.specs.weight": "Hmotnost",
     "biokon.specs.max_batch_weight": "Maximální hmotnost vsázky",
     "biokon.specs.length": "Délka",
@@ -662,8 +664,10 @@ CS: {
     "biokon.specs.power_consumption_aeration": "Spotřeba energie během aerace",
     "biokon.specs.power_consumption_preheating": "Spotřeba energie - s volitelným předehříváním vsázky",
     "biokon.specs.frame_hook_lift": "Rám a hákový nakladač",
-    "biokon.specs.frame_hook_lift_value": "Podle DIN 30722",
-    "biokon.specs.processing_capacity": "Zpracovatelská kapacita",
+    "biokon.specs.frame_hook_lift_value": "Kompatibilní s hákovým nosičem; hák a výstupky potvrzuje výkres objednané verze",
+    "biokon.specs.processing_capacity": "Orientační roční kapacita",
+    "biokon.specs.throughput_value": "Přibližně 1 000 t/rok",
+    "biokon.specs.throughput_note": "Hmotnost vsázky, délka cyklu a provozní dny",
 
     // EWA specifications
     "ewa.specs.functional_volume": "Funkční vnitřní objem",
