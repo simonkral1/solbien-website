@@ -6,14 +6,14 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 OUT = Path("out")
 BROCHURES = {
-    "bewabox": ("/downloads/SOLBIEN_BEWABOX_R1_Web_2026-11-27.pdf",
-        "fab21ec85bca6298028165373b19c7a431233803c082508f056b3c28ce93e0be"),
-    "biocon": ("/downloads/SOLBIEN_BIOCON_R9_Web_2026-11-26.pdf",
-        "ae0f7f683d6b5c0266a166a7bc59e630b8c883572aac444a1e2660afc103b846"),
-    "bios": ("/downloads/SOLBIEN_BIOS_R3_Web_2026-11-27.pdf",
-        "f55e33065eac6d6fc00dfd069602f7fe6a6d86668ed7965b9b1cb63f57285a63"),
-    "ewa": ("/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf",
-        "44fe9a370e30665733394f11ff93952610036df685ac0b101017e0e5548c31de"),
+    "bewabox": ("/downloads/SOLBIEN_BEWABOX_R2_Web_2026-11-27.pdf",
+        "24eabe733d914fb316876274a393f70688d1bcde3a39429b5b2cb13c710331c9"),
+    "biocon": ("/downloads/SOLBIEN_BIOCON_R10_Web_2026-11-27.pdf",
+        "6b7174e71f356be507fc6983f3cb37d73594dddf3c49585e3d6d1f5c960a808e"),
+    "bios": ("/downloads/SOLBIEN_BIOS_R4_Web_2026-11-27.pdf",
+        "645caa40219d1a4207c6a5f784a0fe3492f412c474718eb035c756047cdbc000"),
+    "ewa": ("/downloads/SOLBIEN_EWA_R4_Web_2026-11-27.pdf",
+        "81f6a1802f6ab690c596a6be61a5263ea5ca1d2fd62d060a1684bb573d54b5c5"),
 }
 ROUTES = ("", "about", "contacts", "solutions", "products",
           *(f"products/{p}" for p in BROCHURES), "404")

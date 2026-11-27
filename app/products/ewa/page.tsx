@@ -45,7 +45,7 @@ export default function EwaPage() {
                   </SlideUp>
                   <SlideUp delay={0.2}>
                     <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-                      <a href="/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
+                      <a href="/downloads/SOLBIEN_EWA_R4_Web_2026-11-27.pdf" target="_blank" rel="noopener noreferrer">
                         <Download className="mr-2 h-5 w-5" />
                         {t("product.download.brochure")}
                       </a>
@@ -207,7 +207,7 @@ export default function EwaPage() {
                 </SlideUp>
                 <SlideUp delay={0.3}>
                   <Button asChild size="lg" className="bg-white text-green-900 hover:bg-green-50">
-                    <a href="/downloads/SOLBIEN_EWA_R3_Web_2026-11-26.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/downloads/SOLBIEN_EWA_R4_Web_2026-11-27.pdf" target="_blank" rel="noopener noreferrer">
                       <Download className="mr-2 h-5 w-5" />
                       {t("product.download.brochure")}
                     </a>
